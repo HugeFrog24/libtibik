@@ -209,6 +209,7 @@
   "api.step_emitters":              "Emitter",
   "api.step_races":                 "Rennen",
   "api.step_dailies":               "Tagesquests",
+  "api.step_skipped":               "(ubersprungen)",
   "api.status_idle":                "Bereit.",
   "api.status_starting":            "API-Sammlung startet...",
   "api.status_emitters":            "Emitter werden gesammelt...",
@@ -245,7 +246,6 @@
   "icons.page_range":               "  |  %d-%d von %zu (%zu gesamt)",
   "icons.copy_hint":                "(zum Kopieren klicken)",
 
-  "progress.batches":               "%u / %u Batches",
   "progress.levels":                "%u / %u Level",
   "progress.worlds":                "%d / %d Welten",
   "progress.visits":                "%u / %u Besuche",
@@ -370,7 +370,7 @@
   "about.copy_issues_url":   "Support-URL kopieren",
   "about.links_explanation": "Falls Canvas-Metadaten nicht mehr stimmen oder das Repository wechselt, helfen diese Links beim Verifizieren, Finden von Releases und manuellem Support.",
 
-  "inbox.body_features":     "Was ist neu:\n• API Collect: Kerzen aus dem Wonderland Cafe hinzugefügt. Trainingsdaten werden ab jetzt online aktualisiert; künftige Erweiterungen benötigen kein neues Release.",
+  "inbox.body_features":     "Was ist neu:\n• Kompatibel mit Sky 0.33.2 (384474).\n• API Collect: Kerzen aus dem Wonderland Cafe hinzugefugt.\n• Trainingsdaten werden ab jetzt online aktualisiert; kunftige Erweiterungen benotigen kein neues Release.",
   "inbox.body_ps":           "PS: Keine Sorge, dein Postfach ist nicht verflucht - diese Nachricht existiert nur im Mod, TGC weiss nichts davon \ud83d\ude07",
 
   "settings.language":       "Sprache",

@@ -209,6 +209,7 @@
   "api.step_emitters":              "Эмиттеры",
   "api.step_races":                 "Гонки",
   "api.step_dailies":               "Задания",
+  "api.step_skipped":               "(пропущено)",
   "api.status_idle":                "Готово.",
   "api.status_starting":            "Запуск API-сбора...",
   "api.status_emitters":            "Сбор эмиттеров...",
@@ -245,7 +246,6 @@
   "icons.page_range":               "  |  %d-%d из %zu (%zu всего)",
   "icons.copy_hint":                "(клик - копировать)",
 
-  "progress.batches":               "%u / %u пакетов",
   "progress.levels":                "%u / %u уровней",
   "progress.worlds":                "%d / %d миров",
   "progress.visits":                "%u / %u посещений",
@@ -370,7 +370,7 @@
   "about.copy_issues_url":   "Копировать URL поддержки",
   "about.links_explanation": "Если метаданные Canvas сломаются или репозиторий сменится, эти ссылки помогут проверить авторство, найти релизы и получить поддержку.",
 
-  "inbox.body_features":     "Что нового:\n• API Collect: добавлены свечи Wonderland Cafe. Обучающие данные теперь обновляются онлайн; для будущих добавлений новый релиз не требуется.",
+  "inbox.body_features":     "Что нового:\n• Совместимо со Sky 0.33.2 (384474).\n• API Collect: добавлены свечи Wonderland Cafe.\n• Обучающие данные теперь обновляются онлайн; для будущих добавлений новый релиз не требуется.",
   "inbox.body_ps":           "PS: не переживай, входящие не заколдованы - это сообщение существует только внутри мода, TGC даже не знает о его существовании \ud83d\ude07",
 
   "settings.language":       "Язык",

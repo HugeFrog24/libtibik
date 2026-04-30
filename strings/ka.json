@@ -208,6 +208,7 @@
   "api.step_emitters":              "ემიტერები",
   "api.step_races":                 "რბოლები",
   "api.step_dailies":               "დავალებები",
+  "api.step_skipped":               "(გამოტოვებული)",
   "api.status_idle":                "მზადაა.",
   "api.status_starting":            "API შეგროვება იწყება...",
   "api.status_emitters":            "ემიტერების შეგროვება...",
@@ -244,7 +245,6 @@
   "icons.page_range":               "  |  %d-%d / %zu-დან (%zu სულ)",
   "icons.copy_hint":                "(დააკლიკე კოპირებისთვის)",
 
-  "progress.batches":               "%u / %u პაკეტი",
   "progress.levels":                "%u / %u დონე",
   "progress.worlds":                "%d / %d სამყარო",
   "progress.visits":                "%u / %u ვიზიტი",
@@ -362,7 +362,7 @@
   "about.copy_issues_url":   "მხარდაჭერის URL კოპირება",
   "about.links_explanation": "თუ Canvas მეტამონაცემები დაიშლება ან რეპოზიტორი შეიცვლება, ეს ბმულები დაეხმარება მომხმარებლებს.",
 
-  "inbox.body_features":     "რა არის ახალი:\n• API Collect: დაემატა Wonderland Cafe-ს სანთლები. სასწავლო მონაცემები ახლა ონლაინ ნახლდება; ახალი რელიზი სამომავლო დამატებებისთვის საჭირო არ არის.",
+  "inbox.body_features":     "რა არის ახალი:\n• თავსებადია Sky 0.33.2-თან (384474).\n• API Collect: დაემატა Wonderland Cafe-ს სანთლები.\n• სასწავლო მონაცემები ახლა ონლაინ ნახლდება; ახალი რელიზი სამომავლო დამატებებისთვის საჭირო არ არის.",
   "inbox.body_ps":           "PS: არ ინერვიულო, შენი საფოსტო ყუთი არ არის დაჯადოებული - ეს შეტყობინება მხოლოდ მოდშია, TGC-ს წარმოდგენაც არ აქვს \ud83d\ude07",
 
   "settings.language":       "ენა",

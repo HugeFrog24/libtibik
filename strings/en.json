@@ -210,6 +210,7 @@
   "api.step_emitters":              "Emitters",
   "api.step_races":                 "Races",
   "api.step_dailies":               "Dailies",
+  "api.step_skipped":               "(skipped)",
   "api.status_idle":                "Idle.",
   "api.status_starting":            "Starting API collect...",
   "api.status_emitters":            "Collecting emitters...",
@@ -246,7 +247,6 @@
   "icons.page_range":               "  |  %d-%d of %zu (%zu total)",
   "icons.copy_hint":                "(click to copy)",
 
-  "progress.batches":               "%u / %u batches",
   "progress.levels":                "%u / %u levels",
   "progress.worlds":                "%d / %d worlds",
   "progress.visits":                "%u / %u visits",
@@ -371,7 +371,7 @@
   "about.copy_issues_url":   "Copy issues URL",
   "about.links_explanation": "If Canvas update metadata ever breaks or the repo changes, these links give users a place to verify ownership, find releases, and request support manually.",
 
-  "inbox.body_features":     "What's new:\n\u2022 API Collect: Wonderland Cafe candles added. Training data now updates over the air; no new release needed for future additions.",
+  "inbox.body_features":     "What's new:\n\u2022 Compatible with Sky 0.33.2 (384474).\n\u2022 API Collect: Wonderland Cafe candles added.\n\u2022 Training data now updates over the air; no new release needed for future additions.",
   "inbox.body_ps":           "PS: dw, your inbox isn't haunted - this message is local to the mod, TGC has no idea it exists \ud83d\ude07",
 
   "auth.title":              "Auth Export",

@@ -208,6 +208,7 @@
   "api.step_emitters":              "Emitter",
   "api.step_races":                 "Cuộc đua",
   "api.step_dailies":               "Nhiệm vụ",
+  "api.step_skipped":               "(đã bỏ qua)",
   "api.status_idle":                "Sẵn sàng.",
   "api.status_starting":            "Đang bắt đầu thu thập API...",
   "api.status_emitters":            "Đang thu thập emitter...",
@@ -244,7 +245,6 @@
   "icons.page_range":               "  |  %d-%d trên %zu (%zu tổng)",
   "icons.copy_hint":                "(bấm để sao chép)",
 
-  "progress.batches":               "%u / %u batch",
   "progress.levels":                "%u / %u màn chơi",
   "progress.worlds":                "%d / %d thế giới",
   "progress.visits":                "%u / %u lượt ghé",
@@ -362,7 +362,7 @@
   "about.copy_issues_url":   "Sao chép URL hỗ trợ",
   "about.links_explanation": "Nếu metadata Canvas bị lỗi hoặc repo thay đổi, các liên kết này giúp người dùng xác minh quyền sở hữu, tìm bản phát hành và yêu cầu hỗ trợ.",
 
-  "inbox.body_features":     "Có gì mới:\n• API Collect: đã thêm nến ở Wonderland Cafe. Dữ liệu huấn luyện giờ được cập nhật qua mạng; không cần bản phát hành mới cho các bổ sung trong tương lai.",
+  "inbox.body_features":     "Có gì mới:\n• Tương thích với Sky 0.33.2 (384474).\n• API Collect: đã thêm nến ở Wonderland Cafe.\n• Dữ liệu huấn luyện giờ được cập nhật qua mạng; không cần bản phát hành mới cho các bổ sung trong tương lai.",
   "inbox.body_ps":           "PS: yên tâm, hộp thư của bạn không bị ám - tin nhắn này chỉ có trong mod, TGC không hề biết \ud83d\ude07",
 
   "auth.title":              "Xuất xác thực",

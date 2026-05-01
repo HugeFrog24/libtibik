@@ -1,0 +1,7 @@
+# Force LF line endings on every detected text file, on every platform.
+# Without this, Windows core.autocrlf rewrites CRLF→LF on commit, which
+# desynchronises the manifest's per-pack sha256 (computed against working-
+# tree bytes) from the bytes Git stores and GitHub raw serves.  text=auto
+# lets Git decide what's text vs binary so images and other binaries
+# aren't touched.
+* text=auto eol=lf

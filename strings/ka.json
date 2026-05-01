@@ -2,6 +2,8 @@
   "_comment": "Tibik ლოკალიზაციის ფაილი - ქართული. მთარგმნელი: [სახელი]. გამოტოვებული გასაღებები ავტომატურად ინგლისურზე ბრუნდება.",
   "_meta_code": "ka",
   "_meta_displayName": "ქართული",
+  "_meta_translator": "HugeFrog24",
+  "_meta_translatorUrl": "https://github.com/HugeFrog24",
 
   "btn.go":       "გადასვლა",
   "btn.manage_abilities": "ურთიერთობის უნარების მართვა",
@@ -573,6 +575,7 @@
   "locale.picker_state_update_available": "განახლება ხელმისაწვდომია",
   "locale.picker_state_manual":           "ხელით დაყენებული",
   "locale.picker_translator_label":       "ავტორი %s",
+  "locale.picker_translator_copy_url":    "ბმულის კოპირება",
   "locale.picker_action_use":             "გამოყენება",
   "locale.picker_action_install":         "დაყენება",
   "locale.picker_action_update":          "განახლება",

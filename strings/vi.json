@@ -2,6 +2,8 @@
   "_comment": "Tibik file ngôn ngữ - Tiếng Việt. Người dịch: [tên]. Các khóa còn thiếu sẽ tự động dùng tiếng Anh.",
   "_meta_code": "vi",
   "_meta_displayName": "Tiếng Việt",
+  "_meta_translator": "HugeFrog24",
+  "_meta_translatorUrl": "https://github.com/HugeFrog24",
 
   "btn.go":       "Đi",
   "btn.manage_abilities": "Quản lý khả năng quan hệ",
@@ -573,6 +575,7 @@
   "locale.picker_state_update_available": "Có bản cập nhật",
   "locale.picker_state_manual":           "Cài thủ công",
   "locale.picker_translator_label":       "bởi %s",
+  "locale.picker_translator_copy_url":    "sao chép liên kết",
   "locale.picker_action_use":             "Dùng",
   "locale.picker_action_install":         "Cài đặt",
   "locale.picker_action_update":          "Cập nhật",

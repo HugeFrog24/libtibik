@@ -18,6 +18,25 @@ A quality-of-life mod for Sky: CotL on Android. It automates the repetitive part
 5. Launch Sky from there.
 6. Tibik appears in Canvas's mod palette once Sky is running.
 
+## Languages
+
+**We speak your language!**
+
+- 🇺🇸 English<br>
+- 🇩🇪 German<br>
+- 🇷🇺 Russian<br>
+- 🇬🇪 Georgian<br>
+- 🇻🇳 Vietnamese<br>
+- 🇧🇷 Brazilian Portuguese (thanks to Schemen)
+
+**To switch languages:**<br>
+Open the "About" tab → scroll to Language → Manage translation packs.
+
+**Contributing a translation:**<br>
+Grab the strings template → translate → test locally (import from device) → open a PR (pull request). Once merged, it ships to everyone via the in-game language manager.
+
+New to pull requests? See GitHub's [guide](https://docs.github.com/en/pull-requests).
+
 ## Roadmap
 
 | Status | Feature        | What it does                                 |

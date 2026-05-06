@@ -28,6 +28,7 @@ A quality-of-life mod for Sky: CotL on Android. It automates the repetitive part
 - 🇬🇪 Georgian<br>
 - 🇻🇳 Vietnamese<br>
 - 🇧🇷 Brazilian Portuguese (thanks to Schemen)
+- 🇨🇳 Chinese Simplified (thanks to ciyun415)
 
 **To switch languages:**<br>
 Open the "About" tab → scroll to Language → Manage translation packs.

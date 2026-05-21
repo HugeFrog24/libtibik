@@ -95,11 +95,11 @@
   "access.afk_prevent_tooltip": "Redefine o cronômetro de inatividade a cada frame,\nmantendo seu skykid acordado (sem pose de sono ou zzZ).",
   "access.afk_force":           "Forçar AFK",
   "access.afk_force_tooltip":   "Simula 125 s de inatividade a cada frame.\nO jogo exibe o diálogo nativo de confirmação de AFK no\nprimeiro frame; os seguintes mantêm o estado de AFK.\nDesativado enquanto o Anti-AFK estiver ativo.",
-  "access.afk_farm_active":     "Sky não coletará cera enquanto personagem cochila - AFK bloqueado até fim da corrida.",
+  "access.afk_farm_active":     "O Sky não coletará cera enquanto a criança cochila - AFK bloqueado até o fim da corrida.",
 
-  "access.sq_section":                 "Missões de temporada",
-  "access.sq_force_claimable":         "Forçar todas as missões como resgatáveis",
-  "access.sq_force_claimable_tooltip": "Força todos os botões de missões de temporada no Guia Circense, em\nrelembrar momentos de confiança e outros nós de lojas de espíritos a aparecerem\ncomo prontos para resgate, e roteia os toques para o ramo de envio HTTP.\nO servidor ainda arbitra se aceitará o resgate; desativado por padrão.",
+  "access.sq_section":                 "Missões da temporada",
+  "access.sq_force_claimable":         "Forçar resgate de todas as missões",
+  "access.sq_force_claimable_tooltip": "Força todos os botões de missões da temporada no Guia Circense, nas\nrecordações e em outros nós de lojas de espíritos a aparecerem como prontos\npara resgate, e redireciona os toques para o ramo de envio HTTP. O servidor\nainda decide se aceitará o resgate; desativado por padrão.",
   "access.sq_hook_unavail":            "Hook de bloqueio de botão indisponível nesta build.",
 
   "access.notif_section":   "Notificação",
@@ -108,10 +108,10 @@
   "access.notif_tooltip":   "Reproduz o som 'noticeHappy' e exibe a mensagem como uma\nnotificação no HUD. Chaves de localização desconhecidas são\nexibidas literalmente. Tente usar tags <2>...</2> para destacar.",
 
   "access.broken_neck":         "Pescoço quebrado",
-  "access.broken_neck_tooltip": "Remove o limite de rotação da cabeça, permitindo que a\ncabeça do personagem gire além dos limites naturais.\nApenas visual - não é visível para outros jogadores.",
+  "access.broken_neck_tooltip": "Remove o limite de rotação da cabeça, permitindo que a\ncabeça da criança gire além dos limites naturais.\nApenas visual - não é visível para outros jogadores.",
 
   "access.fpv":         "Câmera 1ª pessoa",
-  "access.fpv_tooltip": "Visão em primeira pessoa. Posiciona a câmera na\naltura dos olhos do personagem.",
+  "access.fpv_tooltip": "Visão em primeira pessoa. Posiciona a câmera na\naltura dos olhos da criança.",
 
   "access.place_anywhere":         "Colocar em qualquer lugar",
   "access.place_anywhere_tooltip": "Ignora localmente a verificação que bloqueia a colocação de\napetrechos em zonas restritas. O servidor ainda valida cada\nRPC de colocação e pode rejeitar silenciosamente os que\nnão considerar confiáveis. Use com moderação.",
@@ -572,7 +572,7 @@
   "avatars.outfit_hat":        "Chapéu: %s",
   "avatars.outfit_size":       "Altura: %.2f  Escala: %.2f",
   "avatars.outfit_voice":      "Voz:    %u (%s)    Postura: %u",
-  "avatars.authority_tooltip": "Autoridade da sala\nO cliente deste jogador arbitra a simulação compartilhada\ndo nível (alvos do krill, ativações de santuários, etc.)",
+  "avatars.authority_tooltip": "Autoridade da sala\nO cliente deste jogador arbitra a simulação compartilhada\ndo nível (alvos do krill, ativações de santuários etc.)",
 
   "relationships.popup_title":      "Habilidades de amizade - %s",
   "relationships.loading":          "Carregando catálogo...",

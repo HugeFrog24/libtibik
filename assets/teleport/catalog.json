@@ -1,0 +1,2857 @@
+﻿{
+  "realms": [
+    {
+      "name": "All",
+      "loc_key": "world.realm.all"
+    },
+    {
+      "name": "Home",
+      "loc_key": "world.realm.home"
+    },
+    {
+      "name": "Isle of Dawn",
+      "loc_key": "world.realm.dawn"
+    },
+    {
+      "name": "Aviary Village",
+      "loc_key": "world.realm.aviary_village"
+    },
+    {
+      "name": "Daylight Prairie",
+      "loc_key": "world.realm.day"
+    },
+    {
+      "name": "Hidden Forest",
+      "loc_key": "world.realm.rain"
+    },
+    {
+      "name": "Valley of Triumph",
+      "loc_key": "world.realm.sunset"
+    },
+    {
+      "name": "Golden Wasteland",
+      "loc_key": "world.realm.dusk"
+    },
+    {
+      "name": "Vault of Knowledge",
+      "loc_key": "world.realm.night"
+    },
+    {
+      "name": "Eye of Eden",
+      "loc_key": "world.realm.storm",
+      "farm_tags": [
+        "risky"
+      ]
+    }
+  ],
+  "destinations": [
+    {
+      "realm": "Home",
+      "loc_key": "world.level.candlespace",
+      "level": "CandleSpace",
+      "waypoints": [
+        {
+          "kind": "portal",
+          "loc_key": "world.level.dawn",
+          "pos": [
+            11,
+            1,
+            1
+          ]
+        },
+        {
+          "kind": "portal",
+          "loc_key": "world.realm.day",
+          "pos": [
+            8,
+            2,
+            4
+          ]
+        },
+        {
+          "kind": "portal",
+          "loc_key": "world.level.rain",
+          "pos": [
+            5,
+            2,
+            7
+          ]
+        },
+        {
+          "kind": "portal",
+          "loc_key": "world.level.sunset",
+          "pos": [
+            -2,
+            2,
+            7
+          ]
+        },
+        {
+          "kind": "portal",
+          "loc_key": "world.level.duskstart",
+          "pos": [
+            -6,
+            2,
+            4
+          ]
+        },
+        {
+          "kind": "portal",
+          "loc_key": "world.level.night",
+          "pos": [
+            -8,
+            2,
+            0
+          ]
+        },
+        {
+          "kind": "portal",
+          "loc_key": "world.level.stormstart",
+          "pos": [
+            -25,
+            2,
+            -14
+          ]
+        },
+        {
+          "kind": "portal",
+          "loc_key": "world.realm.aviary_village",
+          "pos": [
+            0,
+            1,
+            20
+          ]
+        }
+      ]
+    },
+    {
+      "realm": "Isle of Dawn",
+      "loc_key": "world.level.dawn",
+      "level": "Dawn",
+      "waypoints": [
+        {
+          "kind": "portal",
+          "loc_key": "world.level.dawncave",
+          "pos": [
+            209,
+            4,
+            -71
+          ]
+        },
+        {
+          "kind": "portal",
+          "loc_key": "world.level.prairie_butterflyfields",
+          "pos": [
+            477,
+            210,
+            -1027
+          ]
+        },
+        {
+          "kind": "poi",
+          "loc_key": "world.poi.dawn.elder",
+          "pos": [
+            118,
+            1,
+            -1734
+          ]
+        },
+        {
+          "kind": "poi",
+          "loc_key": "world.poi.dawn.rainbowbridge",
+          "pos": [
+            296,
+            414,
+            -278
+          ]
+        },
+        {
+          "kind": "poi",
+          "loc_key": "world.poi.dawn.temple",
+          "pos": [
+            155,
+            104,
+            -292
+          ]
+        },
+        {
+          "kind": "poi",
+          "loc_key": "world.poi.dawn.passageguide",
+          "pos": [
+            196,
+            17,
+            170
+          ]
+        },
+        {
+          "kind": "poi",
+          "loc_key": "world.poi.dawn.migrationguide",
+          "pos": [
+            4,
+            3,
+            214
+          ]
+        }
+      ]
+    },
+    {
+      "realm": "Isle of Dawn",
+      "loc_key": "world.level.dawncave",
+      "level": "DawnCave",
+      "waypoints": [
+        {
+          "kind": "portal",
+          "loc_key": "world.level.skyway",
+          "pos": [
+            -153,
+            337,
+            -364
+          ]
+        },
+        {
+          "kind": "portal",
+          "loc_key": "world.level.dawn_trialswater",
+          "pos": [
+            -89,
+            245,
+            -304
+          ]
+        },
+        {
+          "kind": "portal",
+          "loc_key": "world.level.dawn_trialsearth",
+          "pos": [
+            -28,
+            254,
+            -372
+          ]
+        },
+        {
+          "kind": "portal",
+          "loc_key": "world.level.dawn_trialsair",
+          "pos": [
+            22,
+            259,
+            -346
+          ]
+        },
+        {
+          "kind": "portal",
+          "loc_key": "world.level.dawn_trialsfire",
+          "pos": [
+            57,
+            252,
+            -326
+          ]
+        },
+        {
+          "kind": "portal",
+          "loc_key": "world.level.dawn",
+          "pos": [
+            -27,
+            191,
+            -30
+          ]
+        },
+        {
+          "kind": "poi",
+          "loc_key": "world.poi.dawncave.prophecyguide",
+          "pos": [
+            -14,
+            236,
+            -297
+          ]
+        }
+      ]
+    },
+    {
+      "realm": "Isle of Dawn",
+      "loc_key": "world.level.dawn_trialswater",
+      "level": "Dawn_TrialsWater",
+      "waypoints": [
+        {
+          "kind": "portal",
+          "loc_key": "world.level.dawncave",
+          "pos": [
+            0,
+            80,
+            -411
+          ]
+        }
+      ]
+    },
+    {
+      "realm": "Isle of Dawn",
+      "loc_key": "world.level.dawn_trialsearth",
+      "level": "Dawn_TrialsEarth",
+      "waypoints": [
+        {
+          "kind": "portal",
+          "loc_key": "world.level.dawncave",
+          "pos": [
+            -14,
+            134,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "realm": "Isle of Dawn",
+      "loc_key": "world.level.dawn_trialsair",
+      "level": "Dawn_TrialsAir",
+      "waypoints": [
+        {
+          "kind": "portal",
+          "loc_key": "world.level.dawncave",
+          "pos": [
+            -12,
+            106,
+            -130
+          ]
+        }
+      ]
+    },
+    {
+      "realm": "Isle of Dawn",
+      "loc_key": "world.level.dawn_trialsfire",
+      "level": "Dawn_TrialsFire",
+      "waypoints": [
+        {
+          "kind": "portal",
+          "loc_key": "world.level.dawncave",
+          "pos": [
+            -11,
+            50,
+            -307
+          ]
+        },
+        {
+          "kind": "poi",
+          "loc_key": "world.poi.dawn_trialsfire.statue",
+          "pos": [
+            -13,
+            50,
+            -258
+          ]
+        }
+      ]
+    },
+    {
+      "realm": "Aviary Village",
+      "loc_key": "world.level.mainstreet",
+      "level": "MainStreet",
+      "waypoints": [
+        {
+          "kind": "portal",
+          "loc_key": "world.level.dawn",
+          "pos": [
+            75,
+            219,
+            -125
+          ]
+        },
+        {
+          "kind": "portal",
+          "loc_key": "world.level.prairie_butterflyfields",
+          "pos": [
+            72,
+            218,
+            -123
+          ]
+        },
+        {
+          "kind": "portal",
+          "loc_key": "world.level.rain",
+          "pos": [
+            67,
+            218,
+            -122
+          ]
+        },
+        {
+          "kind": "portal",
+          "loc_key": "world.level.sunset",
+          "pos": [
+            61,
+            218,
+            -126
+          ]
+        },
+        {
+          "kind": "portal",
+          "loc_key": "world.level.duskstart",
+          "pos": [
+            59,
+            218,
+            -130
+          ]
+        },
+        {
+          "kind": "portal",
+          "loc_key": "world.level.night",
+          "pos": [
+            59,
+            218,
+            -134
+          ]
+        },
+        {
+          "kind": "portal",
+          "loc_key": "world.level.stormstart",
+          "pos": [
+            -1,
+            216,
+            15
+          ]
+        },
+        {
+          "kind": "portal",
+          "loc_key": "world.level.skyway",
+          "pos": [
+            101,
+            241,
+            -54
+          ]
+        },
+        {
+          "kind": "portal",
+          "loc_key": "world.level.mainstreet_funarmada",
+          "pos": [
+            31,
+            214,
+            -24
+          ]
+        },
+        {
+          "kind": "portal",
+          "loc_key": "world.level.event_cinema",
+          "pos": [
+            63,
+            219,
+            -86
+          ]
+        },
+        {
+          "kind": "portal",
+          "loc_key": "world.level.mainstreet_shopoutfits",
+          "pos": [
+            39,
+            217,
+            -63
+          ]
+        },
+        {
+          "kind": "portal",
+          "loc_key": "world.level.mainstreet_soundbath",
+          "pos": [
+            1,
+            220,
+            -69
+          ]
+        },
+        {
+          "kind": "portal",
+          "loc_key": "world.level.mainstreet_shopspells",
+          "pos": [
+            36,
+            217,
+            -105
+          ]
+        },
+        {
+          "kind": "portal",
+          "loc_key": "world.level.mainstreet_shopprops",
+          "pos": [
+            37,
+            218,
+            -84
+          ]
+        },
+        {
+          "kind": "portal",
+          "loc_key": "world.level.mainstreet_cafe",
+          "pos": [
+            87,
+            219,
+            -116
+          ]
+        },
+        {
+          "kind": "portal",
+          "loc_key": "world.level.mainstreet_concerthall",
+          "pos": [
+            43,
+            217,
+            -117
+          ]
+        },
+        {
+          "kind": "portal",
+          "loc_key": "world.level.mainstreet_apartment",
+          "pos": [
+            89,
+            218,
+            -95
+          ]
+        },
+        {
+          "kind": "poi",
+          "loc_key": "world.poi.mainstreet.revivalguide",
+          "pos": [
+            53,
+            217,
+            -117
+          ]
+        }
+      ]
+    },
+    {
+      "realm": "Aviary Village",
+      "loc_key": "world.level.mainstreetflyingintro",
+      "level": "MainStreetFlyingIntro",
+      "farm_tags": [
+        "empty",
+        "tutorial"
+      ]
+    },
+    {
+      "realm": "Aviary Village",
+      "loc_key": "world.level.mainstreet_funarmada",
+      "level": "MainStreet_FunArmada",
+      "waypoints": [
+        {
+          "kind": "poi",
+          "loc_key": "world.poi.mainstreet_funarmada.carnivalguide",
+          "pos": [
+            -6,
+            525,
+            -1
+          ]
+        }
+      ]
+    },
+    {
+      "realm": "Aviary Village",
+      "loc_key": "world.level.mainstreet_shopoutfits",
+      "level": "MainStreet_ShopOutfits",
+      "waypoints": [
+        {
+          "kind": "portal",
+          "loc_key": "world.level.mainstreet",
+          "pos": [
+            50,
+            218,
+            -78
+          ]
+        },
+        {
+          "kind": "poi",
+          "loc_key": "world.poi.mainstreet_shopoutfits.radianceguide",
+          "pos": [
+            51,
+            219,
+            -59
+          ]
+        }
+      ]
+    },
+    {
+      "realm": "Aviary Village",
+      "loc_key": "world.level.mainstreet_shopspells",
+      "level": "MainStreet_ShopSpells",
+      "farm_tags": [
+        "empty"
+      ],
+      "waypoints": [
+        {
+          "kind": "portal",
+          "loc_key": "world.level.mainstreet",
+          "pos": [
+            34,
+            217,
+            -103
+          ]
+        }
+      ]
+    },
+    {
+      "realm": "Aviary Village",
+      "loc_key": "world.level.mainstreet_shopprops",
+      "level": "MainStreet_ShopProps",
+      "farm_tags": [
+        "empty"
+      ],
+      "waypoints": [
+        {
+          "kind": "portal",
+          "loc_key": "world.level.mainstreet",
+          "pos": [
+            8,
+            217,
+            0
+          ]
+        },
+        {
+          "kind": "poi",
+          "loc_key": "world.poi.mainstreet_shopprops.nestingguide",
+          "pos": [
+            -1,
+            217,
+            -1
+          ]
+        }
+      ]
+    },
+    {
+      "realm": "Aviary Village",
+      "loc_key": "world.level.mainstreet_apartment",
+      "level": "MainStreet_Apartment",
+      "farm_tags": [
+        "empty"
+      ],
+      "waypoints": [
+        {
+          "kind": "portal",
+          "loc_key": "world.level.mainstreet",
+          "pos": [
+            4,
+            201,
+            -3
+          ]
+        }
+      ]
+    },
+    {
+      "realm": "Aviary Village",
+      "loc_key": "world.level.mainstreet_cafe",
+      "level": "MainStreet_Cafe",
+      "farm_tags": [
+        "empty"
+      ],
+      "waypoints": [
+        {
+          "kind": "portal",
+          "loc_key": "world.level.mainstreet",
+          "pos": [
+            19,
+            218,
+            -63
+          ]
+        }
+      ]
+    },
+    {
+      "realm": "Aviary Village",
+      "loc_key": "world.level.mainstreet_concerthall",
+      "level": "MainStreet_ConcertHall",
+      "farm_tags": [
+        "empty"
+      ],
+      "waypoints": [
+        {
+          "kind": "portal",
+          "loc_key": "world.level.mainstreet",
+          "pos": [
+            20,
+            70,
+            -72
+          ]
+        },
+        {
+          "kind": "poi",
+          "loc_key": "world.poi.mainstreet_concerthall.duetsguide",
+          "pos": [
+            18,
+            71,
+            32
+          ]
+        }
+      ]
+    },
+    {
+      "realm": "Aviary Village",
+      "loc_key": "world.level.mainstreet_soundbath",
+      "level": "MainStreet_Soundbath",
+      "farm_tags": [
+        "empty"
+      ],
+      "waypoints": [
+        {
+          "kind": "portal",
+          "loc_key": "world.level.mainstreet",
+          "pos": [
+            194,
+            4,
+            -245
+          ]
+        }
+      ]
+    },
+    {
+      "realm": "Aviary Village",
+      "loc_key": "world.level.mainstreet_cafe_wonderland",
+      "level": "MainStreet_Cafe_Wonderland",
+      "farm_tags": [
+        "empty"
+      ],
+      "waypoints": [
+        {
+          "kind": "portal",
+          "loc_key": "world.level.mainstreet",
+          "pos": [
+            8,
+            50,
+            482
+          ]
+        }
+      ]
+    },
+    {
+      "realm": "Daylight Prairie",
+      "loc_key": "world.level.prairie_butterflyfields",
+      "level": "Prairie_ButterflyFields",
+      "waypoints": [
+        {
+          "kind": "portal",
+          "loc_key": "world.realm.dawn",
+          "pos": [
+            119,
+            202,
+            -456
+          ]
+        },
+        {
+          "kind": "portal",
+          "loc_key": "world.level.prairie_cave",
+          "pos": [
+            167,
+            163,
+            6
+          ]
+        },
+        {
+          "kind": "portal",
+          "loc_key": "world.level.prairie_nestandkeeper",
+          "pos": [
+            -9,
+            166,
+            -5
+          ]
+        },
+        {
+          "kind": "portal",
+          "loc_key": "world.level.prairie_village",
+          "pos": [
+            78,
+            161,
+            65
+          ]
+        },
+        {
+          "kind": "poi",
+          "loc_key": "world.poi.prairie_butterflyfields.sapling",
+          "pos": [
+            132,
+            207,
+            -450
+          ]
+        }
+      ]
+    },
+    {
+      "realm": "Daylight Prairie",
+      "loc_key": "world.level.prairie_cave",
+      "level": "Prairie_Cave",
+      "waypoints": [
+        {
+          "kind": "portal",
+          "loc_key": "world.level.prairie_butterflyfields",
+          "pos": [
+            212,
+            172,
+            21
+          ]
+        },
+        {
+          "kind": "portal",
+          "loc_key": "world.level.prairie_village",
+          "pos": [
+            245,
+            198,
+            227
+          ]
+        },
+        {
+          "kind": "portal",
+          "loc_key": "world.level.prairie_wildlifepark",
+          "pos": [
+            361,
+            194,
+            27
+          ]
+        }
+      ]
+    },
+    {
+      "realm": "Daylight Prairie",
+      "loc_key": "world.level.prairie_nestandkeeper",
+      "level": "Prairie_NestAndKeeper",
+      "waypoints": [
+        {
+          "kind": "portal",
+          "loc_key": "world.level.prairie_village",
+          "pos": [
+            -104,
+            185,
+            172
+          ]
+        },
+        {
+          "kind": "portal",
+          "loc_key": "world.level.prairie_island",
+          "pos": [
+            -351,
+            136,
+            118
+          ]
+        },
+        {
+          "kind": "portal",
+          "loc_key": "world.level.prairie_butterflyfields",
+          "pos": [
+            -76,
+            167,
+            47
+          ]
+        }
+      ]
+    },
+    {
+      "realm": "Daylight Prairie",
+      "loc_key": "world.level.prairie_island",
+      "level": "Prairie_Island",
+      "waypoints": [
+        {
+          "kind": "portal",
+          "loc_key": "world.level.skyway",
+          "pos": [
+            432,
+            266,
+            533
+          ]
+        },
+        {
+          "kind": "portal",
+          "loc_key": "world.level.prairie_nestandkeeper",
+          "pos": [
+            272,
+            175,
+            -22
+          ]
+        },
+        {
+          "kind": "poi",
+          "loc_key": "world.poi.geyser",
+          "pos": [
+            142,
+            3,
+            420
+          ]
+        },
+        {
+          "kind": "poi",
+          "loc_key": "world.poi.prairie_island.sanctuaryguide",
+          "pos": [
+            12,
+            53,
+            335
+          ]
+        }
+      ]
+    },
+    {
+      "realm": "Daylight Prairie",
+      "loc_key": "world.level.prairie_village",
+      "level": "Prairie_Village",
+      "waypoints": [
+        {
+          "kind": "portal",
+          "loc_key": "world.level.prairie_butterflyfields",
+          "pos": [
+            30,
+            192,
+            185
+          ]
+        },
+        {
+          "kind": "portal",
+          "loc_key": "world.level.prairie_nestandkeeper",
+          "pos": [
+            -65,
+            202,
+            207
+          ]
+        },
+        {
+          "kind": "portal",
+          "loc_key": "world.level.dayhubcave",
+          "pos": [
+            -49,
+            182,
+            323
+          ]
+        },
+        {
+          "kind": "portal",
+          "loc_key": "world.level.dayend",
+          "pos": [
+            129,
+            255,
+            484
+          ]
+        },
+        {
+          "kind": "portal",
+          "loc_key": "world.level.prairie_cave",
+          "pos": [
+            160,
+            200,
+            225
+          ]
+        }
+      ]
+    },
+    {
+      "realm": "Daylight Prairie",
+      "loc_key": "world.level.prairie_wildlifepark",
+      "level": "Prairie_WildLifePark",
+      "waypoints": [
+        {
+          "kind": "portal",
+          "loc_key": "world.level.prairie_cave",
+          "pos": [
+            43,
+            229,
+            -49
+          ]
+        },
+        {
+          "kind": "poi",
+          "loc_key": "world.poi.momentsguide",
+          "pos": [
+            149,
+            227,
+            -4
+          ]
+        }
+      ]
+    },
+    {
+      "realm": "Daylight Prairie",
+      "loc_key": "world.level.dayhubcave",
+      "level": "DayHubCave",
+      "waypoints": [
+        {
+          "kind": "portal",
+          "loc_key": "world.level.prairie_village",
+          "pos": [
+            31,
+            42,
+            0
+          ]
+        },
+        {
+          "kind": "poi",
+          "loc_key": "world.poi.dayhubcave.oreo",
+          "pos": [
+            -27,
+            59,
+            -45
+          ]
+        }
+      ]
+    },
+    {
+      "realm": "Daylight Prairie",
+      "loc_key": "world.level.dayend",
+      "level": "DayEnd",
+      "waypoints": [
+        {
+          "kind": "portal",
+          "loc_key": "world.level.prairie_village",
+          "pos": [
+            -63,
+            85,
+            42
+          ]
+        },
+        {
+          "kind": "portal",
+          "loc_key": "world.level.rain",
+          "pos": [
+            -132,
+            109,
+            41
+          ]
+        },
+        {
+          "kind": "poi",
+          "loc_key": "world.poi.dayend.elder",
+          "pos": [
+            -529,
+            9,
+            -214
+          ]
+        },
+        {
+          "kind": "poi",
+          "loc_key": "world.poi.dayend.smileyface",
+          "pos": [
+            -129,
+            76,
+            42
+          ]
+        },
+        {
+          "kind": "poi",
+          "loc_key": "world.poi.dayend.bench",
+          "pos": [
+            -125,
+            114,
+            60
+          ]
+        }
+      ]
+    },
+    {
+      "realm": "Hidden Forest",
+      "loc_key": "world.level.rain",
+      "level": "Rain",
+      "waypoints": [
+        {
+          "kind": "portal",
+          "loc_key": "world.level.skyway",
+          "pos": [
+            -35,
+            271,
+            -648
+          ]
+        },
+        {
+          "kind": "portal",
+          "loc_key": "world.level.rainforest",
+          "pos": [
+            29,
+            99,
+            -113
+          ]
+        }
+      ]
+    },
+    {
+      "realm": "Hidden Forest",
+      "loc_key": "world.level.rainforest",
+      "level": "RainForest",
+      "waypoints": [
+        {
+          "kind": "portal",
+          "loc_key": "world.level.rain_basecamp",
+          "pos": [
+            55,
+            116,
+            -111
+          ]
+        },
+        {
+          "kind": "portal",
+          "loc_key": "world.level.rainmid",
+          "pos": [
+            66,
+            101,
+            54
+          ]
+        },
+        {
+          "kind": "portal",
+          "loc_key": "world.level.rain",
+          "pos": [
+            22,
+            99,
+            -132
+          ]
+        },
+        {
+          "kind": "portal",
+          "loc_key": "world.level.rainshelter",
+          "pos": [
+            7,
+            112,
+            -62
+          ]
+        }
+      ]
+    },
+    {
+      "realm": "Hidden Forest",
+      "loc_key": "world.level.rainmid",
+      "level": "RainMid",
+      "waypoints": [
+        {
+          "kind": "portal",
+          "loc_key": "world.level.rainshelter",
+          "pos": [
+            -87,
+            154,
+            112
+          ]
+        },
+        {
+          "kind": "portal",
+          "loc_key": "world.level.rainforest",
+          "pos": [
+            34,
+            140,
+            -24
+          ]
+        },
+        {
+          "kind": "portal",
+          "loc_key": "world.level.rainend",
+          "pos": [
+            -18,
+            183,
+            401
+          ]
+        }
+      ]
+    },
+    {
+      "realm": "Hidden Forest",
+      "loc_key": "world.level.rainshelter",
+      "level": "RainShelter",
+      "waypoints": [
+        {
+          "kind": "portal",
+          "loc_key": "world.level.rainforest",
+          "pos": [
+            30,
+            83,
+            -67
+          ]
+        },
+        {
+          "kind": "portal",
+          "loc_key": "world.level.rainmid",
+          "pos": [
+            16,
+            89,
+            123
+          ]
+        },
+        {
+          "kind": "portal",
+          "loc_key": "world.level.rain_cave",
+          "pos": [
+            54,
+            73,
+            44
+          ]
+        },
+        {
+          "kind": "poi",
+          "loc_key": "world.poi.grandma",
+          "pos": [
+            -27,
+            89,
+            -3
+          ]
+        },
+        {
+          "kind": "portal",
+          "loc_key": "world.level.rain_bluebirdtheater",
+          "pos": [
+            -19,
+            96,
+            23
+          ]
+        },
+        {
+          "kind": "poi",
+          "loc_key": "world.poi.rainshelter.treetop",
+          "pos": [
+            44,
+            182,
+            41
+          ]
+        }
+      ]
+    },
+    {
+      "realm": "Hidden Forest",
+      "loc_key": "world.level.rain_bluebirdtheater",
+      "level": "Rain_BlueBirdTheater",
+      "waypoints": [
+        {
+          "kind": "portal",
+          "loc_key": "world.level.rainshelter",
+          "pos": [
+            -38,
+            1,
+            -20
+          ]
+        },
+        {
+          "kind": "poi",
+          "loc_key": "world.poi.rain_bluebirdtheater.bluebirdguide",
+          "pos": [
+            1,
+            3,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "realm": "Hidden Forest",
+      "loc_key": "world.level.rain_cave",
+      "level": "Rain_Cave",
+      "waypoints": [
+        {
+          "kind": "portal",
+          "loc_key": "world.level.skyway",
+          "pos": [
+            132,
+            24,
+            -136
+          ]
+        },
+        {
+          "kind": "portal",
+          "loc_key": "world.level.rainshelter",
+          "pos": [
+            -61,
+            211,
+            -283
+          ]
+        }
+      ]
+    },
+    {
+      "realm": "Hidden Forest",
+      "loc_key": "world.level.rain_basecamp",
+      "level": "Rain_BaseCamp",
+      "waypoints": [
+        {
+          "kind": "portal",
+          "loc_key": "world.level.rainmid",
+          "pos": [
+            -17,
+            140,
+            62
+          ]
+        },
+        {
+          "kind": "poi",
+          "loc_key": "world.poi.rain_basecamp.assemblyguide",
+          "pos": [
+            1,
+            142,
+            26
+          ]
+        }
+      ]
+    },
+    {
+      "realm": "Hidden Forest",
+      "loc_key": "world.level.rainend",
+      "level": "RainEnd",
+      "waypoints": [
+        {
+          "kind": "portal",
+          "loc_key": "world.level.sunset",
+          "pos": [
+            -1,
+            204,
+            216
+          ]
+        },
+        {
+          "kind": "poi",
+          "loc_key": "world.poi.rainend.elder",
+          "pos": [
+            5,
+            11,
+            505
+          ]
+        },
+        {
+          "kind": "poi",
+          "loc_key": "world.poi.rainend.chandelier",
+          "pos": [
+            0,
+            132,
+            0
+          ]
+        },
+        {
+          "kind": "poi",
+          "loc_key": "world.poi.rainend.hiddenroom",
+          "pos": [
+            -26,
+            105,
+            -26
+          ]
+        }
+      ]
+    },
+    {
+      "realm": "Hidden Forest",
+      "loc_key": "world.level.skyway",
+      "level": "Skyway",
+      "waypoints": [
+        {
+          "kind": "portal",
+          "loc_key": "world.level.rain_cave",
+          "pos": [
+            204,
+            284,
+            36
+          ]
+        },
+        {
+          "kind": "portal",
+          "loc_key": "world.level.dawncave",
+          "pos": [
+            321,
+            303,
+            486
+          ]
+        },
+        {
+          "kind": "portal",
+          "loc_key": "world.level.prairie_island",
+          "pos": [
+            540,
+            289,
+            487
+          ]
+        },
+        {
+          "kind": "portal",
+          "loc_key": "world.level.nightdesert",
+          "pos": [
+            760,
+            308,
+            346
+          ]
+        },
+        {
+          "kind": "portal",
+          "loc_key": "world.level.duskoasis",
+          "pos": [
+            715,
+            299,
+            103
+          ]
+        },
+        {
+          "kind": "portal",
+          "loc_key": "world.realm.aviary_village",
+          "pos": [
+            -291,
+            309,
+            303
+          ]
+        },
+        {
+          "kind": "portal",
+          "loc_key": "world.realm.rain",
+          "pos": [
+            136,
+            384,
+            279
+          ]
+        },
+        {
+          "kind": "poi",
+          "loc_key": "world.poi.flightguide",
+          "pos": [
+            -124,
+            318,
+            260
+          ]
+        }
+      ]
+    },
+    {
+      "realm": "Valley of Triumph",
+      "loc_key": "world.level.sunset",
+      "level": "Sunset",
+      "waypoints": [
+        {
+          "kind": "portal",
+          "loc_key": "world.level.sunsetvillage",
+          "pos": [
+            23,
+            302,
+            10
+          ]
+        },
+        {
+          "kind": "portal",
+          "loc_key": "world.level.sunset_citadel",
+          "pos": [
+            212,
+            62,
+            -612
+          ]
+        },
+        {
+          "kind": "portal",
+          "loc_key": "world.level.sunsetrace",
+          "pos": [
+            284,
+            39,
+            -525
+          ]
+        },
+        {
+          "kind": "poi",
+          "loc_key": "world.poi.sunset.sapling",
+          "pos": [
+            15,
+            324,
+            13
+          ]
+        }
+      ]
+    },
+    {
+      "realm": "Valley of Triumph",
+      "loc_key": "world.level.sunsetrace",
+      "level": "SunsetRace",
+      "waypoints": [
+        {
+          "kind": "portal",
+          "loc_key": "world.level.sunsetend",
+          "pos": [
+            252,
+            589,
+            -561
+          ]
+        },
+        {
+          "kind": "portal",
+          "loc_key": "world.level.sunset",
+          "pos": [
+            160,
+            935,
+            690
+          ]
+        }
+      ]
+    },
+    {
+      "realm": "Valley of Triumph",
+      "loc_key": "world.level.sunset_citadel",
+      "level": "Sunset_Citadel",
+      "waypoints": [
+        {
+          "kind": "portal",
+          "loc_key": "world.level.sunset_flyrace",
+          "pos": [
+            204,
+            492,
+            -202
+          ]
+        },
+        {
+          "kind": "portal",
+          "loc_key": "world.level.sunset",
+          "pos": [
+            102,
+            411,
+            410
+          ]
+        }
+      ]
+    },
+    {
+      "realm": "Valley of Triumph",
+      "loc_key": "world.level.sunset_flyrace",
+      "level": "Sunset_FlyRace",
+      "waypoints": [
+        {
+          "kind": "portal",
+          "loc_key": "world.level.sunset_citadel",
+          "pos": [
+            195,
+            1187,
+            401
+          ]
+        },
+        {
+          "kind": "portal",
+          "loc_key": "world.level.sunsetend",
+          "pos": [
+            149,
+            1044,
+            -85
+          ]
+        }
+      ]
+    },
+    {
+      "realm": "Valley of Triumph",
+      "loc_key": "world.level.sunsetend",
+      "level": "SunsetEnd",
+      "waypoints": [
+        {
+          "kind": "portal",
+          "loc_key": "world.level.sunsetcolosseum",
+          "pos": [
+            46,
+            169,
+            12
+          ]
+        }
+      ]
+    },
+    {
+      "realm": "Valley of Triumph",
+      "loc_key": "world.level.sunsetcolosseum",
+      "level": "SunsetColosseum",
+      "waypoints": [
+        {
+          "kind": "portal",
+          "loc_key": "world.level.sunsetend2",
+          "pos": [
+            61,
+            138,
+            -291
+          ]
+        },
+        {
+          "kind": "portal",
+          "loc_key": "world.level.sunsetvillage",
+          "pos": [
+            135,
+            151,
+            -171
+          ]
+        },
+        {
+          "kind": "poi",
+          "loc_key": "world.poi.sunsetcolosseum.auroraguide",
+          "pos": [
+            11,
+            151,
+            -194
+          ]
+        }
+      ]
+    },
+    {
+      "realm": "Valley of Triumph",
+      "loc_key": "world.level.sunsetend2",
+      "level": "SunsetEnd2",
+      "waypoints": [
+        {
+          "kind": "portal",
+          "loc_key": "world.level.duskstart",
+          "pos": [
+            8,
+            141,
+            -196
+          ]
+        },
+        {
+          "kind": "poi",
+          "loc_key": "world.poi.sunsetend2.elder",
+          "pos": [
+            315,
+            52,
+            -711
+          ]
+        },
+        {
+          "kind": "poi",
+          "loc_key": "world.poi.sunsetend2.castle",
+          "pos": [
+            263,
+            115,
+            -614
+          ]
+        },
+        {
+          "kind": "portal",
+          "loc_key": "world.level.sunsetcolosseum",
+          "pos": [
+            10,
+            138,
+            -116
+          ]
+        }
+      ]
+    },
+    {
+      "realm": "Valley of Triumph",
+      "loc_key": "world.level.sunsetvillage",
+      "level": "SunsetVillage",
+      "waypoints": [
+        {
+          "kind": "portal",
+          "loc_key": "world.level.sunset",
+          "pos": [
+            88,
+            76,
+            367
+          ]
+        },
+        {
+          "kind": "portal",
+          "loc_key": "world.level.sunsetcolosseum",
+          "pos": [
+            53,
+            52,
+            28
+          ]
+        },
+        {
+          "kind": "portal",
+          "loc_key": "world.level.sunset_yetipark",
+          "pos": [
+            -95,
+            188,
+            428
+          ]
+        },
+        {
+          "kind": "portal",
+          "loc_key": "world.level.sunsetvillage_musicshop",
+          "pos": [
+            117,
+            42,
+            38
+          ]
+        },
+        {
+          "kind": "portal",
+          "loc_key": "world.level.sunset_theater",
+          "pos": [
+            226,
+            44,
+            126
+          ]
+        },
+        {
+          "kind": "poi",
+          "loc_key": "world.poi.sunsetvillage.dreamsguide",
+          "pos": [
+            164,
+            37,
+            90
+          ]
+        }
+      ]
+    },
+    {
+      "realm": "Valley of Triumph",
+      "loc_key": "world.level.sunset_theater",
+      "level": "Sunset_Theater",
+      "waypoints": [
+        {
+          "kind": "portal",
+          "loc_key": "world.level.sunsetvillage",
+          "pos": [
+            23,
+            56,
+            29
+          ]
+        },
+        {
+          "kind": "poi",
+          "loc_key": "world.poi.sunset_theater.penguin",
+          "pos": [
+            -18,
+            105,
+            -120
+          ]
+        },
+        {
+          "kind": "poi",
+          "loc_key": "world.poi.sunset_theater.performanceguide",
+          "pos": [
+            1,
+            50,
+            12
+          ]
+        }
+      ]
+    },
+    {
+      "realm": "Valley of Triumph",
+      "loc_key": "world.level.sunsetvillage_musicshop",
+      "level": "SunsetVillage_MusicShop",
+      "waypoints": [
+        {
+          "kind": "portal",
+          "loc_key": "world.level.sunsetvillage",
+          "pos": [
+            336,
+            60,
+            -90
+          ]
+        },
+        {
+          "kind": "poi",
+          "loc_key": "world.poi.sunsetvillage_musicshop.bouquet",
+          "pos": [
+            311,
+            68,
+            -115
+          ]
+        }
+      ]
+    },
+    {
+      "realm": "Valley of Triumph",
+      "loc_key": "world.level.sunset_yetipark",
+      "level": "Sunset_YetiPark",
+      "waypoints": [
+        {
+          "kind": "portal",
+          "loc_key": "world.level.sunsetvillage",
+          "pos": [
+            124,
+            35,
+            32
+          ]
+        },
+        {
+          "kind": "poi",
+          "loc_key": "world.poi.sunset_yetipark.cliff",
+          "pos": [
+            -359,
+            257,
+            204
+          ]
+        }
+      ]
+    },
+    {
+      "realm": "Valley of Triumph",
+      "loc_key": "world.level.event_arr_runaway",
+      "level": "Event_Arr_Runaway",
+      "farm_tags": [
+        "empty",
+        "event"
+      ]
+    },
+    {
+      "realm": "Valley of Triumph",
+      "loc_key": "world.level.event_arr_softinside",
+      "level": "Event_Arr_SoftInside",
+      "farm_tags": [
+        "empty",
+        "event"
+      ]
+    },
+    {
+      "realm": "Valley of Triumph",
+      "loc_key": "world.level.event_arr_warrior",
+      "level": "Event_Arr_Warrior",
+      "farm_tags": [
+        "empty",
+        "event"
+      ]
+    },
+    {
+      "realm": "Valley of Triumph",
+      "loc_key": "world.level.event_arr_theseed",
+      "level": "Event_Arr_TheSeed",
+      "farm_tags": [
+        "empty",
+        "event"
+      ]
+    },
+    {
+      "realm": "Valley of Triumph",
+      "loc_key": "world.level.event_arr_eyesofachild",
+      "level": "Event_Arr_EyesOfAChild",
+      "farm_tags": [
+        "empty",
+        "event"
+      ]
+    },
+    {
+      "realm": "Valley of Triumph",
+      "loc_key": "world.level.event_arr_exhaleinhale",
+      "level": "Event_Arr_ExhaleInhale",
+      "farm_tags": [
+        "empty",
+        "event"
+      ]
+    },
+    {
+      "realm": "Valley of Triumph",
+      "loc_key": "world.level.event_cinema",
+      "level": "Event_Cinema",
+      "waypoints": [
+        {
+          "kind": "portal",
+          "loc_key": "world.level.mainstreet",
+          "pos": [
+            57,
+            8,
+            -98
+          ]
+        },
+        {
+          "kind": "poi",
+          "loc_key": "world.poi.event_cinema.oscar",
+          "pos": [
+            35,
+            7,
+            -60
+          ]
+        },
+        {
+          "kind": "poi",
+          "loc_key": "world.poi.event_cinema.closet",
+          "pos": [
+            38,
+            7,
+            -77
+          ]
+        },
+        {
+          "kind": "poi",
+          "loc_key": "world.poi.event_cinema.twoembersguide",
+          "pos": [
+            53,
+            7,
+            -69
+          ]
+        }
+      ],
+      "farm_tags": [
+        "event"
+      ]
+    },
+    {
+      "realm": "Valley of Triumph",
+      "loc_key": "world.level.event_personality",
+      "level": "Event_Personality",
+      "farm_tags": [
+        "event"
+      ]
+    },
+    {
+      "realm": "Golden Wasteland",
+      "loc_key": "world.level.duskstart",
+      "level": "DuskStart",
+      "waypoints": [
+        {
+          "kind": "portal",
+          "loc_key": "world.level.dusk_triangle",
+          "pos": [
+            -51,
+            64,
+            -821
+          ]
+        },
+        {
+          "kind": "portal",
+          "loc_key": "world.level.dusk",
+          "pos": [
+            -171,
+            47,
+            -797
+          ]
+        },
+        {
+          "kind": "poi",
+          "loc_key": "world.poi.duskstart.floatingcastle",
+          "pos": [
+            -101,
+            206,
+            -821
+          ]
+        }
+      ]
+    },
+    {
+      "realm": "Golden Wasteland",
+      "loc_key": "world.level.dusk",
+      "level": "Dusk",
+      "waypoints": [
+        {
+          "kind": "portal",
+          "loc_key": "world.level.duskgraveyard",
+          "pos": [
+            -92,
+            12,
+            158
+          ]
+        },
+        {
+          "kind": "portal",
+          "loc_key": "world.level.duskoasis",
+          "pos": [
+            151,
+            1,
+            47
+          ]
+        }
+      ]
+    },
+    {
+      "realm": "Golden Wasteland",
+      "loc_key": "world.level.dusk_triangle",
+      "level": "Dusk_Triangle",
+      "waypoints": [
+        {
+          "kind": "portal",
+          "loc_key": "world.level.duskstart",
+          "pos": [
+            209,
+            1,
+            -7
+          ]
+        },
+        {
+          "kind": "poi",
+          "loc_key": "world.poi.dusk_triangle.abyssguide",
+          "pos": [
+            87,
+            2,
+            43
+          ]
+        }
+      ]
+    },
+    {
+      "realm": "Golden Wasteland",
+      "loc_key": "world.level.dusk_triangleend",
+      "level": "Dusk_TriangleEnd",
+      "farm_tags": [
+        "empty"
+      ]
+    },
+    {
+      "realm": "Golden Wasteland",
+      "loc_key": "world.level.duskoasis",
+      "level": "DuskOasis",
+      "waypoints": [
+        {
+          "kind": "portal",
+          "loc_key": "world.level.skyway",
+          "pos": [
+            -84,
+            142,
+            426
+          ]
+        },
+        {
+          "kind": "portal",
+          "loc_key": "world.level.dusk",
+          "pos": [
+            -54,
+            142,
+            167
+          ]
+        },
+        {
+          "kind": "poi",
+          "loc_key": "world.poi.enchantmentguide",
+          "pos": [
+            119,
+            114,
+            324
+          ]
+        }
+      ]
+    },
+    {
+      "realm": "Golden Wasteland",
+      "loc_key": "world.level.duskgraveyard",
+      "level": "DuskGraveyard",
+      "waypoints": [
+        {
+          "kind": "portal",
+          "loc_key": "world.level.dusk",
+          "pos": [
+            55,
+            93,
+            360
+          ]
+        },
+        {
+          "kind": "portal",
+          "loc_key": "world.level.dusk_crabfield",
+          "pos": [
+            103,
+            89,
+            -3
+          ]
+        },
+        {
+          "kind": "portal",
+          "loc_key": "world.level.duskmid",
+          "pos": [
+            33,
+            78,
+            -249
+          ]
+        }
+      ]
+    },
+    {
+      "realm": "Golden Wasteland",
+      "loc_key": "world.level.dusk_crabfield",
+      "level": "Dusk_CrabField",
+      "waypoints": [
+        {
+          "kind": "portal",
+          "loc_key": "world.level.duskgraveyard",
+          "pos": [
+            -45,
+            10,
+            531
+          ]
+        },
+        {
+          "kind": "portal",
+          "loc_key": "world.level.duskmid",
+          "pos": [
+            -346,
+            35,
+            385
+          ]
+        }
+      ]
+    },
+    {
+      "realm": "Golden Wasteland",
+      "loc_key": "world.level.duskmid",
+      "level": "DuskMid",
+      "waypoints": [
+        {
+          "kind": "portal",
+          "loc_key": "world.level.dusk_crabfield",
+          "pos": [
+            56,
+            112,
+            -264
+          ]
+        },
+        {
+          "kind": "portal",
+          "loc_key": "world.level.duskgraveyard",
+          "pos": [
+            32,
+            96,
+            -43
+          ]
+        },
+        {
+          "kind": "portal",
+          "loc_key": "world.level.duskend",
+          "pos": [
+            -286,
+            92,
+            -403
+          ]
+        }
+      ]
+    },
+    {
+      "realm": "Golden Wasteland",
+      "loc_key": "world.level.duskmid_past",
+      "level": "DuskMid_Past"
+    },
+    {
+      "realm": "Golden Wasteland",
+      "loc_key": "world.level.duskmid_pastmarket",
+      "level": "DuskMid_PastMarket",
+      "farm_tags": [
+        "empty"
+      ]
+    },
+    {
+      "realm": "Golden Wasteland",
+      "loc_key": "world.level.dusk_hiddentemple",
+      "level": "Dusk_HiddenTemple"
+    },
+    {
+      "realm": "Golden Wasteland",
+      "loc_key": "world.level.duskend",
+      "level": "DuskEnd",
+      "waypoints": [
+        {
+          "kind": "portal",
+          "loc_key": "world.level.night",
+          "pos": [
+            0,
+            208,
+            -64
+          ]
+        },
+        {
+          "kind": "poi",
+          "loc_key": "world.poi.duskend.elder",
+          "pos": [
+            -416,
+            12,
+            411
+          ]
+        }
+      ]
+    },
+    {
+      "realm": "Golden Wasteland",
+      "loc_key": "world.level.duskend_past",
+      "level": "DuskEnd_Past",
+      "farm_tags": [
+        "empty"
+      ]
+    },
+    {
+      "realm": "Golden Wasteland",
+      "loc_key": "world.level.nintendo_candlespace",
+      "level": "Nintendo_CandleSpace",
+      "farm_tags": [
+        "empty",
+        "spoiler"
+      ]
+    },
+    {
+      "realm": "Vault of Knowledge",
+      "loc_key": "world.level.night",
+      "level": "Night",
+      "waypoints": [
+        {
+          "kind": "poi",
+          "loc_key": "world.level.tgcoffice",
+          "pos": [
+            -1,
+            37,
+            -172
+          ]
+        },
+        {
+          "kind": "portal",
+          "loc_key": "world.level.night_workshop",
+          "pos": [
+            36,
+            52,
+            21
+          ]
+        },
+        {
+          "kind": "portal",
+          "loc_key": "world.level.night_shelter",
+          "pos": [
+            34,
+            36,
+            -4
+          ]
+        },
+        {
+          "kind": "portal",
+          "loc_key": "world.level.nightarchive",
+          "pos": [
+            -41,
+            38,
+            -98
+          ]
+        },
+        {
+          "kind": "portal",
+          "loc_key": "world.level.night_iphallway",
+          "pos": [
+            41,
+            36,
+            -80
+          ]
+        }
+      ]
+    },
+    {
+      "realm": "Vault of Knowledge",
+      "loc_key": "world.level.nightarchive",
+      "level": "NightArchive",
+      "waypoints": [
+        {
+          "kind": "portal",
+          "loc_key": "world.level.night",
+          "pos": [
+            40,
+            542,
+            -22
+          ]
+        }
+      ]
+    },
+    {
+      "realm": "Vault of Knowledge",
+      "loc_key": "world.level.tgcoffice",
+      "level": "TGCOffice",
+      "farm_tags": [
+        "spoiler"
+      ]
+    },
+    {
+      "realm": "Vault of Knowledge",
+      "loc_key": "world.level.voidsharedspace",
+      "level": "VoidSharedSpace",
+      "farm_tags": [
+        "empty"
+      ]
+    },
+    {
+      "realm": "Vault of Knowledge",
+      "loc_key": "world.level.event_daysofmischief",
+      "level": "Event_DaysOfMischief",
+      "farm_tags": [
+        "event"
+      ],
+      "waypoints": [
+        {
+          "kind": "poi",
+          "loc_key": "world.poi.event_daysofmischief.cauldron",
+          "pos": [
+            102,
+            31,
+            -3
+          ]
+        },
+        {
+          "kind": "poi",
+          "loc_key": "world.poi.event_daysofmischief.nether",
+          "pos": [
+            175,
+            2,
+            25
+          ]
+        }
+      ]
+    },
+    {
+      "realm": "Vault of Knowledge",
+      "loc_key": "world.level.event_daysofmischief_escape",
+      "level": "Event_DaysOfMischief_Escape",
+      "farm_tags": [
+        "empty",
+        "event"
+      ],
+      "waypoints": [
+        {
+          "kind": "poi",
+          "loc_key": "world.poi.event_daysofmischief_escape.sharedspace",
+          "pos": [
+            0,
+            2,
+            -19
+          ]
+        }
+      ]
+    },
+    {
+      "realm": "Vault of Knowledge",
+      "loc_key": "world.level.night2",
+      "level": "Night2",
+      "waypoints": [
+        {
+          "kind": "portal",
+          "loc_key": "world.level.nightend",
+          "pos": [
+            0,
+            310,
+            68
+          ]
+        }
+      ]
+    },
+    {
+      "realm": "Vault of Knowledge",
+      "loc_key": "world.level.nightend",
+      "level": "NightEnd",
+      "waypoints": [
+        {
+          "kind": "portal",
+          "loc_key": "world.level.candlespace",
+          "pos": [
+            10,
+            327,
+            13
+          ]
+        },
+        {
+          "kind": "portal",
+          "loc_key": "world.level.stormstart",
+          "pos": [
+            0,
+            329,
+            33
+          ]
+        },
+        {
+          "kind": "poi",
+          "loc_key": "world.poi.nightend.elderroom",
+          "pos": [
+            0,
+            195,
+            7
+          ]
+        },
+        {
+          "kind": "poi",
+          "loc_key": "world.poi.nightend.elder",
+          "pos": [
+            69,
+            241,
+            -185
+          ]
+        }
+      ]
+    },
+    {
+      "realm": "Vault of Knowledge",
+      "loc_key": "world.level.nightdesert",
+      "level": "NightDesert",
+      "waypoints": [
+        {
+          "kind": "portal",
+          "loc_key": "world.level.skyway",
+          "pos": [
+            242,
+            22,
+            925
+          ]
+        },
+        {
+          "kind": "portal",
+          "loc_key": "world.level.nightdesert_beach",
+          "pos": [
+            374,
+            4,
+            539
+          ]
+        },
+        {
+          "kind": "portal",
+          "loc_key": "world.level.night_jarcave",
+          "pos": [
+            -78,
+            28,
+            372
+          ]
+        },
+        {
+          "kind": "poi",
+          "loc_key": "world.poi.nightdesert.rose",
+          "pos": [
+            134,
+            13,
+            348
+          ]
+        },
+        {
+          "kind": "portal",
+          "loc_key": "world.level.night_infinitedesert",
+          "pos": [
+            -12,
+            4,
+            534
+          ]
+        },
+        {
+          "kind": "portal",
+          "loc_key": "world.level.night_iphallway",
+          "pos": [
+            49,
+            18,
+            206
+          ]
+        }
+      ]
+    },
+    {
+      "realm": "Vault of Knowledge",
+      "loc_key": "world.level.nightdesert_planets",
+      "level": "NightDesert_Planets",
+      "farm_tags": [
+        "empty",
+        "spoiler"
+      ]
+    },
+    {
+      "realm": "Vault of Knowledge",
+      "loc_key": "world.level.nightdesert_beach",
+      "level": "NightDesert_Beach",
+      "waypoints": [
+        {
+          "kind": "portal",
+          "loc_key": "world.level.nightdesert",
+          "pos": [
+            485,
+            9,
+            566
+          ]
+        },
+        {
+          "kind": "poi",
+          "loc_key": "world.poi.geyser",
+          "pos": [
+            606,
+            0,
+            607
+          ]
+        },
+        {
+          "kind": "poi",
+          "loc_key": "world.poi.nightdesert_beach.twinstatues",
+          "pos": [
+            760,
+            3,
+            799
+          ]
+        }
+      ]
+    },
+    {
+      "realm": "Vault of Knowledge",
+      "loc_key": "world.level.night_infinitedesert",
+      "level": "Night_InfiniteDesert",
+      "waypoints": [
+        {
+          "kind": "poi",
+          "loc_key": "world.poi.night_infinitedesert.memorial",
+          "pos": [
+            514,
+            56,
+            217
+          ]
+        },
+        {
+          "kind": "poi",
+          "loc_key": "world.poi.night_infinitedesert.camping",
+          "pos": [
+            444,
+            62,
+            144
+          ]
+        },
+        {
+          "kind": "portal",
+          "loc_key": "world.level.nightdesert",
+          "pos": [
+            595,
+            54,
+            -81
+          ]
+        }
+      ]
+    },
+    {
+      "realm": "Vault of Knowledge",
+      "loc_key": "world.level.night_jarcave",
+      "level": "Night_JarCave",
+      "waypoints": [
+        {
+          "kind": "portal",
+          "loc_key": "world.level.nightdesert",
+          "pos": [
+            -81,
+            28,
+            372
+          ]
+        }
+      ]
+    },
+    {
+      "realm": "Vault of Knowledge",
+      "loc_key": "world.level.night_shelter",
+      "level": "Night_Shelter",
+      "waypoints": [
+        {
+          "kind": "portal",
+          "loc_key": "world.level.night",
+          "pos": [
+            -1,
+            28,
+            48
+          ]
+        },
+        {
+          "kind": "poi",
+          "loc_key": "world.poi.night_shelter.remembranceguide",
+          "pos": [
+            0,
+            25,
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "realm": "Vault of Knowledge",
+      "loc_key": "world.level.night_iphallway",
+      "level": "Night_IPHallway",
+      "waypoints": [
+        {
+          "kind": "portal",
+          "loc_key": "world.level.night",
+          "pos": [
+            -1,
+            24,
+            32
+          ]
+        },
+        {
+          "kind": "portal",
+          "loc_key": "world.level.night_paintedworld",
+          "pos": [
+            -25,
+            24,
+            0
+          ]
+        },
+        {
+          "kind": "portal",
+          "loc_key": "world.level.night_storybook",
+          "pos": [
+            34,
+            24,
+            -15
+          ]
+        },
+        {
+          "kind": "portal",
+          "loc_key": "world.level.nightdesert",
+          "pos": [
+            -24,
+            24,
+            -49
+          ]
+        },
+        {
+          "kind": "portal",
+          "loc_key": "world.level.event_cinema",
+          "pos": [
+            0,
+            24,
+            -61
+          ]
+        }
+      ]
+    },
+    {
+      "realm": "Vault of Knowledge",
+      "loc_key": "world.level.night_paintedworld",
+      "level": "Night_PaintedWorld",
+      "waypoints": [
+        {
+          "kind": "poi",
+          "loc_key": "world.poi.night_paintedworld.seasonguide",
+          "pos": [
+            -47,
+            384,
+            70
+          ]
+        },
+        {
+          "kind": "poi",
+          "loc_key": "world.poi.night_paintedworld.museum",
+          "pos": [
+            -2,
+            339,
+            -334
+          ]
+        },
+        {
+          "kind": "poi",
+          "loc_key": "world.poi.night_paintedworld.throne",
+          "pos": [
+            -131,
+            384,
+            -342
+          ]
+        }
+      ]
+    },
+    {
+      "realm": "Vault of Knowledge",
+      "loc_key": "world.level.night_valleyforest",
+      "level": "Night_ValleyForest",
+      "farm_tags": [
+        "empty"
+      ]
+    },
+    {
+      "realm": "Vault of Knowledge",
+      "loc_key": "world.level.night_valleyhouse",
+      "level": "Night_ValleyHouse",
+      "farm_tags": [
+        "empty"
+      ]
+    },
+    {
+      "realm": "Vault of Knowledge",
+      "loc_key": "world.level.night_valleyhousesky",
+      "level": "Night_ValleyHouseSky",
+      "farm_tags": [
+        "empty"
+      ]
+    },
+    {
+      "realm": "Vault of Knowledge",
+      "loc_key": "world.level.event_daysofmoonlight_hugemoon",
+      "level": "Event_DaysOfMoonlight_HugeMoon",
+      "farm_tags": [
+        "empty",
+        "event"
+      ]
+    },
+    {
+      "realm": "Vault of Knowledge",
+      "loc_key": "world.level.night_jumble",
+      "level": "Night_Jumble",
+      "waypoints": [
+        {
+          "kind": "portal",
+          "loc_key": "world.level.night_workshop",
+          "pos": [
+            -371,
+            210,
+            -493
+          ]
+        }
+      ]
+    },
+    {
+      "realm": "Vault of Knowledge",
+      "loc_key": "world.level.night_workshop",
+      "level": "Night_Workshop",
+      "waypoints": [
+        {
+          "kind": "portal",
+          "loc_key": "world.level.night",
+          "pos": [
+            -20,
+            79,
+            -6
+          ]
+        },
+        {
+          "kind": "portal",
+          "loc_key": "world.level.night_jumble",
+          "pos": [
+            -42,
+            80,
+            -10
+          ]
+        },
+        {
+          "kind": "poi",
+          "loc_key": "world.poi.night_workshop.lightmendingguide",
+          "pos": [
+            -42,
+            80,
+            -10
+          ]
+        }
+      ]
+    },
+    {
+      "realm": "Vault of Knowledge",
+      "loc_key": "world.level.season24void1",
+      "level": "Season24Void1"
+    },
+    {
+      "realm": "Vault of Knowledge",
+      "loc_key": "world.level.night_storybook",
+      "level": "Night_StoryBook",
+      "waypoints": [
+        {
+          "kind": "poi",
+          "loc_key": "world.poi.night_storybook.moominguide",
+          "pos": [
+            0,
+            2,
+            1
+          ]
+        },
+        {
+          "kind": "portal",
+          "loc_key": "world.level.mainstreet",
+          "pos": [
+            2,
+            2,
+            16
+          ]
+        }
+      ]
+    },
+    {
+      "realm": "Eye of Eden",
+      "loc_key": "world.level.stormstart",
+      "level": "StormStart",
+      "farm_tags": [
+        "spoiler",
+        "risky"
+      ],
+      "waypoints": [
+        {
+          "kind": "portal",
+          "loc_key": "world.level.storm",
+          "pos": [
+            -5,
+            198,
+            -23
+          ]
+        },
+        {
+          "kind": "poi",
+          "loc_key": "world.poi.stormstart.socialarea",
+          "pos": [
+            24,
+            131,
+            129
+          ]
+        }
+      ]
+    },
+    {
+      "realm": "Eye of Eden",
+      "loc_key": "world.level.storm",
+      "level": "Storm",
+      "farm_tags": [
+        "spoiler",
+        "risky"
+      ],
+      "waypoints": [
+        {
+          "kind": "poi",
+          "loc_key": "world.poi.storm.pointofnoreturn",
+          "pos": [
+            61,
+            270,
+            -323
+          ]
+        },
+        {
+          "kind": "portal",
+          "loc_key": "world.level.stormstart",
+          "pos": [
+            -16,
+            138,
+            77
+          ]
+        }
+      ]
+    },
+    {
+      "realm": "Eye of Eden",
+      "loc_key": "world.level.stormend",
+      "level": "StormEnd",
+      "farm_tags": [
+        "spoiler",
+        "risky"
+      ]
+    },
+    {
+      "realm": "Eye of Eden",
+      "loc_key": "world.level.stormevent_voidspace",
+      "level": "StormEvent_VoidSpace",
+      "farm_tags": [
+        "empty"
+      ],
+      "waypoints": [
+        {
+          "kind": "poi",
+          "loc_key": "world.poi.stormevent_voidspace.shatteringguide",
+          "pos": [
+            0,
+            1,
+            16
+          ]
+        },
+        {
+          "kind": "portal",
+          "loc_key": "world.level.candlespace",
+          "pos": [
+            0,
+            1,
+            -33
+          ]
+        }
+      ]
+    },
+    {
+      "realm": "Eye of Eden",
+      "loc_key": "world.level.orbitmid",
+      "level": "OrbitMid",
+      "farm_tags": [
+        "empty",
+        "spoiler"
+      ]
+    },
+    {
+      "realm": "Eye of Eden",
+      "loc_key": "world.level.orbitend",
+      "level": "OrbitEnd",
+      "farm_tags": [
+        "spoiler"
+      ]
+    },
+    {
+      "realm": "Eye of Eden",
+      "loc_key": "world.level.candlespaceend",
+      "level": "CandleSpaceEnd",
+      "farm_tags": [
+        "spoiler"
+      ],
+      "waypoints": [
+        {
+          "kind": "poi",
+          "loc_key": "world.poi.candlespaceend.bench",
+          "pos": [
+            10,
+            20,
+            30
+          ]
+        },
+        {
+          "kind": "portal",
+          "loc_key": "world.level.credits",
+          "pos": [
+            -1,
+            1,
+            238
+          ]
+        }
+      ]
+    },
+    {
+      "realm": "Eye of Eden",
+      "loc_key": "world.level.credits",
+      "level": "Credits",
+      "farm_tags": [
+        "spoiler"
+      ]
+    },
+    {
+      "realm": "Eye of Eden",
+      "loc_key": "world.level.ar_testlevel",
+      "level": "AR_TestLevel",
+      "farm_tags": [
+        "empty",
+        "tutorial"
+      ]
+    }
+  ]
+}

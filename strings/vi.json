@@ -686,6 +686,7 @@
   "inbox.body_features.v1.0.18": "Co gi moi:\n• Nang tuong thich len Sky 0.33.5 (390271).",
   "inbox.body_features.v1.0.19": "Da sua: cay bong toi, nhap nhieu ban nhac, luu Chong AFK va noi dung changelog.",
   "inbox.body_features.v1.0.20": "200 diem dich chuyen giup farm nhom de tho, them tim kiem ban do & tu dong cap nhat. Chia se cac diem OOB yeu thich cua ban tren Github!",
+  "inbox.body_features.v1.0.21": "Nhap nhac gio chap nhan ban nhac UTF-16 va ma hoa cua Sky Studio truoc day bi loi.",
   "inbox.body_ps":               "PS: yen tam, hop thu cua ban khong bi am - tin nhan nay chi co trong mod, TGC khong he biet \ud83d\ude07",
 
   "auth.title":             "Xuat xac thuc",
@@ -775,6 +776,7 @@
   "music.sheet_notes":           "So not",
   "music.sheet_layers":          "So lop",
   "music.sheet_duration":        "Thoi luong",
+  "music.library_entry_meta":    "%.1fs, %u not, %u lop",
   "music.sheet_layer_overrides": "Nhac cu theo lop (tu dong chon; chon de ghi de):",
   "music.sheet_layer":           "Lop",
   "music.instrument_default":    "%s (mac dinh)",
@@ -833,6 +835,7 @@
   "world.poi.nightend.elder":                          "Truong lao",
   "world.poi.nightdesert.rose":                        "Hoa hong",
   "world.poi.prairie_butterflyfields.sapling":         "Cay con",
+  "world.poi.prairie_cave.greenhill":                  "Doi Xanh OOB",
   "world.poi.sunset.sapling":                          "Cay con",
   "world.poi.sunsetvillage.dreamsguide":               "Huong dan Giac mo",
   "world.poi.sunset_theater.performanceguide":         "Huong dan Bieu dien",

@@ -790,6 +790,15 @@
             194,
             27
           ]
+        },
+        {
+          "kind": "poi",
+          "loc_key": "world.poi.prairie_cave.greenhill",
+          "pos": [
+            314,
+            236,
+            162
+          ]
         }
       ]
     },

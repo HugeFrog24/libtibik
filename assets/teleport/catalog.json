@@ -1241,7 +1241,7 @@
           "pos": [
             -61,
             211,
-            -283
+            -284
           ]
         }
       ]
@@ -1389,6 +1389,15 @@
             -124,
             318,
             260
+          ]
+        },
+        {
+          "kind": "portal",
+          "loc_key": "world.level.sunset_yetipark",
+          "pos": [
+            430,
+            320,
+            40
           ]
         }
       ]
@@ -1745,6 +1754,15 @@
             -359,
             257,
             204
+          ]
+        },
+        {
+          "kind": "portal",
+          "loc_key": "world.level.skyway",
+          "pos": [
+            -391,
+            302,
+            649
           ]
         }
       ]
@@ -2184,6 +2202,15 @@
             41,
             36,
             -80
+          ]
+        },
+        {
+          "kind": "portal",
+          "loc_key": "world.level.night2",
+          "pos": [
+            34,
+            161,
+            -41
           ]
         }
       ]
@@ -2807,6 +2834,17 @@
       "farm_tags": [
         "empty",
         "spoiler"
+      ],
+      "waypoints": [
+        {
+          "kind": "portal",
+          "loc_key": "world.level.orbitend",
+          "pos": [
+            1029,
+            2905,
+            179
+          ]
+        }
       ]
     },
     {
@@ -2815,6 +2853,17 @@
       "level": "OrbitEnd",
       "farm_tags": [
         "spoiler"
+      ],
+      "waypoints": [
+        {
+          "kind": "portal",
+          "loc_key": "world.level.candlespaceend",
+          "pos": [
+            -23,
+            2476,
+            2267
+          ]
+        }
       ]
     },
     {

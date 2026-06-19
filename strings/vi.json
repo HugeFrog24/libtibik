@@ -6,6 +6,8 @@
   "_meta_translatorUrl": "https://github.com/HugeFrog24",
 
   "btn.go":               "Di",
+  "btn.share":            "Chia se",
+  "btn.collect":          "Thu thap",
   "btn.ok":               "OK",
   "btn.cancel":           "Huy",
   "btn.befriend":         "Ket ban (1 nen)",
@@ -32,11 +34,12 @@
   "disclaimer.body2": "Cam on ban da su dung toi!",
 
   "compat.unknown_mod":     "mod khac",
-  "compat.shout_disabled":  "Hook Shout da bi vo hieu hoa vi phat hien %s.",
-  "compat.world_disabled":  "Hook dich chuyen da bi vo hieu hoa vi phat hien %s.",
+  "compat.shout_disabled":  "Tinh nang Shout da bi vo hieu hoa vi phat hien %s.",
+  "compat.world_disabled":  "Tinh nang dich chuyen da bi vo hieu hoa vi phat hien %s.",
   "compat.access_disabled": "Cong cu vi tri cuc bo da bi vo hieu hoa vi phat hien %s.",
   "compat.music_disabled":  "Tinh nang am nhac da bi vo hieu hoa vi phat hien %s.",
-  "compat.chat_disabled":   "Hook gui chat da bi vo hieu hoa vi phat hien %s.",
+  "compat.chat_disabled":   "Tin nhan chat da bi vo hieu hoa vi phat hien %s.",
+  "compat.feature_disabled": "Da bi vo hieu hoa vi phat hien %s.",
 
   "access.waiting":         "Dang cho the gioi trong game tai xong...",
   "access.pos_current":     "Hien tai",
@@ -111,6 +114,10 @@
 
   "access.fpv":         "Camera FPV",
   "access.fpv_tooltip": "Goc nhin thu nhat. Dat camera tai\nvi tri mat cua skykid.",
+  "access.cutscene_section":       "Cat canh",
+  "access.skip_cutscenes":         "Bo qua moi doan cat canh",
+  "access.skip_cutscenes_tooltip": "Tu dong bo qua moi doan cat canh/timeline -\nco the bo qua hoac khong - ngay khi chung bat dau.\nVan bat khi chuyen man choi.",
+  "access.skip_cutscenes_unavail": "Khong kha dung tren ban Sky nay.",
 
   "access.props_section":          "Vat pham",
   "access.place_anywhere":         "Dat o moi noi",
@@ -169,6 +176,7 @@
   "access.bypass_cooldown_tooltip":       "Xoa thoi gian hoi giua cac lan dung vat pham tui do -\ntha prop hoac ban phao hoa lien tiep khong cho doi.",
   "access.bypass_cooldown_unavailable":   "Vuot qua thoi gian hoi khong kha dung tren ban dung nay (khong tim thay mau).",
 
+  "access.meditation_section":            "Thien",
   "access.skip_meditation":               "Thien tuc thi",
   "access.skip_meditation_tooltip":       "Hoan thanh ngay vong thien (pad trang) de hanh dong\nduoc kich hoat (nhiem vu, tin nhan, dua) bat dau tuc thi\nthay vi cho khoang 5 giay hoat anh ngoi xuong.",
   "access.status_apis_not_ready":         "API vi tri chua san sang.",
@@ -315,9 +323,7 @@
   "farm.advanced":                   "Nang cao",
   "farm.incl_wb_tooltip":            "Sau khi chay nen moi man, thu thap tat ca\nanh sang co canh con lai truoc khi tiep tuc.",
   "farm.incl_dark_plants_tooltip":   "Moi man, dot tat ca cay bong toi con song sau khi chay nen.\nMot so cay bong toi giai phong buom thuoc nhuom khi chet - bat\n'Bao gom thuoc nhuom' de thu thap tai cung vi tri.\nViec dot hien thi voi nguoi choi khac tren may chu.",
-  "farm.progress.wb_label":          "Canh sang",
   "farm.progress.dark_plants_label": "Cay bong toi",
-  "farm.dwell_wb_ms":                "Dung/canh (ms)",
   "farm.delay_world_ms":             "Tre/the gioi (ms)",
   "farm.collect_what":               "Thu thap",
   "farm.col_candles":                "Nen",
@@ -359,7 +365,6 @@
   "farm.status_world_done":              "Xong the gioi - cho...",
   "farm.status_queuing_next":            "Xep the gioi tiep...",
   "farm.status_collect_timeout":         "Het thoi gian thu, bo qua",
-  "farm.status_wb_timeout":              "Het thoi gian thu canh, bo qua",
   "farm.completion_fallback":            "Farm xong - %d / %d the gioi",
 
   "farm.completion.common":    "Farm xong - <2>%d / %d</2> man\nLuot hoan tat - <2>%d / %d</2> man\nXong - <2>%d / %d</2> man da farm",
@@ -597,6 +602,8 @@
   "wb.parsed":          "Da phan tich",
   "wb.available":       "Co san",
   "wb.none_found":      "Khong tim thay anh sang co canh trong man nay.",
+  "wb.collect_all":     "Thu thap tat ca",
+  "wb.collect_all_tooltip": "Ngay lap tuc thu thap tat ca anh sang co canh co san trong man nay. Khong dich chuyen.",
   "wb.state_collected": "da thu",
   "wb.state_available": "co san",
   "wb.owned":           "Anh sang canh so huu",
@@ -689,6 +696,7 @@
   "inbox.body_features.v1.0.19": "Da sua: cay bong toi, nhap nhieu ban nhac, luu Chong AFK va noi dung changelog.",
   "inbox.body_features.v1.0.20": "200 diem dich chuyen giup farm nhom de tho, them tim kiem ban do & tu dong cap nhat. Chia se cac diem OOB yeu thich cua ban tren Github!",
   "inbox.body_features.v1.0.21": "Nhap nhac gio chap nhan ban nhac UTF-16 va ma hoa cua Sky Studio truoc day bi loi.",
+  "inbox.body_features.v1.0.22": "Them bieu tuong bong bong co the keo tha de bat/tat menu, thu thap anh sang nhanh hon nhieu, HUD truc tiep khi chay API collect (khong can khoi dong lai Sky), va da sua loi Tha anh sang canh khong hoat dong o mot so the gioi.",
   "inbox.body_ps":               "PS: yen tam, hop thu cua ban khong bi am - tin nhan nay chi co trong mod, TGC khong he biet \ud83d\ude07",
 
   "auth.title":             "Xuat xac thuc",

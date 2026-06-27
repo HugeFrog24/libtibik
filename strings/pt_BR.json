@@ -200,8 +200,8 @@
   "access.feature_status_unknown":                     "O status da ferramenta de posição é desconhecido.",
   "access.friend_statues":                             "Revelar estátuas de amigos automaticamente",
   "access.friend_statues_section":                     "Estátuas de amigos",
-  "access.friend_statues_desc":                        "As antigas 'Estátuas de Amigos' da primeira beta de Sky (Sky: Light Awaits), antes de existir a constelação acima. As velas ainda existem hoje, mas ficam ocultas por padrão; este mod as revela. Apenas na Casa (CandleSpace).",
-  "access.friend_statues_tooltip":                     "Aplica automaticamente a cada visita à Casa; a\nrevelação não é salva, então desligar apenas\npara de revelar - estátuas já exibidas somem\nquando a Casa recarrega (não dá para ocultar\nao vivo).",
+  "access.friend_statues_desc":                        "As antigas 'Estátuas de Amigos' do início do beta de Sky (Sky: Light Awaits), antes de existir a constelação no céu. As velas ainda existem hoje, mas ficam ocultas por padrão; este mod as revela. Apenas no Lar (CandleSpace).",
+  "access.friend_statues_tooltip":                     "Aplica-se automaticamente a cada visita ao Lar; a\nrevelação não é salva, então desligar o mod apenas\nimpede que sejam reveladas novamente - estátuas já exibidas\nsomem quando o Lar recarregar (não é possível ocultá-las em tempo real).",
   "access.friend_statues_unavail":                     "Não disponível nesta versão do Sky.",
   "shout.avatar_not_ready":                            "Entre em um mundo primeiro",
   "shout.intensity":                                   "Intensidade",
@@ -711,7 +711,7 @@
   "relationships.tier_current":                        "Nível %d",
   "relationships.tier_fetching":                       "Nível ...",
   "relationships.tier_unknown":                        "Nível ?",
-  "relationships.tier_up_tooltip":                     "Gasta velas ascendidas para aumentar o nível deste amigo.",
+  "relationships.tier_up_tooltip":                     "Gasta velas ascendidas para aumentar o nível de amizade com este amigo.",
   "pickups.active":                                    "Coletáveis",
   "pickups.none_found":                                "Nenhum coletável neste nível.",
   "wb.waiting":                                        "Aguardando dados do nível...",
@@ -804,7 +804,7 @@
 
   "inbox.body_features":                  "O mod foi atualizado. Veja os detalhes das mudanças na página do projeto.",
   "inbox.body_features.v1.0.22":          "Novo ícone de bolha arrastável para alternar o menu, coleta de luz alada muito mais rápida, um HUD dinâmico durante a Coleta via API (sem reiniciar o Sky), além de uma correção para Soltar bônus de asa em alguns mundos.",
-  "inbox.body_features.v1.0.23":          "Revele estátuas de amigos ocultas na Casa, uma nova aba Companheiros para acordar companheiros como o Oreo, o cão da pradaria, um novo botão Subir de nível para pular o requisito de envio de corações, uso lado a lado com ThatSkyMod (experimental) & SPT, além de correções para a pausa da Coleta via API e a tremulação da tela.",
+  "inbox.body_features.v1.0.23":          "Revele estátuas de amigos ocultas no Lar, uma nova aba Companheiros para acordar mascotes como o cão da pradaria Oreo, um botão Subir de nível para pular o requisito de envio de corações, suporte lado a lado para ThatSkyMod (experimental) e SPT, além de correções para a pausa da Coleta via API e tremulação da tela.",
   "inbox.body_ps":                        "Obs.: relaxa, sua caixa de entrada não está assombrada - esta mensagem é local do mod; a TGC não faz ideia de que ela existe 😇",
   "auth.title":                           "Exportar autenticação",
   "auth.warning":                         "Envia {usuário, sessão} como um POST JSON para uma ferramenta de dev local. Estas credenciais garantem controle total da conta - nunca as compartilhe.",
@@ -918,10 +918,10 @@
   "music.library_page_next":              "Próxima página",
 
   "buddy.col_name":       "Nome",
-  "buddy.col_on":         "Ligado",
+  "buddy.col_on":         "Ativo",
   "buddy.col_state":      "Estado",
-  "buddy.hint":           "Criaturas companheiras neste nível. Alterne Ativado para acordar ou fazer dormir uma (ex.: o cão da pradaria); toque em ir para teleportar até ela.",
+  "buddy.hint":           "Criaturas companheiras neste nível. Alterne Ativo para acordar ou adormecer uma (ex: o cão da campina); toque em ir para teletransportar até ela.",
   "buddy.none":           "Nenhum companheiro neste nível.",
   "buddy.summary":        "Companheiros: %d",
-  "buddy.toggle_unavail": "Ativar/desativar indisponível nesta versão do Sky (lista somente leitura)."
+  "buddy.toggle_unavail": "Ativar/desativar indisponível nesta versão do Sky (a lista é apenas para leitura)."
 }

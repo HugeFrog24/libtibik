@@ -675,6 +675,7 @@
   "inbox.body_features":                               "Mod wurde aktualisiert. Details auf der Projektseite.",
   "inbox.body_features.v1.0.22":                       "Neues verschiebbares Blasen-Symbol zum Umschalten des Menus, viel schnelleres Lichtsammeln, ein Live-HUD wahrend API-Collect (kein Sky-Neustart notig), und das Fallenlassen von Flugellichtern in einigen Welten wurde behoben.",
   "inbox.body_features.v1.0.23":                       "Verborgene Freundesstatuen im Zuhause aufdecken, ein neuer Begleiter-Tab zum Wecken von Begleitern wie Oreo, dem Prariehund, ein 'Stufe erhohen'-Knopf zum Uberspringen der Herz-Senden-Voraussetzung, Parallelbetrieb mit ThatSkyMod (experimentell) & SPT, sowie Korrekturen fur die API-Collect-Pause und das Bildschirmflackern.",
+  "inbox.body_features.v1.0.24":                       "Kompatibilitat auf Sky 0.33.8 (399977) angehoben, plus ein neuer 'Uberall beitreten'-Schalter, mit dem du Freunden in gesperrten Bereichen (Eden, Buro, Prophezeiungs-Prufungen) beitreten kannst.",
   "inbox.body_ps":                                     "PS: Keine Sorge, dein Postfach ist nicht verflucht - diese Nachricht existiert nur im Mod, TGC weiss nichts davon \ud83d\ude07",
   "settings.language":                                 "Sprache",
   "settings.accent_color":                             "Akzentfarbe",

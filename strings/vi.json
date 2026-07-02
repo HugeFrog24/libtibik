@@ -723,6 +723,7 @@
   "inbox.body_features":         "Mod da duoc cap nhat. Xem trang du an de biet chi tiet.",
   "inbox.body_features.v1.0.22": "Them bieu tuong bong bong co the keo tha de bat/tat menu, thu thap anh sang nhanh hon nhieu, HUD truc tiep khi chay API collect (khong can khoi dong lai Sky), va da sua loi Tha anh sang canh khong hoat dong o mot so the gioi.",
   "inbox.body_features.v1.0.23": "Hien cac tuong ban be an o Nha, tab Ban dong hanh moi de danh thuc ban dong hanh nhu Oreo, cho dong co, nut 'Nang cap bac' moi de bo qua yeu cau gui tim, chay song song voi ThatSkyMod (thu nghiem) & SPT, cung cac ban sua loi cho tam dung API collect va nhap nhay man hinh.",
+  "inbox.body_features.v1.0.24": "Nang cap tuong thich len Sky 0.33.8 (399977), cong voi cong tac 'Tham gia bat ky dau' moi cho phep ban tham gia ban be o cac khu vuc bi han che (Eden, Van phong, Thu thach Tien tri).",
   "inbox.body_ps":               "PS: yen tam, hop thu cua ban khong bi am - tin nhan nay chi co trong mod, TGC khong he biet \ud83d\ude07",
 
   "auth.title":             "Xuat xac thuc",

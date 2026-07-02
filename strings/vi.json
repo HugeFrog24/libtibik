@@ -478,9 +478,10 @@
   "hearts.title":             "Muc tieu tim",
   "hearts.no_active_user":    "Dang nhap tai khoan Sky de quan ly muc tieu tim. Moi tai khoan co danh sach rieng.",
   "hearts.account_label":     "Tai khoan:",
-  "hearts.account_readonly":  "(chi doc - dang nhap tai khoan nay de chinh sua)",
+  "hearts.account_offline":   "(offline - thay doi ap dung khi ban dang nhap tai khoan nay)",
   "hearts.summary":           "%u da chon, %u nen moi lan chay",
   "hearts.filter":            "Loc",
+  "hearts.targeted_only":     "Chi muc tieu",
   "hearts.col_name":          "Ban",
   "hearts.col_added":         "Them",
   "hearts.col_sent":          "Da gui",
@@ -615,11 +616,12 @@
   "relationships.state_owned_new":  "Da co (moi)",
   "relationships.state_locked":     "Khoa",
   "relationships.btn_buy":          "Mua (%d)",
+  "relationships.confirm_unlock":   "Mo khoa %s voi %d?",
   "relationships.btn_tier_up":      "Nang cap bac",
   "relationships.tier_current":     "Bac %d",
   "relationships.tier_fetching":    "Bac ...",
   "relationships.tier_unknown":     "Bac ?",
-  "relationships.tier_up_tooltip":  "Dung nen thang hoa de nang bac cua nguoi ban nay.",
+  "relationships.tier_up_tooltip":  "Nang bac cua nguoi ban nay khi du diem than thiet.",
   "pickups.active":                 "Vat pham",
   "pickups.none_found":             "Khong co vat pham trong cap do nay.",
 
@@ -674,6 +676,8 @@
 
   "about.subtab_about":        "Gioi thieu",
   "about.subtab_developer":    "Nha phat trien",
+  "about.description":         "Tien ich huong ech cho Sky. Tinh nang: farm nen tu dong, thu thap thuoc nhuom, dich chuyen trong the gioi, doc/ghi vi tri truc tiep, tieng ho co the tuy chinh voi dieu khien lap lai va cau vong, va nhat ky go loi tich hop.",
+  "about.tested_on":           "Da kiem thu tren Sky Live %s (%u).",
   "about.author":              "Tac gia:",
   "about.github_owner":        "Chu GitHub:",
   "about.copy_owner_url":      "Sao chep URL chu",
@@ -903,11 +907,14 @@
 
   "lang_hint.label": "You can choose a language in About > Language / Du kannst die Sprache unter About > Language wahlen / Ты можешь выбрать язык в About > Language / Voce pode escolher o idioma em About > Language / Ban co the chon ngon ngu trong About > Language / შეგიძლია აირჩიო ენა About > Language-ში / 你可以在 About > Language 中选择语言",
 
-  "buddy.col_name":       "Ten",
-  "buddy.col_on":         "Bat",
-  "buddy.col_state":      "Trang thai",
-  "buddy.hint":           "Sinh vat dong hanh trong man nay. Bat/tat Da bat de danh thuc hoac ru ngu mot con (vd. cho dong co); cham vao di de dich chuyen toi no.",
-  "buddy.none":           "Khong co ban dong hanh trong man nay.",
-  "buddy.summary":        "Ban dong hanh: %d",
-  "buddy.toggle_unavail": "Bat/tat khong kha dung tren ban Sky nay (danh sach chi doc)."
+  "buddy.col_name":               "Ten",
+  "buddy.col_on":                 "Bat",
+  "buddy.col_state":              "Trang thai",
+  "buddy.hint":                   "Sinh vat dong hanh trong man nay. Bat/tat Da bat de danh thuc hoac ru ngu mot con (vd. cho dong co); cham vao di de dich chuyen toi no.",
+  "buddy.none":                   "Khong co ban dong hanh trong man nay.",
+  "buddy.summary":                "Ban dong hanh: %d",
+  "buddy.toggle_unavail":         "Bat/tat khong kha dung tren ban Sky nay (danh sach chi doc).",
+  "access.join_anywhere":         "Tham gia bat ky dau",
+  "access.join_anywhere_tooltip": "Loai bo kiem tra phia client von chan ban tham gia mot nguoi ban dang trong Trial hoac mot man choi ban khong co quyen truy cap. May chu van co the tu choi (mot nguoi ban da dat minh thanh khong the tham gia, hoac mot instance da day). Mac dinh tat.",
+  "access.join_anywhere_unavail": "Tham gia bat ky dau khong kha dung tren ban dung nay (quet mau that bai)."
 }

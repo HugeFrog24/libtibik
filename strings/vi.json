@@ -915,6 +915,6 @@
   "buddy.summary":                "Ban dong hanh: %d",
   "buddy.toggle_unavail":         "Bat/tat khong kha dung tren ban Sky nay (danh sach chi doc).",
   "access.join_anywhere":         "Tham gia bat ky dau",
-  "access.join_anywhere_tooltip": "Loai bo kiem tra phia client von chan ban tham gia mot nguoi ban dang trong Trial hoac mot man choi ban khong co quyen truy cap. May chu van co the tu choi (mot nguoi ban da dat minh thanh khong the tham gia, hoac mot instance da day). Mac dinh tat.",
+  "access.join_anywhere_tooltip": "Loai bo kiem tra phia client von chan ban tham gia mot nguoi\nban dang trong Trial hoac mot man choi ban khong co quyen truy\ncap. May chu van co the tu choi (mot nguoi ban da dat minh\nthanh khong the tham gia, hoac mot instance da day). Mac dinh tat.",
   "access.join_anywhere_unavail": "Tham gia bat ky dau khong kha dung tren ban dung nay (quet mau that bai)."
 }

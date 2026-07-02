@@ -123,7 +123,7 @@
   "access.bypass_cooldown":                            "Bypass cooldown",
   "access.bypass_cooldown_tooltip":                    "Removes the per-use cooldown on inventory items - drop\nprops or launch fireworks back-to-back without waiting.",
   "access.join_anywhere":                              "Join anywhere",
-  "access.join_anywhere_tooltip":                      "Removes the client-side check that blocks joining a friend who is in a Trial or a level you lack access to. The server can still refuse (a friend who set themselves non-joinable, or a full instance). Off by default.",
+  "access.join_anywhere_tooltip":                      "Removes the client-side check that blocks joining a friend who\nis in a Trial or a level you lack access to. The server can\nstill refuse (a friend who set themselves non-joinable, or a\nfull instance). Off by default.",
   "access.join_anywhere_unavail":                      "Join anywhere is unavailable on this build (pattern scan failed).",
   "access.bypass_cooldown_unavailable":                "Bypass cooldown is unavailable on this build (pattern scan failed).",
   "access.relationships_section":                      "Relationships",

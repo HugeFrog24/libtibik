@@ -860,6 +860,6 @@
   "buddy.summary":                "Begleiter: %d",
   "buddy.toggle_unavail":         "Aktivieren/Deaktivieren auf dieser Sky-Version nicht verfugbar (Liste ist schreibgeschutzt).",
   "access.join_anywhere":         "Uberall beitreten",
-  "access.join_anywhere_tooltip": "Entfernt die clientseitige Prufung, die das Beitreten zu einem Freund in einer Prufung (Trial) oder einem Level ohne Zugriff blockiert. Der Server kann weiterhin ablehnen (ein Freund, der sich als nicht beitretbar gesetzt hat, oder eine volle Instanz). Standardmassig aus.",
+  "access.join_anywhere_tooltip": "Entfernt die clientseitige Prufung, die das Beitreten zu einem\nFreund in einer Prufung (Trial) oder einem Level ohne Zugriff\nblockiert. Der Server kann weiterhin ablehnen (ein Freund, der\nsich als nicht beitretbar gesetzt hat, oder eine volle Instanz).\nStandardmassig aus.",
   "access.join_anywhere_unavail": "Uberall beitreten ist auf dieser Version nicht verfugbar (Muster-Scan fehlgeschlagen)."
 }

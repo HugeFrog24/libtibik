@@ -868,6 +868,6 @@
     "buddy.summary":                "伙伴：%d",
     "buddy.toggle_unavail":         "此 Sky 版本无法启用/禁用（列表为只读）。",
     "access.join_anywhere":         "随处加入",
-    "access.join_anywhere_tooltip": "移除阻止你加入好友的客户端检查——即使好友正处于试炼（Trial）中，或处于你无权进入的关卡。服务器仍可能拒绝（好友将自己设为不可加入，或实例已满）。默认关闭。",
+    "access.join_anywhere_tooltip": "移除阻止你加入好友的客户端检查——即使好友正处于试炼（Trial）中，\n或处于你无权进入的关卡。\n服务器仍可能拒绝（好友将自己设为不可加入，或实例已满）。\n默认关闭。",
     "access.join_anywhere_unavail": "「随处加入」在此版本中不可用（特征扫描失败）。"
 }

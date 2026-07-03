@@ -40,9 +40,9 @@ New to pull requests? See GitHub's [guide](https://docs.github.com/en/pull-reque
 
 ## Roadmap
 
-| Status | Feature        | What it does                                 |
-| ------ | -------------- | -------------------------------------------- |
-| ⏳     | Skip cutscenes | Bypass cutscenes (skippable & non-skippable) |
+| Status | Feature      | What it does                                                                                         |
+| ------ | ------------ | ---------------------------------------------------------------------------------------------------- |
+| ⏳     | Offline mode | Disconnects from the active instance, prevents others from joining you and makes flowers melt faster |
 
 ## Issues
 

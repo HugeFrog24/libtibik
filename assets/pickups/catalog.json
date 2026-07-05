@@ -1,4 +1,5 @@
 {
+  "$schema": "./catalog.schema.json",
   "pickups": [
     {
       "name": "CandleSpace",

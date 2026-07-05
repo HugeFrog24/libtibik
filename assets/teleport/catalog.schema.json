@@ -1,0 +1,101 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Tibik teleport catalog",
+  "description": "Authoring schema for assets/teleport/catalog.json. Drives editor autocomplete + validation; the mod ignores it. See generate_teleport_catalog.cmake (build-time) and teleport_catalog_store.cpp (runtime OTA) for the consumers.",
+  "type": "object",
+  "required": ["realms", "destinations"],
+  "additionalProperties": false,
+  "properties": {
+    "$schema": {
+      "type": "string",
+      "description": "Editor schema pointer; not read by the mod."
+    },
+    "schema": {
+      "description": "Optional catalog format version read by the runtime loader."
+    },
+    "realms": {
+      "type": "array",
+      "description": "Top-level realms. A destination joins its realm by matching realm name.",
+      "items": { "$ref": "#/definitions/realm" }
+    },
+    "destinations": {
+      "type": "array",
+      "description": "Teleportable levels, each belonging to a realm.",
+      "items": { "$ref": "#/definitions/destination" }
+    }
+  },
+  "definitions": {
+    "farmTag": {
+      "enum": ["empty", "risky", "event", "spoiler", "tutorial"],
+      "description": "Farm behaviour tag. A destination's effective tags are the union of its own and its realm's. empty = hard-excluded from farming; risky = excluded unless the Advanced toggle is on; the rest are metadata only."
+    },
+    "realm": {
+      "type": "object",
+      "required": ["name", "loc_key"],
+      "additionalProperties": false,
+      "properties": {
+        "name": {
+          "type": "string",
+          "description": "Join key only (matched against destination.realm); never displayed - use loc_key."
+        },
+        "loc_key": {
+          "type": "string",
+          "description": "Mod locale key for the display name (e.g. world.realm.dawn). Must exist in strings/en.json or the build fails."
+        },
+        "farm_tags": {
+          "type": "array",
+          "items": { "$ref": "#/definitions/farmTag" }
+        }
+      }
+    },
+    "destination": {
+      "type": "object",
+      "required": ["realm", "level", "loc_key"],
+      "additionalProperties": false,
+      "properties": {
+        "realm": {
+          "type": "string",
+          "description": "Name of the owning realm (must match a realms[].name)."
+        },
+        "level": {
+          "type": "string",
+          "description": "Canonical level string the runtime groups by."
+        },
+        "loc_key": {
+          "type": "string",
+          "description": "Mod locale key for the display name. Must exist in strings/en.json."
+        },
+        "farm_tags": {
+          "type": "array",
+          "items": { "$ref": "#/definitions/farmTag" }
+        },
+        "waypoints": {
+          "type": "array",
+          "items": { "$ref": "#/definitions/waypoint" }
+        }
+      }
+    },
+    "waypoint": {
+      "type": "object",
+      "required": ["kind", "loc_key", "pos"],
+      "additionalProperties": false,
+      "properties": {
+        "kind": {
+          "enum": ["portal", "poi"],
+          "description": "portal = inter-level transition (loc_key reuses the target realm's key); poi = named point of interest (its own world.poi.* key)."
+        },
+        "loc_key": {
+          "type": "string",
+          "description": "Sole display name for both kinds. Must exist in strings/en.json."
+        },
+        "pos": {
+          "type": "array",
+          "description": "Absolute world position [x, y, z], fed verbatim.",
+          "items": { "type": "number" },
+          "minItems": 3,
+          "maxItems": 3
+        }
+      }
+    }
+  }
+}

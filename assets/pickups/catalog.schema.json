@@ -1,0 +1,47 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Tibik pickups catalog",
+  "description": "Authoring schema for assets/pickups/catalog.json. Drives editor autocomplete + validation; the mod ignores it. See generate_pickups_data.cmake (build-time) and pickups_catalog.cpp (runtime OTA) for the consumers.",
+  "type": "object",
+  "required": ["pickups"],
+  "additionalProperties": false,
+  "properties": {
+    "$schema": {
+      "type": "string",
+      "description": "Editor schema pointer; not read by the mod."
+    },
+    "pickups": {
+      "type": "array",
+      "description": "One entry per level.",
+      "items": { "$ref": "#/definitions/level" }
+    }
+  },
+  "definitions": {
+    "level": {
+      "type": "object",
+      "required": ["name"],
+      "additionalProperties": false,
+      "properties": {
+        "name": {
+          "type": "string",
+          "description": "Level name. The loader derives levelId as fnv1a32(name); this string is the sole level identity."
+        },
+        "id": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 4294967295,
+          "description": "Informational only. Neither the build-time generator nor the runtime reads this - levelId is fnv1a32(name). Safe to omit."
+        },
+        "pickups": {
+          "type": "array",
+          "description": "Pickup entity ids for this level (uint32).",
+          "items": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 4294967295
+          }
+        }
+      }
+    }
+  }
+}

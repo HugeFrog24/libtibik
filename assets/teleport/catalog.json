@@ -1,4 +1,5 @@
 ﻿{
+  "$schema": "./catalog.schema.json",
   "realms": [
     {
       "name": "All",

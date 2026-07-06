@@ -22,13 +22,17 @@ A quality-of-life mod for Sky: CotL on Android. It automates the repetitive part
 
 **We speak your language!**
 
-- 🇺🇸 English<br>
-- 🇩🇪 German<br>
-- 🇷🇺 Russian<br>
-- 🇬🇪 Georgian<br>
-- 🇻🇳 Vietnamese<br>
-- 🇧🇷 Brazilian Portuguese (thanks to [Schemen](https://github.com/oSchemen))
-- 🇨🇳 Chinese Simplified (thanks to [ciyun415](https://github.com/ciyun415) and [zzj2039](https://github.com/zzj2039))
+<!-- coverage:start -->
+| Language | Coverage | Translator |
+| --- | --- | --- |
+| 🇺🇸 English | 100% (927/927) | [HugeFrog24](https://github.com/HugeFrog24) |
+| 🇧🇷 Português (Brasil) | 100% (927/927) | Schemen |
+| 🇨🇳 简体中文 | 93% (859/927) | ciyun415, zzj2039 |
+| 🇩🇪 Deutsch | 92% (857/927) | [HugeFrog24](https://github.com/HugeFrog24) |
+| 🇷🇺 Русский | 92% (857/927) | [HugeFrog24](https://github.com/HugeFrog24) |
+| 🇻🇳 Tieng Viet | 92% (857/927) | [HugeFrog24](https://github.com/HugeFrog24) |
+| 🇬🇪 ქართული | 88% (816/927) | [HugeFrog24](https://github.com/HugeFrog24) |
+<!-- coverage:end -->
 
 **To switch languages:**<br>
 Open the "About" tab → scroll to Language → Manage translation packs.

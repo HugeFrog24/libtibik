@@ -119,6 +119,7 @@
   "access.cutscene_section":       "Cat canh",
   "access.skip_cutscenes":         "Bo qua moi doan cat canh",
   "access.skip_cutscenes_tooltip": "Tu dong bo qua moi doan cat canh/timeline -\nco the bo qua hoac khong - ngay khi chung bat dau.\nVan bat khi chuyen man choi.",
+  "access.skip_cutscenes_partial": "Cac doan phim bat buoc khong duoc bo qua khi %s dang tai (loai co the bo qua thi van duoc).",
   "access.skip_cutscenes_unavail": "Khong kha dung tren ban Sky nay.",
 
   "access.props_section":          "Vat pham",
@@ -705,6 +706,7 @@
   "about.teleport_catalog":    "Danh muc dich chuyen: %s (%u vung, %u diem den, %u diem moc)",
   "about.netlog":              "Ghi nhat ky mang",
   "about.netlog_tooltip":      "Ghi lai moi yeu cau va phan hoi HTTP (phuong thuc, URL, noi dung) o muc Debug.\nMac dinh tat: noi dung co the chua ID nguoi dung/phien cua ban, nen hay lam sach nhat ky truoc khi chia se.\nCu de tat tru khi ban dang chu dong chan doan su co mang.",
+  "about.netlog_unavailable":  "Khong kha dung - cac ham mang cua game dang duoc mod khac su dung.",
   "easteregg.no_offsets":                              "Toi khong an offset dau!",
   "easteregg.no_offsets_detail":                       "O, ban tot qua! Nhung Tibik khong can offset - no thuoc long tro choi, o moi phien ban.",
   "easteregg.no_offsets_cta":                          "Cach nao cung khong sao. Neu muon, ban co the xoa offset an toan trong Canvas Mod Manager.",
@@ -737,6 +739,7 @@
   "inbox.body_features.v1.0.23": "Hien cac tuong ban be an o Nha, tab Ban dong hanh moi de danh thuc ban dong hanh nhu Oreo, cho dong co, nut 'Nang cap bac' moi de bo qua yeu cau gui tim, chay song song voi ThatSkyMod (thu nghiem) & SPT, cung cac ban sua loi cho tam dung API collect va nhap nhay man hinh.",
   "inbox.body_features.v1.0.24": "Nang cap tuong thich len Sky 0.33.8 (399977), cong voi cong tac 'Tham gia bat ky dau' moi cho phep ban tham gia ban be o cac khu vuc bi han che (Eden, Van phong, Thu thach Tien tri).",
   "inbox.body_features.v1.0.25": "Giao dien gon gang hon, it ruom ra hon, tim kiem bang cach go trong nhat ky go loi, va trinh phat nhac + bang vi tri tach roi co the thu gon thanh cac nut keo tha nho, cung ban sua trinh duyet bieu tuong de viec cuon khong con vo tinh sao chep ten.",
+  "inbox.body_features.v1.0.26": "Hoi sinh mot game bi 'brick': loi treo va man hinh den khi chay cung mod khac nhu ThatSkyMod da het - cac tinh nang bi anh huong gio tu tat gon gang thay vi keo sap ca game.",
   "inbox.body_ps":               "PS: yen tam, hop thu cua ban khong bi am - tin nhan nay chi co trong mod, TGC khong he biet \ud83d\ude07",
 
   "auth.title":             "Xuat xac thuc",

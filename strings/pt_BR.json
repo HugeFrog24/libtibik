@@ -112,6 +112,7 @@
   "access.cutscene_section":                           "Cutscenes",
   "access.skip_cutscenes":                             "Pular todas as cutscenes",
   "access.skip_cutscenes_tooltip":                     "Pula automaticamente qualquer cutscene ou sequência de eventos\n- pulável ou não - no instante em que começaria.\nPermanece ativo entre os níveis.",
+  "access.skip_cutscenes_partial":                     "Cutscenes forçadas não são puladas enquanto %s está carregado (as puláveis ainda são).",
   "access.skip_cutscenes_unavail":                     "Não disponível nesta versão do Sky.",
   "access.props_section":                              "Apetrechos",
   "access.place_anywhere":                             "Colocar em qualquer lugar",
@@ -795,6 +796,7 @@
   "about.teleport_catalog":                            "Catálogo de teleporte: %s (%u reinos, %u destinos, %u pontos de destino)",
   "about.netlog":                                      "Registro de rede",
   "about.netlog_tooltip":                              "Registra cada requisição e resposta HTTP (método, URL, corpo) no nível Debug.\nDesativado por padrão: o conteúdo pode conter seus IDs de usuário/sessão, então limpe os registros antes de compartilhar.\nDeixe desativado, a menos que esteja diagnosticando problemas de rede ativamente.",
+  "about.netlog_unavailable":                          "Indisponivel - as funcoes de rede do jogo estao em uso por outro mod.",
 
   "update.auto":               "Atualizar o Tibik automaticamente",
   "update.auto_tooltip":       "Ativado: as atualizações são instaladas automaticamente - basta reiniciar o Sky quando solicitado.\nDesativado: o Tibik ainda verifica e avisa quando houver uma nova versão; você escolhe quando instalar.",
@@ -823,6 +825,7 @@
   "inbox.body_features.v1.0.23":          "Revele estátuas de amigos ocultas no Lar, uma nova aba Companheiros para acordar mascotes como o cão da pradaria Oreo, um botão Subir de nível para pular o requisito de envio de corações, suporte lado a lado para ThatSkyMod (experimental) e SPT, além de correções para a pausa da Coleta via API e tremulação da tela.",
   "inbox.body_features.v1.0.24":          "Compatibilidade atualizada para o Sky 0.33.8 (399977), além de um novo alternador \"Entrar em qualquer lugar\" que permite entrar em áreas restritas de amigos (Éden, Escritório, Provas da Profecia).",
   "inbox.body_features.v1.0.25":          "Uma interface mais organizada e menos poluída, uma busca por digitação no log de depuração, e um player de música + painel de posição destacável que se recolhem em pequenos botões arrastáveis, além de uma correção no navegador de ícones para que a rolagem não copie nomes por acidente.",
+  "inbox.body_features.v1.0.26":          "Desbrica um jogo 'brickado': o congelamento e a tela preta que apareciam ao rodar junto com outro mod como o ThatSkyMod se foram - os recursos afetados agora se desligam de forma limpa em vez de derrubar o jogo inteiro.",
   "inbox.body_ps":                        "Obs.: relaxa, sua caixa de entrada não está assombrada - esta mensagem é local do mod; a TGC não faz ideia de que ela existe 😇",
   "auth.title":                           "Exportar autenticação",
   "auth.warning":                         "Envia {usuário, sessão} como um POST JSON para uma ferramenta de dev local. Estas credenciais garantem controle total da conta - nunca as compartilhe.",

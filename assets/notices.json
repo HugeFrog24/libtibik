@@ -1,0 +1,5 @@
+{
+  "$schema": "./notices.schema.json",
+  "schema_version": 1,
+  "notices": []
+}

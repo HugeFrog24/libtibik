@@ -1,0 +1,161 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://tibik.io/notices.schema.json",
+  "title": "Tibik notices",
+  "description": "Fleet notices shown in the mod. Hand-edited; validated live in VS Code (draft-07). Server-side eligibility (enabled / schedule / conditions) is authoritative; the client only renders, acks, and dismisses.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "notices"],
+  "properties": {
+    "$schema": {
+      "type": "string",
+      "description": "Path to this schema. Enables editor validation; ignored at runtime and never served to clients."
+    },
+    "schema_version": {
+      "type": "integer",
+      "minimum": 1,
+      "description": "Format version of this file."
+    },
+    "notices": {
+      "type": "array",
+      "description": "Notices, evaluated top-to-bottom (array order breaks severity ties).",
+      "items": { "$ref": "#/definitions/notice" }
+    }
+  },
+  "definitions": {
+    "notice": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "enabled", "severity", "text"],
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Stable dismissal / vote key. Never reuse an id. A NEW poll (fresh votes) needs a new id; bumping revision only re-shows to non-voters."
+        },
+        "enabled": {
+          "type": "boolean",
+          "description": "Instant kill switch, independent of the schedule."
+        },
+        "severity": {
+          "type": "string",
+          "enum": ["info", "warn", "urgent"],
+          "description": "Visual loudness (maps to a theme colour). NOT a content category - a promo is just an 'info'.",
+          "enumDescriptions": [
+            "Calm accent fill; lowest emphasis.",
+            "Amber fill; elevated.",
+            "Red fill; highest emphasis + can outrank the built-in banners."
+          ]
+        },
+        "surfaces": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": { "type": "string", "enum": ["banner", "bubble"] },
+          "description": "Where it may appear (omit -> [\"banner\"]). banner = expanded panel; bubble = collapsed disguise icon. Both surfaces render the notice's action buttons (incl. poll vote choices) plus a dismiss, so a poll is answerable on either. A bubble only has room for a few icons: more than 3 actions degrades it to a teaser whose tap expands the panel."
+        },
+        "dismissible": {
+          "type": "boolean",
+          "description": "Whether a dismiss (X) button is offered on the notice. Default true."
+        },
+        "revision": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "Bump to re-show a notice users already dismissed. For a poll, a bump re-shows to NON-voters only; it does not reset votes (use a new id for fresh opinions)."
+        },
+        "starts_at": {
+          "type": "string",
+          "format": "date-time",
+          "description": "ISO-8601 UTC; hidden before this instant."
+        },
+        "ends_at": {
+          "type": "string",
+          "format": "date-time",
+          "description": "ISO-8601 UTC; hidden after this instant."
+        },
+        "conditions": {
+          "type": "object",
+          "additionalProperties": false,
+          "description": "Server-side targeting (old clients can't honor these, so the server filters). All AND-ed.",
+          "properties": {
+            "mod_version_min": {
+              "type": ["string", "null"],
+              "description": "Minimum mod version inclusive (e.g. \"v1.0.26\"), or null."
+            },
+            "mod_version_max": {
+              "type": ["string", "null"],
+              "description": "Maximum mod version inclusive (the \"wait for the Tibik update\" case), or null."
+            }
+          }
+        },
+        "text": {
+          "type": "object",
+          "required": ["en"],
+          "additionalProperties": { "type": "string" },
+          "description": "Localized text; 'en' is the required floor, any other locale key is an allowed string. The client picks the active locale with a fallback chain.",
+          "properties": {
+            "en": { "type": "string", "description": "English floor / fallback." }
+          }
+        },
+        "ack": {
+          "type": "object",
+          "required": ["en"],
+          "additionalProperties": { "type": "string" },
+          "description": "Post-vote confirmation for a poll (localized), used for any chosen action lacking its own `ack`. Keep it neutral (thank for the feedback, not the opinion) so it reads fine over any choice; omit to use the mod's bundled default.",
+          "properties": {
+            "en": { "type": "string", "description": "English floor / fallback." }
+          }
+        },
+        "actions": {
+          "type": "array",
+          "maxItems": 4,
+          "description": "Buttons. A `vote` action makes this notice a POLL: its id is the recorded choice, one immutable vote per account (no change / no retract - a new poll id gets fresh opinions). Vote actions in one notice form a single-choice group. `copy` puts text on the clipboard.",
+          "items": { "$ref": "#/definitions/action" }
+        }
+      }
+    },
+    "action": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "kind"],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9][A-Za-z0-9_-]{0,31}$",
+          "description": "Stable per-notice button id. For a vote it IS the recorded choice value - never reuse across choices."
+        },
+        "kind": {
+          "type": "string",
+          "enum": ["copy", "vote", "link"],
+          "description": "copy = clipboard; vote = single-choice ballot; link = open URL (future).",
+          "enumDescriptions": [
+            "Copies `copy` to the clipboard on tap.",
+            "Records a one-per-account ballot; the id is the stored choice.",
+            "Opens `url` (not wired yet)."
+          ]
+        },
+        "icon": {
+          "type": "string",
+          "description": "IconLoader glyph name from the game's UI atlas (e.g. UiMiscCheck, UiMiscX, UiMiscHeart, UiMenuCopy)."
+        },
+        "copy": {
+          "type": "string",
+          "description": "kind=copy: the clipboard payload."
+        },
+        "url": {
+          "type": "string",
+          "description": "kind=link: URL to open (future)."
+        },
+        "ack": {
+          "type": "object",
+          "required": ["en"],
+          "additionalProperties": { "type": "string" },
+          "description": "This choice's post-tap confirmation (localized), overriding the notice-level `ack`. The code has no notion of a choice's polarity - this text carries all the tone (e.g. a downvote's 'Sorry to hear it').",
+          "properties": {
+            "en": { "type": "string", "description": "English floor / fallback." }
+          }
+        }
+      }
+    }
+  }
+}

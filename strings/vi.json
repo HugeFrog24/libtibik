@@ -265,6 +265,7 @@
   "world.realm.dusk":   "Hoang Mac Hoang Kim",
   "world.realm.night":  "Kho Tri Thuc",
   "world.realm.storm":  "Mat Dia Dang",
+  "world.realm.ar":     "Thuc Te Tang Cuong",
 
   "world.level.candlespace":                    "Trang Chu",
   "world.level.dawncave":                       "Hang Binh Minh",
@@ -752,6 +753,7 @@
   "inbox.body_features.v1.0.25": "Giao dien gon gang hon, it ruom ra hon, tim kiem bang cach go trong nhat ky go loi, va trinh phat nhac + bang vi tri tach roi co the thu gon thanh cac nut keo tha nho, cung ban sua trinh duyet bieu tuong de viec cuon khong con vo tinh sao chep ten.",
   "inbox.body_features.v1.0.26": "Hoi sinh mot game bi 'brick'. Man hinh den co the xuat hien khi chay cung TSM da het, va cac tinh nang bi anh huong gio tu tat gon gang thay vi keo sap ca game.",
   "inbox.body_features.v1.0.27": "Dat anh dai dien tuy chinh cho tai khoan Tibik, va gui anh sang co canh vao cac tuong Eden ngay lap tuc.",
+  "inbox.body_features.v1.0.28": "Nang cap tuong thich len Sky 0.34.0 (401861), cong voi cac diem dich chuyen cho mua Van Gogh Thuong Men moi.",
   "inbox.body_ps":               "PS: yen tam, hop thu cua ban khong bi am - tin nhan nay chi co trong mod, TGC khong he biet \ud83d\ude07",
 
   "auth.title":               "Xuat xac thuc",

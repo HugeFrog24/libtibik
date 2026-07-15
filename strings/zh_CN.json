@@ -245,6 +245,7 @@
     "world.realm.dusk":           "暮土",
     "world.realm.night":          "禁阁",
     "world.realm.storm":          "暴风眼",
+    "world.realm.ar":             "增强现实",
 
     "world.level.candlespace":                    "遇境",
     "world.level.dawncave":                       "预言山谷",
@@ -709,6 +710,7 @@
     "inbox.body_features.v1.0.25":          "更整洁、更少杂乱的界面，调试日志中的输入即筛选搜索，以及可折叠为小型可拖动按钮的音乐播放器和弹出式位置面板，另加修复图标浏览器在滚动时误复制名称的问题。",
     "inbox.body_features.v1.0.26":          "拯救「变砖」的游戏。与 TSM 一起运行时可能出现的黑屏没了，受影响的功能现在会干净地关闭，而不是拖垮整个游戏。",
     "inbox.body_features.v1.0.27":          "为你的 Tibik 账户设置自定义头像，并即时将翼光献给伊甸的雕像。",
+    "inbox.body_features.v1.0.28":          "兼容性升级至 Sky 0.34.0（401861），新增「致梵高」新季节的传送目的地。",
     "inbox.body_ps":                        "PS：别担心，你的收件箱没有闹鬼 - 这条消息只在模组本地存在，TGC 完全不知道它的存在 😇",
     "auth.title":                           "身份验证导出",
     "auth.warning":                         "将 {user, session} 以 JSON POST 形式发送到本地开发工具。这些凭证授予完全账户控制权 - 切勿分享它们。",

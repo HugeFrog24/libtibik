@@ -2911,6 +2911,61 @@
         "empty",
         "tutorial"
       ]
+    },
+    {
+      "realm": "Aviary Village",
+      "loc_key": "world.level.mainstreet_storyspace",
+      "level": "MainStreet_StorySpace"
+    },
+    {
+      "realm": "Home",
+      "loc_key": "world.level.nest_shell",
+      "level": "Nest_Shell"
+    },
+    {
+      "realm": "Vault of Knowledge",
+      "loc_key": "world.level.night_go_city",
+      "level": "Night_GO_City"
+    },
+    {
+      "realm": "Vault of Knowledge",
+      "loc_key": "world.level.night_go_farm",
+      "level": "Night_GO_Farm"
+    },
+    {
+      "realm": "Vault of Knowledge",
+      "loc_key": "world.level.night_go_field",
+      "level": "Night_GO_Field"
+    },
+    {
+      "realm": "Vault of Knowledge",
+      "loc_key": "world.level.night_go_gallery",
+      "level": "Night_GO_Gallery"
+    },
+    {
+      "realm": "Vault of Knowledge",
+      "loc_key": "world.level.night_go_island",
+      "level": "Night_GO_Island"
+    },
+    {
+      "realm": "Vault of Knowledge",
+      "loc_key": "world.level.night_go_town",
+      "level": "Night_GO_Town"
+    },
+    {
+      "realm": "Vault of Knowledge",
+      "loc_key": "world.level.night_go_tree",
+      "level": "Night_GO_Tree"
+    },
+    {
+      "realm": "Vault of Knowledge",
+      "loc_key": "world.level.ar_bedroom",
+      "level": "AR_Bedroom"
+    },
+    {
+      "realm": "Vault of Knowledge",
+      "loc_key": "world.level.ar_wheatfield",
+      "level": "AR_WheatField"
     }
   ]
 }

@@ -876,7 +876,16 @@
         },
         {
           "kind": "poi",
-          "loc_key": "world.poi.geyser",
+          "loc_key": "world.poi.prairie_island.turtle",
+          "pos": [
+            -130,
+            1,
+            219
+          ]
+        },
+        {
+          "kind": "poi",
+          "loc_key": "world.poi.prairie_island.geyser",
           "pos": [
             142,
             3,
@@ -2455,7 +2464,7 @@
         },
         {
           "kind": "poi",
-          "loc_key": "world.poi.geyser",
+          "loc_key": "world.poi.prairie_island.geyser",
           "pos": [
             606,
             0,

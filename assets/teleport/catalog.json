@@ -3,50 +3,61 @@
   "realms": [
     {
       "name": "All",
-      "loc_key": "world.realm.all"
+      "loc_key": "world.realm.all",
+      "icon": "UiMenuGate"
     },
     {
       "name": "Home",
-      "loc_key": "world.realm.home"
+      "loc_key": "world.realm.home",
+      "icon": "UiMenuConstellationHome"
     },
     {
       "name": "Isle of Dawn",
-      "loc_key": "world.realm.dawn"
+      "loc_key": "world.realm.dawn",
+      "icon": "UiMenuConstellationDawn"
     },
     {
       "name": "Aviary Village",
-      "loc_key": "world.realm.aviary_village"
+      "loc_key": "world.realm.aviary_village",
+      "icon": "UiMenuPresenceEnabled"
     },
     {
       "name": "Daylight Prairie",
-      "loc_key": "world.realm.day"
+      "loc_key": "world.realm.day",
+      "icon": "UiMenuConstellationDay"
     },
     {
       "name": "Hidden Forest",
-      "loc_key": "world.realm.rain"
+      "loc_key": "world.realm.rain",
+      "icon": "UiMenuConstellationRain"
     },
     {
       "name": "Valley of Triumph",
-      "loc_key": "world.realm.sunset"
+      "loc_key": "world.realm.sunset",
+      "icon": "UiMenuConstellationSunset"
     },
     {
       "name": "Golden Wasteland",
-      "loc_key": "world.realm.dusk"
+      "loc_key": "world.realm.dusk",
+      "icon": "UiMenuConstellationDusk"
     },
     {
       "name": "Vault of Knowledge",
-      "loc_key": "world.realm.night"
+      "loc_key": "world.realm.night",
+      "icon": "UiMenuConstellationNight"
     },
     {
       "name": "Eye of Eden",
       "loc_key": "world.realm.storm",
+      "icon": "UiMenuConstellationStorm",
       "farm_tags": [
         "risky"
       ]
     },
     {
       "name": "AR",
-      "loc_key": "world.realm.ar"
+      "loc_key": "world.realm.ar",
+      "icon": "UiOutfitPropScepterWand"
     }
   ],
   "destinations": [
@@ -133,6 +144,9 @@
       "realm": "Isle of Dawn",
       "loc_key": "world.level.dawn",
       "level": "Dawn",
+      "farm_tags": [
+        "temple"
+      ],
       "waypoints": [
         {
           "kind": "portal",
@@ -1009,6 +1023,9 @@
       "realm": "Daylight Prairie",
       "loc_key": "world.level.dayend",
       "level": "DayEnd",
+      "farm_tags": [
+        "temple"
+      ],
       "waypoints": [
         {
           "kind": "portal",
@@ -1299,6 +1316,9 @@
       "realm": "Hidden Forest",
       "loc_key": "world.level.rainend",
       "level": "RainEnd",
+      "farm_tags": [
+        "temple"
+      ],
       "waypoints": [
         {
           "kind": "portal",
@@ -1598,6 +1618,9 @@
       "realm": "Valley of Triumph",
       "loc_key": "world.level.sunsetend2",
       "level": "SunsetEnd2",
+      "farm_tags": [
+        "temple"
+      ],
       "waypoints": [
         {
           "kind": "portal",
@@ -2140,6 +2163,9 @@
       "realm": "Golden Wasteland",
       "loc_key": "world.level.duskend",
       "level": "DuskEnd",
+      "farm_tags": [
+        "temple"
+      ],
       "waypoints": [
         {
           "kind": "portal",
@@ -2323,6 +2349,9 @@
       "realm": "Vault of Knowledge",
       "loc_key": "world.level.night2",
       "level": "Night2",
+      "farm_tags": [
+        "temple"
+      ],
       "waypoints": [
         {
           "kind": "portal",

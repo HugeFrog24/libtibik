@@ -25,13 +25,13 @@ A quality-of-life mod for Sky: CotL on Android. It automates the repetitive part
 <!-- coverage:start -->
 | Language | Coverage | Translator |
 | --- | --- | --- |
-| 🇺🇸 English | 100% (1049/1049) | [HugeFrog24](https://github.com/HugeFrog24) |
-| 🇧🇷 Português (Brasil) | 100% (1049/1049) | Schemen |
-| 🇨🇳 简体中文 | 94% (981/1049) | ciyun415, zzj123 |
-| 🇩🇪 Deutsch | 93% (979/1049) | [HugeFrog24](https://github.com/HugeFrog24) |
-| 🇷🇺 Русский | 93% (979/1049) | [HugeFrog24](https://github.com/HugeFrog24) |
-| 🇻🇳 Tieng Viet | 93% (979/1049) | [HugeFrog24](https://github.com/HugeFrog24) |
-| 🇬🇪 ქართული | 89% (938/1049) | [HugeFrog24](https://github.com/HugeFrog24) |
+| 🇺🇸 English | 100% (1090/1090) | [HugeFrog24](https://github.com/HugeFrog24) |
+| 🇧🇷 Português (Brasil) | 100% (1090/1090) | Schemen |
+| 🇩🇪 Deutsch | 94% (1020/1090) | [HugeFrog24](https://github.com/HugeFrog24) |
+| 🇷🇺 Русский | 94% (1020/1090) | [HugeFrog24](https://github.com/HugeFrog24) |
+| 🇻🇳 Tieng Viet | 94% (1020/1090) | [HugeFrog24](https://github.com/HugeFrog24) |
+| 🇨🇳 简体中文 | 94% (1022/1090) | ciyun415, zzj123 |
+| 🇬🇪 ქართული | 90% (979/1090) | [HugeFrog24](https://github.com/HugeFrog24) |
 <!-- coverage:end -->
 
 **To switch languages:**<br>

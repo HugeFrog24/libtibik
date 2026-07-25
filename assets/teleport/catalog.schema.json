@@ -26,8 +26,8 @@
   },
   "definitions": {
     "farmTag": {
-      "enum": ["empty", "risky", "event", "spoiler", "tutorial"],
-      "description": "Farm behaviour tag. A destination's effective tags are the union of its own and its realm's. empty = hard-excluded from farming; risky = excluded unless the Advanced toggle is on; the rest are metadata only."
+      "enum": ["empty", "risky", "event", "spoiler", "tutorial", "temple"],
+      "description": "Farm behaviour tag. A destination's effective tags are the union of its own and its realm's. empty = hard-excluded from farming; risky = excluded unless the Advanced toggle is on; the rest are metadata only (temple = display-only marker for temple / end maps; does not affect farming)."
     },
     "realm": {
       "type": "object",
@@ -41,6 +41,10 @@
         "loc_key": {
           "type": "string",
           "description": "Mod locale key for the display name (e.g. world.realm.dawn). Must exist in strings/en.json or the build fails."
+        },
+        "icon": {
+          "type": "string",
+          "description": "UI atlas icon name for the realm rail (e.g. UiMenuConstellationDawn). Optional; the mod falls back to a generic icon when absent."
         },
         "farm_tags": {
           "type": "array",

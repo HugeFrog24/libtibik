@@ -23,14 +23,14 @@ jobs:
           node-version: 24
       - name: Recompute coverage into README
         run: node scripts/coverage.mjs
-      - name: Commit README if it changed
+      - name: Commit READMEs if they changed
         run: |
-          if [ -z "$(git status --porcelain README.md)" ]; then
+          if [ -z "$(git status --porcelain README*.md)" ]; then
             echo "Coverage unchanged - nothing to commit."
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add README.md
+          git add README*.md
           git commit -m "docs: refresh translation coverage [skip ci]"
           git push

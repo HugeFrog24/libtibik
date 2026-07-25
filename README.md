@@ -1,5 +1,7 @@
 # libtibik
 
+**English** &middot; [Deutsch](README.de.md) &middot; [Bahasa Indonesia](README.id.md) &middot; [Português (Brasil)](README.pt_BR.md) &middot; [Русский](README.ru.md) &middot; [简体中文](README.zh_CN.md)
+
 <p align="center">
   <img src="icon.png" alt="Tibik icon" width="128">
 </p>

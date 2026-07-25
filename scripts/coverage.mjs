@@ -2,7 +2,6 @@ import { readFileSync, writeFileSync, readdirSync } from "node:fs";
 import { join } from "node:path";
 
 const STRINGS = "strings";
-const README = "README.md";
 const START = "<!-- coverage:start -->";
 const END = "<!-- coverage:end -->";
 
@@ -74,30 +73,56 @@ rows.sort((a, b) =>
       : b.pct - a.pct || a.code.localeCompare(b.code),
 );
 
-const table = [
-  "| Language | Coverage | Translator |",
-  "| --- | --- | --- |",
-  ...rows.map(
-    (r) => `| ${r.name} | ${r.pct}% (${r.done}/${total}) | ${r.translator} |`,
-  ),
-].join("\n");
+const dataRows = rows.map(
+  (r) => `| ${r.name} | ${r.pct}% (${r.done}/${total}) | ${r.translator} |`,
+);
 
-const readme = readFileSync(README, "utf8");
-const s = readme.indexOf(START);
-const e = readme.indexOf(END);
-if (s === -1 || e === -1 || e < s) {
+const DEFAULT_HEADER = "| Language | Coverage | Translator |";
+const DELIM = "| --- | --- | --- |";
+
+// A markdown table delimiter row: only |, :, -, and spaces, with at least one dash.
+const isDelim = (ln) => {
+  const t = ln.trim();
+  return t.length > 0 && /^[|:\-\s]+$/.test(t) && t.includes("-");
+};
+
+// Every README*.md carries its own (possibly localized) header between the
+// markers. We preserve that header + delimiter and regenerate only the
+// language-neutral data rows, so adding a new localized README needs no change
+// here - just give it the markers and a header row.
+const readmes = readdirSync(".")
+  .filter((f) => /^README.*\.md$/.test(f))
+  .sort();
+
+let targets = 0;
+for (const file of readmes) {
+  const readme = readFileSync(file, "utf8");
+  const s = readme.indexOf(START);
+  const e = readme.indexOf(END);
+  if (s === -1 || e === -1 || e < s) continue; // not a coverage target
+
+  targets++;
+  const lines = readme.slice(s + START.length, e).split("\n");
+  const di = lines.findIndex(isDelim);
+  const header =
+    di > 0 && lines[di - 1].includes("|") ? lines[di - 1].trim() : DEFAULT_HEADER;
+  const delim = di !== -1 ? lines[di].trim() : DELIM;
+
+  const block = "\n" + [header, delim, ...dataRows].join("\n") + "\n";
+  const updated = readme.slice(0, s + START.length) + block + readme.slice(e);
+  if (updated === readme) {
+    console.log(`${file}: already current.`);
+  } else {
+    writeFileSync(file, updated);
+    console.log(`${file}: updated.`);
+  }
+}
+
+if (targets === 0) {
   console.error(
-    `Coverage markers not found in ${README}. Add an empty block:\n${START}\n${END}`,
+    `No README with coverage markers found. Add a block:\n${START}\n${DEFAULT_HEADER}\n${DELIM}\n${END}`,
   );
   process.exit(1);
 }
 
-const updated =
-  readme.slice(0, s + START.length) + "\n" + table + "\n" + readme.slice(e);
-if (updated === readme) {
-  console.log("Coverage table already current.");
-} else {
-  writeFileSync(README, updated);
-  console.log("README coverage table updated.");
-}
 for (const r of rows) console.log(`  ${r.code.padEnd(6)} ${r.pct}% (${r.done}/${total})`);

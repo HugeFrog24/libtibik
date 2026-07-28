@@ -6,7 +6,7 @@
   <img src="icon.png" alt="Tibik icon" width="128">
 </p>
 
-Tibik (libtibik) é um mod de qualidade de vida (QoL) para Sky: Children of the Light (Sky: Filhos da Luz) no Android. Ele automatiza as partes repetitivas: farm de velas, coleta de borboletas de tinta (dye) e teleporte entre os reinos, além de adicionar controles dentro do jogo para posição, energia, gritos (shouts) e criptografia do chat.
+Tibik (libtibik) é um mod de qualidade de vida para o Sky: Children of the Light (Sky: Filhos da Luz) no Android. Ele automatiza tarefas repetitivas, como o farm de velas, a coleta de borboletas de tinta e o teleporte entre os reinos, além de adicionar controles no jogo para a posição, a energia, os gritos e a criptografia do chat.
 
 ## Início rápido
 
@@ -16,13 +16,13 @@ Tibik (libtibik) é um mod de qualidade de vida (QoL) para Sky: Children of the 
    https://github.com/HugeFrog24/libtibik/releases/latest
 3. Abra o Canvas.
 4. Adicione o `libtibik.so` como mod. Toque em "Adicionar mod".<br>
-   _Não abra o `.so` com outro aplicativo (bloco de notas, galeria, compactador); só o Canvas consegue carregá-lo._
+   _Não abra o `.so` com outro aplicativo (bloco de notas, galeria, ou descompactador); apenas o Canvas consegue carregá-lo._
 5. Inicie o Sky por ele.
 6. O Tibik aparece na paleta de mods do Canvas assim que o Sky estiver rodando.
 
 ## Idiomas
 
-**Falamos o seu idioma!**
+**Falamos a sua língua!**
 
 <!-- coverage:start -->
 | Idioma | Cobertura | Tradutor |
@@ -40,9 +40,9 @@ Tibik (libtibik) é um mod de qualidade de vida (QoL) para Sky: Children of the 
 Abra a aba "Sobre" → role até "Idioma" → "Gerenciar pacotes de tradução".
 
 **Como contribuir com uma tradução:**<br>
-Pegue o modelo de strings → traduza → teste localmente (importe do dispositivo) → abra um PR (pull request). Depois do merge, ela chega a todo mundo pelo gerenciador de idiomas dentro do jogo.
+Baixe o modelo de strings → traduza → teste localmente (importe do dispositivo) → abra um PR (pull request). Assim que for mesclado, a tradução ficará disponível para todos através do gerenciador de idiomas no jogo.
 
-Nunca fez um pull request? Veja o [guia](https://docs.github.com/en/pull-requests) do GitHub.
+Nunca fez um pull request? Veja o [guia](https://docs.github.com/pt/pull-requests) do GitHub.
 
 ## Planos
 
@@ -54,7 +54,7 @@ Nunca fez um pull request? Veja o [guia](https://docs.github.com/en/pull-request
 
 Encontrou um bug? Abra uma issue e informe:
 
-- Modelo do aparelho
+- Modelo do dispositivo
 - Versão do Sky
-- Capturas de tela (se houver)
+- Capturas de tela (se aplicável)
 - Logs ("Log" → "Copiar log")

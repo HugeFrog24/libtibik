@@ -6,7 +6,7 @@
   <img src="icon.png" alt="Tibik icon" width="128">
 </p>
 
-Тибик (libtibik) - удобный мод для Sky: Children of the Light (Sky: Дети света) на Android. Он берёт на себя рутину: автофарм свечей, сбор бабочек-красителей (dye) и телепорт по мирам, а также добавляет внутриигровые элементы управления позицией, энергией, криками (shouts) и шифрованием чата.
+Тибик (libtibik, либтибик) - удобный мод для Sky: Children of the Light (Sky: Дети света) на Android. Он берёт на себя рутину: автофарм свечей, сбор бабочек-красителей и телепорт по мирам, а также добавляет внутриигровые элементы управления позицией, энергией, криками и шифрованием чата.
 
 ## Быстрый старт
 
@@ -27,13 +27,13 @@
 <!-- coverage:start -->
 | Язык | Покрытие | Переводчик |
 | --- | --- | --- |
-| 🇺🇸 English | 100% (1090/1090) | [HugeFrog24](https://github.com/HugeFrog24) |
-| 🇧🇷 Português (Brasil) | 100% (1090/1090) | Schemen |
-| 🇩🇪 Deutsch | 94% (1020/1090) | [HugeFrog24](https://github.com/HugeFrog24) |
-| 🇷🇺 Русский | 94% (1020/1090) | [HugeFrog24](https://github.com/HugeFrog24) |
-| 🇻🇳 Tieng Viet | 94% (1020/1090) | [HugeFrog24](https://github.com/HugeFrog24) |
-| 🇨🇳 简体中文 | 94% (1022/1090) | ciyun415, zzj123 |
-| 🇬🇪 ქართული | 90% (979/1090) | [HugeFrog24](https://github.com/HugeFrog24) |
+| 🇺🇸 English | 100% (1132/1132) | [HugeFrog24](https://github.com/HugeFrog24) |
+| 🇧🇷 Português (Brasil) | 100% (1132/1132) | Schemen |
+| 🇩🇪 Deutsch | 94% (1062/1132) | [HugeFrog24](https://github.com/HugeFrog24) |
+| 🇷🇺 Русский | 94% (1062/1132) | [HugeFrog24](https://github.com/HugeFrog24) |
+| 🇻🇳 Tieng Viet | 94% (1062/1132) | [HugeFrog24](https://github.com/HugeFrog24) |
+| 🇨🇳 简体中文 | 94% (1064/1132) | ciyun415, zzj123 |
+| 🇬🇪 ქართული | 90% (1021/1132) | [HugeFrog24](https://github.com/HugeFrog24) |
 <!-- coverage:end -->
 
 **Как переключить язык:**<br>
@@ -42,7 +42,7 @@
 **Как добавить перевод:**<br>
 Возьмите шаблон строк → переведите → протестируйте локально (импорт с устройства) → откройте PR (pull request). После слияния перевод доедет до всех через внутриигровой менеджер языков.
 
-Впервые работаете с pull request? Смотрите [руководство](https://docs.github.com/en/pull-requests) GitHub.
+Впервые работаете с pull request? Смотрите [руководство](https://docs.github.com/ru/pull-requests) GitHub.
 
 ## Планы
 

@@ -6,7 +6,7 @@
   <img src="icon.png" alt="Tibik icon" width="128">
 </p>
 
-Tibik (libtibik) ist eine Quality-of-Life-Mod für Sky: Children of the Light (Sky: Kinder des Lichts) auf Android. Sie automatisiert die sich wiederholenden Aufgaben: Kerzen farmen, Farbschmetterlinge (Dye) sammeln und zwischen Welten teleportieren. Außerdem bietet sie In-Game-Steuerungen für Position, Energie, Rufe (Shouts) und Chat-Verschlüsselung.
+Tibik (libtibik) ist eine Quality-of-Life-Mod für Sky: Children of the Light (Sky: Kinder des Lichts) auf Android. Sie automatisiert die sich wiederholenden Aufgaben: Kerzen farmen, Farbschmetterlinge sammeln und zwischen Welten teleportieren. Außerdem bietet sie In-Game-Steuerungen für Position, Energie, Rufe und Chat-Verschlüsselung.
 
 ## Schnellstart
 
@@ -27,13 +27,13 @@ Tibik (libtibik) ist eine Quality-of-Life-Mod für Sky: Children of the Light (S
 <!-- coverage:start -->
 | Sprache | Fortschritt | Übersetzer |
 | --- | --- | --- |
-| 🇺🇸 English | 100% (1090/1090) | [HugeFrog24](https://github.com/HugeFrog24) |
-| 🇧🇷 Português (Brasil) | 100% (1090/1090) | Schemen |
-| 🇩🇪 Deutsch | 94% (1020/1090) | [HugeFrog24](https://github.com/HugeFrog24) |
-| 🇷🇺 Русский | 94% (1020/1090) | [HugeFrog24](https://github.com/HugeFrog24) |
-| 🇻🇳 Tieng Viet | 94% (1020/1090) | [HugeFrog24](https://github.com/HugeFrog24) |
-| 🇨🇳 简体中文 | 94% (1022/1090) | ciyun415, zzj123 |
-| 🇬🇪 ქართული | 90% (979/1090) | [HugeFrog24](https://github.com/HugeFrog24) |
+| 🇺🇸 English | 100% (1132/1132) | [HugeFrog24](https://github.com/HugeFrog24) |
+| 🇧🇷 Português (Brasil) | 100% (1132/1132) | Schemen |
+| 🇩🇪 Deutsch | 94% (1062/1132) | [HugeFrog24](https://github.com/HugeFrog24) |
+| 🇷🇺 Русский | 94% (1062/1132) | [HugeFrog24](https://github.com/HugeFrog24) |
+| 🇻🇳 Tieng Viet | 94% (1062/1132) | [HugeFrog24](https://github.com/HugeFrog24) |
+| 🇨🇳 简体中文 | 94% (1064/1132) | ciyun415, zzj123 |
+| 🇬🇪 ქართული | 90% (1021/1132) | [HugeFrog24](https://github.com/HugeFrog24) |
 <!-- coverage:end -->
 
 **So wechselst du die Sprache:**<br>
@@ -42,7 +42,7 @@ Tibik (libtibik) ist eine Quality-of-Life-Mod für Sky: Children of the Light (S
 **So trägst du eine Übersetzung bei:**<br>
 Hol dir die String-Vorlage → übersetze → teste lokal (vom Gerät importieren) → öffne einen PR (Pull Request). Nach dem Merge wird sie über den In-Game-Sprachmanager an alle ausgeliefert.
 
-Neu bei Pull Requests? Sieh dir GitHubs [Anleitung](https://docs.github.com/en/pull-requests) an.
+Neu bei Pull Requests? Sieh dir GitHubs [Anleitung](https://docs.github.com/de/pull-requests) an.
 
 ## Roadmap
 

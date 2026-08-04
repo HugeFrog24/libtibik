@@ -6,7 +6,7 @@
   <img src="icon.png" alt="Tibik icon" width="128">
 </p>
 
-Tibik (libtibik) adalah mod quality-of-life (QoL) untuk Sky: Children of the Light (Sky: Anak-Anak Cahaya) di Android. Mod ini mengotomatiskan bagian-bagian yang berulang: farming lilin, mengumpulkan kupu-kupu pewarna (dye), dan teleport antar dunia, serta menambahkan kontrol dalam game untuk posisi, energi, teriakan (shouts), dan enkripsi obrolan.
+Tibik (libtibik) adalah mod quality-of-life untuk Sky: Children of the Light (Sky: Anak-Anak Cahaya) di Android. Mod ini mengotomatiskan bagian-bagian yang berulang: farming lilin, mengumpulkan kupu-kupu pewarna, dan teleport antar dunia, serta menambahkan kontrol dalam game untuk posisi, energi, teriakan, dan enkripsi obrolan.
 
 ## Mulai cepat
 
@@ -27,13 +27,13 @@ Tibik (libtibik) adalah mod quality-of-life (QoL) untuk Sky: Children of the Lig
 <!-- coverage:start -->
 | Bahasa | Cakupan | Penerjemah |
 | --- | --- | --- |
-| 🇺🇸 English | 100% (1090/1090) | [HugeFrog24](https://github.com/HugeFrog24) |
-| 🇧🇷 Português (Brasil) | 100% (1090/1090) | Schemen |
-| 🇩🇪 Deutsch | 94% (1020/1090) | [HugeFrog24](https://github.com/HugeFrog24) |
-| 🇷🇺 Русский | 94% (1020/1090) | [HugeFrog24](https://github.com/HugeFrog24) |
-| 🇻🇳 Tieng Viet | 94% (1020/1090) | [HugeFrog24](https://github.com/HugeFrog24) |
-| 🇨🇳 简体中文 | 94% (1022/1090) | ciyun415, zzj123 |
-| 🇬🇪 ქართული | 90% (979/1090) | [HugeFrog24](https://github.com/HugeFrog24) |
+| 🇺🇸 English | 100% (1132/1132) | [HugeFrog24](https://github.com/HugeFrog24) |
+| 🇧🇷 Português (Brasil) | 100% (1132/1132) | Schemen |
+| 🇩🇪 Deutsch | 94% (1062/1132) | [HugeFrog24](https://github.com/HugeFrog24) |
+| 🇷🇺 Русский | 94% (1062/1132) | [HugeFrog24](https://github.com/HugeFrog24) |
+| 🇻🇳 Tieng Viet | 94% (1062/1132) | [HugeFrog24](https://github.com/HugeFrog24) |
+| 🇨🇳 简体中文 | 94% (1064/1132) | ciyun415, zzj123 |
+| 🇬🇪 ქართული | 90% (1021/1132) | [HugeFrog24](https://github.com/HugeFrog24) |
 <!-- coverage:end -->
 
 **Cara mengganti bahasa:**<br>

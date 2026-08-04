@@ -6,7 +6,7 @@
   <img src="icon.png" alt="Tibik icon" width="128">
 </p>
 
-Tibik（libtibik）是一款适用于 Android 版《光·遇》（Sky: Children of the Light）的体验优化（QoL）模组。它能自动完成重复性的操作：刷蜡烛、收集染料蝴蝶、地图传送，还提供位置、能量、呼喊（shouts）和聊天加密等游戏内控制功能。
+Tibik（libtibik）是一款适用于 Android 版《光·遇》（Sky: Children of the Light）的体验优化模组。它能自动完成重复性的操作：刷蜡烛、收集染料蝴蝶、地图传送，还提供位置、能量、呼喊和聊天加密等游戏内控制功能。
 
 ## 快速开始
 
@@ -27,13 +27,13 @@ Tibik（libtibik）是一款适用于 Android 版《光·遇》（Sky: Children 
 <!-- coverage:start -->
 | 语言 | 完成度 | 译者 |
 | --- | --- | --- |
-| 🇺🇸 English | 100% (1090/1090) | [HugeFrog24](https://github.com/HugeFrog24) |
-| 🇧🇷 Português (Brasil) | 100% (1090/1090) | Schemen |
-| 🇩🇪 Deutsch | 94% (1020/1090) | [HugeFrog24](https://github.com/HugeFrog24) |
-| 🇷🇺 Русский | 94% (1020/1090) | [HugeFrog24](https://github.com/HugeFrog24) |
-| 🇻🇳 Tieng Viet | 94% (1020/1090) | [HugeFrog24](https://github.com/HugeFrog24) |
-| 🇨🇳 简体中文 | 94% (1022/1090) | ciyun415, zzj123 |
-| 🇬🇪 ქართული | 90% (979/1090) | [HugeFrog24](https://github.com/HugeFrog24) |
+| 🇺🇸 English | 100% (1132/1132) | [HugeFrog24](https://github.com/HugeFrog24) |
+| 🇧🇷 Português (Brasil) | 100% (1132/1132) | Schemen |
+| 🇩🇪 Deutsch | 94% (1062/1132) | [HugeFrog24](https://github.com/HugeFrog24) |
+| 🇷🇺 Русский | 94% (1062/1132) | [HugeFrog24](https://github.com/HugeFrog24) |
+| 🇻🇳 Tieng Viet | 94% (1062/1132) | [HugeFrog24](https://github.com/HugeFrog24) |
+| 🇨🇳 简体中文 | 94% (1064/1132) | ciyun415, zzj123 |
+| 🇬🇪 ქართული | 90% (1021/1132) | [HugeFrog24](https://github.com/HugeFrog24) |
 <!-- coverage:end -->
 
 **如何切换语言：**<br>
@@ -42,7 +42,7 @@ Tibik（libtibik）是一款适用于 Android 版《光·遇》（Sky: Children 
 **如何贡献翻译：**<br>
 获取字符串模板 → 翻译 → 在本地测试（从设备导入） → 提交 PR（pull request）。合并后，它会通过游戏内的语言管理器发布给所有人。
 
-第一次提交 pull request？请参阅 GitHub 的[指南](https://docs.github.com/en/pull-requests)。
+第一次提交 pull request？请参阅 GitHub 的[指南](https://docs.github.com/zh/pull-requests)。
 
 ## 路线图
 

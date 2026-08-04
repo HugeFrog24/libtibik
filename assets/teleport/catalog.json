@@ -729,12 +729,18 @@
     {
       "realm": "Aviary Village",
       "loc_key": "world.level.mainstreet_storyspace",
-      "level": "MainStreet_StorySpace"
+      "level": "MainStreet_StorySpace",
+      "farm_tags": [
+        "empty"
+      ]
     },
     {
       "realm": "Aviary Village",
       "loc_key": "world.level.nest_shell",
-      "level": "Nest_Shell"
+      "level": "Nest_Shell",
+      "farm_tags": [
+        "empty"
+      ]
     },
     {
       "realm": "Daylight Prairie",
@@ -1911,6 +1917,7 @@
         }
       ],
       "farm_tags": [
+        "empty",
         "event"
       ]
     },
@@ -1919,6 +1926,7 @@
       "loc_key": "world.level.event_personality",
       "level": "Event_Personality",
       "farm_tags": [
+        "empty",
         "event"
       ]
     },
@@ -2515,6 +2523,9 @@
       "realm": "Vault of Knowledge",
       "loc_key": "world.level.night_infinitedesert",
       "level": "Night_InfiniteDesert",
+      "farm_tags": [
+        "empty"
+      ],
       "waypoints": [
         {
           "kind": "poi",
@@ -2758,7 +2769,11 @@
     {
       "realm": "Vault of Knowledge",
       "loc_key": "world.level.season24void1",
-      "level": "Season24Void1"
+      "level": "Season24Void1",
+      "farm_tags": [
+        "empty",
+        "event"
+      ]
     },
     {
       "realm": "Vault of Knowledge",
@@ -2788,37 +2803,58 @@
     {
       "realm": "Vault of Knowledge",
       "loc_key": "world.level.night_go_city",
-      "level": "Night_GO_City"
+      "level": "Night_GO_City",
+      "farm_tags": [
+        "empty"
+      ]
     },
     {
       "realm": "Vault of Knowledge",
       "loc_key": "world.level.night_go_farm",
-      "level": "Night_GO_Farm"
+      "level": "Night_GO_Farm",
+      "farm_tags": [
+        "empty"
+      ]
     },
     {
       "realm": "Vault of Knowledge",
       "loc_key": "world.level.night_go_field",
-      "level": "Night_GO_Field"
+      "level": "Night_GO_Field",
+      "farm_tags": [
+        "empty"
+      ]
     },
     {
       "realm": "Vault of Knowledge",
       "loc_key": "world.level.night_go_gallery",
-      "level": "Night_GO_Gallery"
+      "level": "Night_GO_Gallery",
+      "farm_tags": [
+        "empty"
+      ]
     },
     {
       "realm": "Vault of Knowledge",
       "loc_key": "world.level.night_go_island",
-      "level": "Night_GO_Island"
+      "level": "Night_GO_Island",
+      "farm_tags": [
+        "empty"
+      ]
     },
     {
       "realm": "Vault of Knowledge",
       "loc_key": "world.level.night_go_town",
-      "level": "Night_GO_Town"
+      "level": "Night_GO_Town",
+      "farm_tags": [
+        "empty"
+      ]
     },
     {
       "realm": "Vault of Knowledge",
       "loc_key": "world.level.night_go_tree",
-      "level": "Night_GO_Tree"
+      "level": "Night_GO_Tree",
+      "farm_tags": [
+        "empty"
+      ]
     },
     {
       "realm": "Eye of Eden",
@@ -3002,12 +3038,18 @@
     {
       "realm": "AR",
       "loc_key": "world.level.ar_bedroom",
-      "level": "AR_Bedroom"
+      "level": "AR_Bedroom",
+      "farm_tags": [
+        "empty"
+      ]
     },
     {
       "realm": "AR",
       "loc_key": "world.level.ar_wheatfield",
-      "level": "AR_WheatField"
+      "level": "AR_WheatField",
+      "farm_tags": [
+        "empty"
+      ]
     }
   ]
 }

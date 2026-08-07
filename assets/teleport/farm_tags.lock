@@ -1,0 +1,96 @@
+# assets/teleport/farm_tags.lock
+#
+# GENERATED - do not hand-edit.  Regenerate with:  make relock-farm-tags
+#
+# A FLOOR for teleport farm tags: 81 fact(s) that were verified by hand.  The build
+# fails if the source catalog no longer carries one of them.  It does NOT fail
+# when the catalog carries MORE, so adding needs no relock and a stale lock is
+# still a correct lock.
+#
+# Sorted tag-major, one fact per line, so a removal is a single deleted line and
+# each class of verification reads as a block.
+#
+# Removing a line on purpose is meant to be visible: delete the fact from the
+# source catalog, regenerate, and commit both files together.
+
+empty AR_Bedroom
+empty AR_TestLevel
+empty AR_WheatField
+empty DuskEnd_Past
+empty DuskMid_PastMarket
+empty Dusk_TriangleEnd
+empty Event_Arr_ExhaleInhale
+empty Event_Arr_EyesOfAChild
+empty Event_Arr_Runaway
+empty Event_Arr_SoftInside
+empty Event_Arr_TheSeed
+empty Event_Arr_Warrior
+empty Event_Cinema
+empty Event_DaysOfMischief_Escape
+empty Event_DaysOfMoonlight_HugeMoon
+empty Event_Personality
+empty MainStreetFlyingIntro
+empty MainStreet_Apartment
+empty MainStreet_Cafe
+empty MainStreet_Cafe_Wonderland
+empty MainStreet_ConcertHall
+empty MainStreet_ShopProps
+empty MainStreet_ShopSpells
+empty MainStreet_Soundbath
+empty MainStreet_StorySpace
+empty Nest_Shell
+empty NightDesert_Planets
+empty Night_GO_City
+empty Night_GO_Farm
+empty Night_GO_Field
+empty Night_GO_Gallery
+empty Night_GO_Island
+empty Night_GO_Town
+empty Night_GO_Tree
+empty Night_InfiniteDesert
+empty Night_ValleyForest
+empty Night_ValleyHouse
+empty Night_ValleyHouseSky
+empty Nintendo_CandleSpace
+empty OrbitMid
+empty Season24Void1
+empty StormEvent_VoidSpace
+empty VoidSharedSpace
+event Event_Arr_ExhaleInhale
+event Event_Arr_EyesOfAChild
+event Event_Arr_Runaway
+event Event_Arr_SoftInside
+event Event_Arr_TheSeed
+event Event_Arr_Warrior
+event Event_Cinema
+event Event_DaysOfMischief
+event Event_DaysOfMischief_Escape
+event Event_DaysOfMoonlight_HugeMoon
+event Event_Personality
+event Season24Void1
+risky CandleSpaceEnd
+risky Credits
+risky OrbitEnd
+risky OrbitMid
+risky Storm
+risky StormEnd
+risky StormEvent_VoidSpace
+risky StormStart
+spoiler CandleSpaceEnd
+spoiler Credits
+spoiler NightDesert_Planets
+spoiler Nintendo_CandleSpace
+spoiler OrbitEnd
+spoiler OrbitMid
+spoiler Storm
+spoiler StormEnd
+spoiler StormStart
+spoiler TGCOffice
+temple Dawn
+temple DayEnd
+temple DuskEnd
+temple Night2
+temple RainEnd
+temple SunsetEnd2
+tutorial AR_TestLevel
+tutorial MainStreetFlyingIntro

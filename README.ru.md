@@ -27,13 +27,13 @@
 <!-- coverage:start -->
 | Язык | Покрытие | Переводчик |
 | --- | --- | --- |
-| 🇺🇸 English | 100% (1164/1164) | [HugeFrog24](https://github.com/HugeFrog24) |
-| 🇧🇷 Português (Brasil) | 100% (1164/1164) | Schemen |
-| 🇩🇪 Deutsch | 94% (1094/1164) | [HugeFrog24](https://github.com/HugeFrog24) |
-| 🇷🇺 Русский | 94% (1094/1164) | [HugeFrog24](https://github.com/HugeFrog24) |
-| 🇻🇳 Tieng Viet | 94% (1094/1164) | [HugeFrog24](https://github.com/HugeFrog24) |
-| 🇨🇳 简体中文 | 94% (1096/1164) | ciyun415, zzj123 |
-| 🇬🇪 ქართული | 90% (1053/1164) | [HugeFrog24](https://github.com/HugeFrog24) |
+| 🇺🇸 English | 100% (1175/1175) | [HugeFrog24](https://github.com/HugeFrog24) |
+| 🇧🇷 Português (Brasil) | 100% (1175/1175) | Schemen |
+| 🇩🇪 Deutsch | 94% (1105/1175) | [HugeFrog24](https://github.com/HugeFrog24) |
+| 🇷🇺 Русский | 94% (1105/1175) | [HugeFrog24](https://github.com/HugeFrog24) |
+| 🇻🇳 Tieng Viet | 94% (1105/1175) | [HugeFrog24](https://github.com/HugeFrog24) |
+| 🇨🇳 简体中文 | 94% (1107/1175) | ciyun415, zzj123 |
+| 🇬🇪 ქართული | 91% (1064/1175) | [HugeFrog24](https://github.com/HugeFrog24) |
 <!-- coverage:end -->
 
 **Как переключить язык:**<br>

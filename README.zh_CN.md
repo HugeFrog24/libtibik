@@ -27,13 +27,13 @@ Tibik（libtibik）是一款适用于 Android 版《光·遇》（Sky: Children 
 <!-- coverage:start -->
 | 语言 | 完成度 | 译者 |
 | --- | --- | --- |
-| 🇺🇸 English | 100% (1175/1175) | [HugeFrog24](https://github.com/HugeFrog24) |
-| 🇧🇷 Português (Brasil) | 100% (1175/1175) | Schemen |
-| 🇩🇪 Deutsch | 94% (1105/1175) | [HugeFrog24](https://github.com/HugeFrog24) |
-| 🇷🇺 Русский | 94% (1105/1175) | [HugeFrog24](https://github.com/HugeFrog24) |
-| 🇻🇳 Tieng Viet | 94% (1105/1175) | [HugeFrog24](https://github.com/HugeFrog24) |
-| 🇨🇳 简体中文 | 94% (1107/1175) | ciyun415, zzj123 |
-| 🇬🇪 ქართული | 91% (1064/1175) | [HugeFrog24](https://github.com/HugeFrog24) |
+| 🇺🇸 English | 100% (1289/1289) | [HugeFrog24](https://github.com/HugeFrog24) |
+| 🇧🇷 Português (Brasil) | 100% (1289/1289) | Schemen |
+| 🇩🇪 Deutsch | 95% (1219/1289) | [HugeFrog24](https://github.com/HugeFrog24) |
+| 🇷🇺 Русский | 95% (1219/1289) | [HugeFrog24](https://github.com/HugeFrog24) |
+| 🇻🇳 Tieng Viet | 95% (1219/1289) | [HugeFrog24](https://github.com/HugeFrog24) |
+| 🇨🇳 简体中文 | 95% (1221/1289) | ciyun415, zzj123 |
+| 🇬🇪 ქართული | 91% (1178/1289) | [HugeFrog24](https://github.com/HugeFrog24) |
 <!-- coverage:end -->
 
 **如何切换语言：**<br>

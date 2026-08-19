@@ -423,6 +423,7 @@
   "ui.nav_next":                                       "Weiter",
   "ui.search_clear":                                   "Suche loschen",
   "ui.clear":                                          "Leeren",
+  "ui.unnamed":                                        "Ohne Namen",
   "ui.search_paste":                                   "Einfugen",
   "candle.force_light":                                "Alle Kerzen leuchten",
   "candle.bypass_proximity":                           "Wachs auto-sammeln",

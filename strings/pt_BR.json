@@ -556,6 +556,7 @@
   "ui.nav_next":                                       "Próximo",
   "ui.search_clear":                                   "Limpar busca",
   "ui.clear":                                          "Limpar",
+  "ui.unnamed":                                        "Sem nome",
   "ui.search_paste":                                   "Colar",
   "candle.force_light":                                "Acender todas as velas",
   "candle.bypass_proximity":                           "Coletar cera automaticamente",

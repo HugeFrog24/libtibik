@@ -537,6 +537,7 @@
   "ui.nav_next":                                       "Next",
   "ui.search_clear":                                   "Clear search",
   "ui.clear":                                          "Clear",
+  "ui.unnamed":                                        "Unnamed",
   "ui.search_paste":                                   "Paste",
   "candle.force_light":                                "Light all candles",
   "candle.bypass_proximity":                           "Auto-collect wax",

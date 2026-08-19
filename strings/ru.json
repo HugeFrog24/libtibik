@@ -423,6 +423,7 @@
   "ui.nav_next":                                       "Вперёд",
   "ui.search_clear":                                   "Очистить поиск",
   "ui.clear":                                          "Очистить",
+  "ui.unnamed":                                        "Без имени",
   "ui.search_paste":                                   "Вставить",
   "candle.force_light":                                "Зажечь все свечи",
   "candle.bypass_proximity":                           "Авто-сбор воска",

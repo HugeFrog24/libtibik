@@ -423,6 +423,7 @@
   "ui.nav_next":                                       "Tiep",
   "ui.search_clear":                                   "Xoa tim kiem",
   "ui.clear":                                          "Xoa",
+  "ui.unnamed":                                        "Khong ten",
   "ui.search_paste":                                   "Dan",
   "candle.force_light":                                "Thap sang tat ca nen",
   "candle.bypass_proximity":                           "Tu dong thu sap",

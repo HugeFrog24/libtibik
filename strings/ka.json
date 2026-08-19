@@ -370,6 +370,7 @@
   "ui.nav_next":                                       "შემდეგი",
   "ui.search_clear":                                   "ძებნის გასუფთავება",
   "ui.clear":                                          "გასუფთავება",
+  "ui.unnamed":                                        "უსახელო",
   "ui.search_paste":                                   "ჩასმა",
   "candle.force_light":                                "ყველა სანთლის ჩართვა",
   "candle.bypass_proximity":                           "ცვილის ავტო-შეგროვება",

@@ -1244,7 +1244,7 @@
     "messages.msg_sheet_restored":                       "你的一份乐谱已恢复。",
     "messages.msg_diag_received":                        "谢谢 - 你的报告已收到，正在等待查看。",
     "messages.msg_diag_triaged":                         "你的报告正在查看中。",
-    "messages.msg_diag_solved":                          "你报告的乐谱在此版本中应该可以使用了。感谢反馈。",
+    "messages.msg_diag_solved":                          "你报告的文件在此版本中应该可以使用了。感谢反馈。",
     "messages.msg_diag_closed":                          "你的报告已关闭。感谢反馈。",
     "messages.msg_diag_duplicate":                       "已有人报告过这个问题。仍然感谢你。",
     "messages.msg_report_removed":                       "感谢举报。管理员已审核%s并将其移除。",

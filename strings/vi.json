@@ -1243,7 +1243,7 @@
   "messages.msg_sheet_restored":                       "Mot ban nhac cua ban da duoc khoi phuc.",
   "messages.msg_diag_received":                        "Cam on - bao cao cua ban da den va dang cho xem xet.",
   "messages.msg_diag_triaged":                         "Bao cao cua ban dang duoc xem xet.",
-  "messages.msg_diag_solved":                          "Ban nhac ban bao cao se hoat dong o phien ban nay. Cam on ban da gui.",
+  "messages.msg_diag_solved":                          "Tep ban bao cao se hoat dong o phien ban nay. Cam on ban da gui.",
   "messages.msg_diag_closed":                          "Bao cao cua ban da dong. Cam on ban da gui.",
   "messages.msg_diag_duplicate":                       "Da co nguoi bao cao truoc do. Van cam on ban.",
   "messages.msg_report_removed":                       "Cam on ban da bao cao. Quan tri vien da xem xet %s va go bo.",

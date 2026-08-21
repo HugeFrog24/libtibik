@@ -1313,7 +1313,7 @@
   "messages.msg_sheet_restored":                       "One of your music sheets was restored.",
   "messages.msg_diag_received":                        "Thanks - your report arrived and is waiting to be looked at.",
   "messages.msg_diag_triaged":                         "Your report is being looked at.",
-  "messages.msg_diag_solved":                          "The sheet you reported should work in this version. Thanks for sending it.",
+  "messages.msg_diag_solved":                          "The file you reported should work in this version. Thanks for sending it.",
   "messages.msg_diag_closed":                          "Your report was closed. Thanks for sending it in.",
   "messages.msg_diag_duplicate":                       "Someone had already reported that one. Thanks anyway.",
   "messages.msg_report_removed":                       "Thanks for the report. A moderator reviewed %s and removed it.",

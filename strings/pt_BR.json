@@ -1311,7 +1311,7 @@
   "messages.msg_sheet_restored":                       "Uma das suas partituras foi restaurada.",
   "messages.msg_diag_received":                        "Obrigado - seu relato chegou e aguarda analise.",
   "messages.msg_diag_triaged":                         "Seu relato esta sendo analisado.",
-  "messages.msg_diag_solved":                          "A partitura que voce enviou deve funcionar nesta versao. Obrigado por enviar.",
+  "messages.msg_diag_solved":                          "O arquivo que você enviou deve funcionar nesta versão. Obrigado por enviar.",
   "messages.msg_diag_closed":                          "Seu relato foi encerrado. Obrigado por enviar.",
   "messages.msg_diag_duplicate":                       "Alguem ja tinha relatado isso. Obrigado mesmo assim.",
   "messages.msg_report_removed":                       "Obrigado pela denuncia. Um moderador analisou %s e removeu a publicacao.",

@@ -1243,7 +1243,7 @@
   "messages.msg_sheet_restored":                       "Eines deiner Musikstucke wurde wiederhergestellt.",
   "messages.msg_diag_received":                        "Danke - dein Bericht ist angekommen und wartet auf Prufung.",
   "messages.msg_diag_triaged":                         "Dein Bericht wird gerade gepruft.",
-  "messages.msg_diag_solved":                          "Das gemeldete Blatt sollte in dieser Version funktionieren. Danke furs Einsenden.",
+  "messages.msg_diag_solved":                          "Die gemeldete Datei sollte in dieser Version funktionieren. Danke furs Einsenden.",
   "messages.msg_diag_closed":                          "Dein Bericht wurde geschlossen. Danke furs Einsenden.",
   "messages.msg_diag_duplicate":                       "Das hatte schon jemand gemeldet. Trotzdem danke.",
   "messages.msg_report_removed":                       "Danke fur die Meldung. Ein Moderator hat %s gepruft und entfernt.",

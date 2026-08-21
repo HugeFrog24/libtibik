@@ -1,4 +1,9 @@
 {
+    "_comment":          "Tibik 语言环境文件 - 英文（内置）。复制此文件，将其重命名为您的语言代码（例如 de.json），翻译值，然后将其放入设备上的 {configPath}/tibik/strings/ 中。键必须与此文件保持相同。缺失的键会自动回退为英文。",
+    "_meta_code":        "zh_CN",
+    "_meta_displayName": "简体中文",
+    "_meta_translator":  "ciyun415|zzj123",
+
     "hearts.rename_account":                             "重命名账户",
     "hearts.rename_title":                               "账户昵称",
     "hearts.accounts":                                   "账户",
@@ -34,10 +39,6 @@
     "recovery.msg_err_derive":                           "无法准备恢复密钥。请重试。",
     "recovery.msg_err_server":                           "服务器拒绝了请求。请重试。",
     "recovery.msg_err_network":                          "网络错误。请检查连接后重试。",
-    "_comment":                                          "Tibik 语言环境文件 - 英文（内置）。复制此文件，将其重命名为您的语言代码（例如 de.json），翻译值，然后将其放入设备上的 {configPath}/tibik/strings/ 中。键必须与此文件保持相同。缺失的键会自动回退为英文。",
-    "_meta_code":                                        "zh_CN",
-    "_meta_displayName":                                 "简体中文",
-    "_meta_translator":                                  "ciyun415|zzj123",
     "btn.go":                                            "前往",
     "btn.share":                                         "分享",
     "btn.collect":                                       "收集",

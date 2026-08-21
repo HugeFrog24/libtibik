@@ -1,9 +1,10 @@
 {
-  "_comment":                                          "Tibik locale file - English (built-in). Copy this file, rename it to your language code (e.g. de.json), translate the values, and drop it into {configPath}/tibik/strings/ on the device. Keys must stay identical to this file. Missing keys fall back to English automatically.",
-  "_meta_code":                                        "en",
-  "_meta_displayName":                                 "English",
-  "_meta_translator":                                  "HugeFrog24",
-  "_meta_translatorUrl":                               "https://github.com/HugeFrog24",
+  "_comment":            "Tibik locale file - English (built-in). Copy this file, rename it to your language code (e.g. de.json), translate the values, and drop it into {configPath}/tibik/strings/ on the device. Keys must stay identical to this file. Missing keys fall back to English automatically.",
+  "_meta_code":          "en",
+  "_meta_displayName":   "English",
+  "_meta_translator":    "HugeFrog24",
+  "_meta_translatorUrl": "https://github.com/HugeFrog24",
+
   "btn.go":                                            "Go",
   "btn.share":                                         "Share",
   "btn.collect":                                       "Collect",

@@ -1,4 +1,10 @@
 {
+  "_comment":            "Tibik file ngon ngu - Tieng Viet. Nguoi dich: [ten]. Cac khoa con thieu se tu dong dung tieng Anh.",
+  "_meta_code":          "vi",
+  "_meta_displayName":   "Tieng Viet",
+  "_meta_translator":    "HugeFrog24",
+  "_meta_translatorUrl": "https://github.com/HugeFrog24",
+
   "hearts.rename_account":                             "Doi ten tai khoan",
   "hearts.rename_title":                               "Biet danh tai khoan",
   "hearts.accounts":                                   "Tai khoan",
@@ -34,11 +40,6 @@
   "recovery.msg_err_derive":                           "Khong the chuan bi khoa khoi phuc. Thu lai.",
   "recovery.msg_err_server":                           "May chu tu choi yeu cau. Thu lai.",
   "recovery.msg_err_network":                          "Loi mang. Kiem tra ket noi va thu lai.",
-  "_comment":                                          "Tibik file ngon ngu - Tieng Viet. Nguoi dich: [ten]. Cac khoa con thieu se tu dong dung tieng Anh.",
-  "_meta_code":                                        "vi",
-  "_meta_displayName":                                 "Tieng Viet",
-  "_meta_translator":                                  "HugeFrog24",
-  "_meta_translatorUrl":                               "https://github.com/HugeFrog24",
   "btn.go":                                            "Di",
   "btn.share":                                         "Chia se",
   "btn.collect":                                       "Thu thap",

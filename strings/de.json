@@ -1,4 +1,10 @@
 {
+  "_comment":            "Tibik Sprachdatei - Deutsch. ubersetzt von: [dein Name]. Fehlende Schlussel fallen automatisch auf Englisch zuruck.",
+  "_meta_code":          "de",
+  "_meta_displayName":   "Deutsch",
+  "_meta_translator":    "HugeFrog24",
+  "_meta_translatorUrl": "https://github.com/HugeFrog24",
+
   "hearts.rename_account":                             "Konto umbenennen",
   "hearts.rename_title":                               "Konto-Spitzname",
   "hearts.accounts":                                   "Konten",
@@ -34,11 +40,6 @@
   "recovery.msg_err_derive":                           "Wiederherstellungsschlussel konnte nicht erstellt werden. Versuche es erneut.",
   "recovery.msg_err_server":                           "Der Server hat die Anfrage abgelehnt. Versuche es erneut.",
   "recovery.msg_err_network":                          "Netzwerkfehler. Prufe deine Verbindung und versuche es erneut.",
-  "_comment":                                          "Tibik Sprachdatei - Deutsch. ubersetzt von: [dein Name]. Fehlende Schlussel fallen automatisch auf Englisch zuruck.",
-  "_meta_code":                                        "de",
-  "_meta_displayName":                                 "Deutsch",
-  "_meta_translator":                                  "HugeFrog24",
-  "_meta_translatorUrl":                               "https://github.com/HugeFrog24",
   "btn.go":                                            "Los",
   "btn.share":                                         "Teilen",
   "btn.collect":                                       "Einsammeln",

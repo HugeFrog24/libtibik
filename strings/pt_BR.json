@@ -1,4 +1,8 @@
 {
+  "_meta_code":        "pt_BR",
+  "_meta_displayName": "Português (Brasil)",
+  "_meta_translator":  "Schemen",
+
   "hearts.rename_account":                             "Renomear conta",
   "hearts.rename_title":                               "Apelido da conta",
   "hearts.accounts":                                   "Contas",
@@ -34,9 +38,6 @@
   "recovery.msg_err_derive":                           "Não foi possível preparar a chave de recuperação. Tente de novo.",
   "recovery.msg_err_server":                           "O servidor rejeitou a solicitação. Tente de novo.",
   "recovery.msg_err_network":                          "Erro de rede. Verifique sua conexão e tente de novo.",
-  "_meta_code":                                        "pt_BR",
-  "_meta_displayName":                                 "Português (Brasil)",
-  "_meta_translator":                                  "Schemen",
   "btn.go":                                            "Ir",
   "btn.share":                                         "Compartilhar",
   "btn.collect":                                       "Coletar",

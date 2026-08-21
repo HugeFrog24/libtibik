@@ -1,4 +1,10 @@
 {
+  "_comment":            "Tibik ლოკალიზაციის ფაილი - ქართული. მთარგმნელი: [სახელი]. გამოტოვებული გასაღებები ავტომატურად ინგლისურზე ბრუნდება.",
+  "_meta_code":          "ka",
+  "_meta_displayName":   "ქართული",
+  "_meta_translator":    "HugeFrog24",
+  "_meta_translatorUrl": "https://github.com/HugeFrog24",
+
   "hearts.rename_account":                             "ანგარიშის გადარქმევა",
   "hearts.rename_title":                               "ანგარიშის მეტსახელი",
   "hearts.accounts":                                   "ანგარიშები",
@@ -34,11 +40,6 @@
   "recovery.msg_err_derive":                           "აღდგენის გასაღების მომზადება ვერ მოხერხდა. სცადეთ თავიდან.",
   "recovery.msg_err_server":                           "სერვერმა უარყო მოთხოვნა. სცადეთ თავიდან.",
   "recovery.msg_err_network":                          "ქსელის შეცდომა. შეამოწმეთ კავშირი და სცადეთ თავიდან.",
-  "_comment":                                          "Tibik ლოკალიზაციის ფაილი - ქართული. მთარგმნელი: [სახელი]. გამოტოვებული გასაღებები ავტომატურად ინგლისურზე ბრუნდება.",
-  "_meta_code":                                        "ka",
-  "_meta_displayName":                                 "ქართული",
-  "_meta_translator":                                  "HugeFrog24",
-  "_meta_translatorUrl":                               "https://github.com/HugeFrog24",
   "btn.go":                                            "გადასვლა",
   "btn.share":                                         "გაზიარება",
   "btn.collect":                                       "შეგროვება",

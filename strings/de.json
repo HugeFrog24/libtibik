@@ -1002,6 +1002,7 @@
   "locale.picker_local_import":                        "Vom Gerat importieren",
   "locale.picker_local_import_busy":                   "Warte auf Dateiauswahl...",
   "locale.picker_local_import_success":                "%s importiert",
+  "locale.picker_local_import_success_many":           "%d Sprachpakete importiert",
   "locale.picker_local_import_failed":                 "Import fehlgeschlagen",
   "locale.picker_last_checked_format":                 "Zuletzt gepruft: %s",
   "locale.picker_last_checked_never":                  "nie",

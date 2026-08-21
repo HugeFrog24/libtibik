@@ -1003,6 +1003,7 @@
     "locale.picker_local_import":                        "从设备导入",
     "locale.picker_local_import_busy":                   "等待文件选择器…",
     "locale.picker_local_import_success":                "已导入 %s",
+    "locale.picker_local_import_success_many":           "已导入 %d 个语言包",
     "locale.picker_local_import_failed":                 "导入失败",
     "locale.picker_last_checked_format":                 "上次检查：%s",
     "locale.picker_last_checked_never":                  "从未",

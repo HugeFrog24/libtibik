@@ -949,6 +949,7 @@
   "locale.picker_local_import":                        "მოწყობილობიდან იმპორტი",
   "locale.picker_local_import_busy":                   "ფაილის არჩევას ველოდები...",
   "locale.picker_local_import_success":                "%s იმპორტირებულია",
+  "locale.picker_local_import_success_many":           "იმპორტირებულია %d ენის პაკეტი",
   "locale.picker_local_import_failed":                 "იმპორტი ვერ შესრულდა",
   "locale.picker_last_checked_format":                 "ბოლო შემოწმება: %s",
   "locale.picker_last_checked_never":                  "არასდროს",

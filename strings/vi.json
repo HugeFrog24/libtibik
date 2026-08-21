@@ -1002,6 +1002,7 @@
   "locale.picker_local_import":                        "Nhap tu thiet bi",
   "locale.picker_local_import_busy":                   "Dang cho chon file...",
   "locale.picker_local_import_success":                "Da nhap %s",
+  "locale.picker_local_import_success_many":           "Da nhap %d goi ngon ngu",
   "locale.picker_local_import_failed":                 "Nhap that bai",
   "locale.picker_last_checked_format":                 "Lan kiem tra cuoi: %s",
   "locale.picker_last_checked_never":                  "chua bao gio",

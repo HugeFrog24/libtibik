@@ -1003,6 +1003,7 @@
   "locale.picker_local_import":                        "Импорт с устройства",
   "locale.picker_local_import_busy":                   "Ожидание выбора файла...",
   "locale.picker_local_import_success":                "Импортирован %s",
+  "locale.picker_local_import_success_many":           "Импортировано пакетов: %d",
   "locale.picker_local_import_failed":                 "Импорт не выполнен",
   "locale.picker_last_checked_format":                 "Последняя проверка: %s",
   "locale.picker_last_checked_never":                  "никогда",

@@ -1136,6 +1136,7 @@
   "locale.picker_local_import":                        "Importar do dispositivo",
   "locale.picker_local_import_busy":                   "Aguardando seletor de arquivos...",
   "locale.picker_local_import_success":                "Importado: %s",
+  "locale.picker_local_import_success_many":           "%d pacotes de idioma importados",
   "locale.picker_local_import_failed":                 "Falha na importação",
   "locale.picker_last_checked_format":                 "Última verificação: %s",
   "locale.picker_last_checked_never":                  "nunca",

@@ -735,14 +735,6 @@
       ]
     },
     {
-      "realm": "Aviary Village",
-      "loc_key": "world.level.nest_shell",
-      "level": "Nest_Shell",
-      "farm_tags": [
-        "empty"
-      ]
-    },
-    {
       "realm": "Daylight Prairie",
       "loc_key": "world.level.prairie_butterflyfields",
       "level": "Prairie_ButterflyFields",

@@ -2,7 +2,7 @@
 #
 # GENERATED - do not hand-edit.  Regenerate with:  make relock-farm-tags
 #
-# A FLOOR for teleport farm tags: 81 fact(s) that were verified by hand.  The build
+# A FLOOR for teleport farm tags: 80 fact(s) that were verified by hand.  The build
 # fails if the source catalog no longer carries one of them.  It does NOT fail
 # when the catalog carries MORE, so adding needs no relock and a stale lock is
 # still a correct lock.
@@ -38,7 +38,6 @@ empty MainStreet_ShopProps
 empty MainStreet_ShopSpells
 empty MainStreet_Soundbath
 empty MainStreet_StorySpace
-empty Nest_Shell
 empty NightDesert_Planets
 empty Night_GO_City
 empty Night_GO_Farm

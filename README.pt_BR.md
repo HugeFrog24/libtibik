@@ -27,13 +27,13 @@ Tibik (libtibik) é um mod de qualidade de vida para o Sky: Children of the Ligh
 <!-- coverage:start -->
 | Idioma | Cobertura | Tradutor |
 | --- | --- | --- |
-| 🇺🇸 English | 100% (1324/1324) | [HugeFrog24](https://github.com/HugeFrog24) |
-| 🇧🇷 Português (Brasil) | 100% (1324/1324) | Zixzto |
-| 🇩🇪 Deutsch | 95% (1254/1324) | [HugeFrog24](https://github.com/HugeFrog24) |
-| 🇷🇺 Русский | 95% (1254/1324) | [HugeFrog24](https://github.com/HugeFrog24) |
-| 🇻🇳 Tieng Viet | 95% (1254/1324) | [HugeFrog24](https://github.com/HugeFrog24) |
-| 🇨🇳 简体中文 | 95% (1256/1324) | ciyun415, zzj123 |
-| 🇬🇪 ქართული | 92% (1213/1324) | [HugeFrog24](https://github.com/HugeFrog24) |
+| 🇺🇸 English | 100% (1369/1369) | [HugeFrog24](https://github.com/HugeFrog24) |
+| 🇧🇷 Português (Brasil) | 100% (1369/1369) | Zixzto |
+| 🇩🇪 Deutsch | 95% (1299/1369) | [HugeFrog24](https://github.com/HugeFrog24) |
+| 🇷🇺 Русский | 95% (1299/1369) | [HugeFrog24](https://github.com/HugeFrog24) |
+| 🇻🇳 Tieng Viet | 95% (1299/1369) | [HugeFrog24](https://github.com/HugeFrog24) |
+| 🇨🇳 简体中文 | 95% (1301/1369) | ciyun415, zzj123 |
+| 🇬🇪 ქართული | 92% (1258/1369) | [HugeFrog24](https://github.com/HugeFrog24) |
 <!-- coverage:end -->
 
 **Como trocar de idioma:**<br>

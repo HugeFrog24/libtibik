@@ -28,7 +28,7 @@ A quality-of-life mod for Sky: CotL on Android. It automates the repetitive part
 | Language | Coverage | Translator |
 | --- | --- | --- |
 | 🇺🇸 English | 100% (1324/1324) | [HugeFrog24](https://github.com/HugeFrog24) |
-| 🇧🇷 Português (Brasil) | 100% (1324/1324) | Schemen |
+| 🇧🇷 Português (Brasil) | 100% (1324/1324) | Zixzto |
 | 🇩🇪 Deutsch | 95% (1254/1324) | [HugeFrog24](https://github.com/HugeFrog24) |
 | 🇷🇺 Русский | 95% (1254/1324) | [HugeFrog24](https://github.com/HugeFrog24) |
 | 🇻🇳 Tieng Viet | 95% (1254/1324) | [HugeFrog24](https://github.com/HugeFrog24) |

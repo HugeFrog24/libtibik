@@ -28,7 +28,7 @@ Tibik (libtibik) adalah mod quality-of-life untuk Sky: Children of the Light (Sk
 | Bahasa | Cakupan | Penerjemah |
 | --- | --- | --- |
 | 🇺🇸 English | 100% (1324/1324) | [HugeFrog24](https://github.com/HugeFrog24) |
-| 🇧🇷 Português (Brasil) | 100% (1324/1324) | Schemen |
+| 🇧🇷 Português (Brasil) | 100% (1324/1324) | Zixzto |
 | 🇩🇪 Deutsch | 95% (1254/1324) | [HugeFrog24](https://github.com/HugeFrog24) |
 | 🇷🇺 Русский | 95% (1254/1324) | [HugeFrog24](https://github.com/HugeFrog24) |
 | 🇻🇳 Tieng Viet | 95% (1254/1324) | [HugeFrog24](https://github.com/HugeFrog24) |

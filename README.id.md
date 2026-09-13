@@ -48,7 +48,7 @@ Baru pertama kali membuat pull request? Lihat [panduan](https://docs.github.com/
 
 | Status | Fitur | Fungsi |
 | --- | --- | --- |
-| ⏳ | Mode offline | Memutuskan koneksi dari instance aktif, mencegah orang lain bergabung dengan Anda, dan membuat bunga meleleh lebih cepat |
+| ⏳ | Aksi pertemanan dengan orang asing | Tawarkan pelukan, tos, dan aksi pertemanan lainnya kepada pemain yang belum menjadi teman Anda. Dengan teman yang sudah ada, semua ini sudah berfungsi |
 
 ## Masalah
 

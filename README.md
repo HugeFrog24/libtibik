@@ -46,9 +46,9 @@ New to pull requests? See GitHub's [guide](https://docs.github.com/en/pull-reque
 
 ## Roadmap
 
-| Status | Feature      | What it does                                                                                         |
-| ------ | ------------ | ---------------------------------------------------------------------------------------------------- |
-| ⏳     | Offline mode | Disconnects from the active instance, prevents others from joining you and makes flowers melt faster |
+| Status | Feature                       | What it does                                                                                                                       |
+| ------ | ----------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
+| ⏳     | Friend actions with strangers | Offer hugs, high fives and other friendship actions to players you are not friends with. These already work with existing friends |
 
 ## Issues
 

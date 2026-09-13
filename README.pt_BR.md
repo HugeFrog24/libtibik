@@ -48,7 +48,7 @@ Nunca fez um pull request? Veja o [guia](https://docs.github.com/pt/pull-request
 
 | Status | Recurso | O que faz |
 | --- | --- | --- |
-| ⏳ | Modo offline | Desconecta da instância ativa, impede que outros entrem com você e faz as flores derreterem mais rápido |
+| ⏳ | Ações de amizade com desconhecidos | Ofereça abraços, toca aqui e outras ações de amizade a jogadores que ainda não são seus amigos. Com amigos existentes, elas já funcionam |
 
 ## Problemas
 

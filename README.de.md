@@ -48,7 +48,7 @@ Neu bei Pull Requests? Sieh dir GitHubs [Anleitung](https://docs.github.com/de/p
 
 | Status | Funktion | Beschreibung |
 | --- | --- | --- |
-| ⏳ | Offline-Modus | Trennt die Verbindung zur aktiven Instanz, verhindert, dass andere dir beitreten, und lässt Blumen schneller schmelzen |
+| ⏳ | Freundschaftsaktionen mit Fremden | Biete Umarmungen, High Fives und andere Freundschaftsaktionen auch Spielern an, mit denen du nicht befreundet bist. Mit bestehenden Freunden funktionieren sie bereits |
 
 ## Fehler melden
 

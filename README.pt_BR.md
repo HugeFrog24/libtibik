@@ -8,7 +8,7 @@
 
 Tibik (libtibik) é um mod de qualidade de vida para o Sky: Children of the Light (Sky: Filhos da Luz) no Android e no Windows. Ele automatiza tarefas repetitivas, como o farm de velas, a coleta de borboletas de tinta e o teleporte entre os reinos, além de adicionar controles no jogo para a posição, a energia, os gritos e a criptografia do chat.
 
-## Início rápido - Android
+## <img src="assets/android.svg" alt="" height="18"> Início rápido - Android
 
 1. Instale o Canvas, o framework que carrega mods de Sky no Android:<br>
    https://github.com/skyprotocol/canvas-distribution/releases/latest
@@ -20,7 +20,7 @@ Tibik (libtibik) é um mod de qualidade de vida para o Sky: Children of the Ligh
 5. Inicie o Sky por ele.
 6. O Tibik aparece na paleta de mods do Canvas assim que o Sky estiver rodando.
 
-## Início rápido - Windows
+## <img src="assets/windows.svg" alt="" height="18"> Início rápido - Windows
 
 Você precisa do Sky pela Steam. No PC, o Sky só existe para Windows.
 
@@ -61,7 +61,8 @@ errado. Você pode desfazer tudo - veja abaixo.
 
 Isso é igual nos dois jeitos. O app só faz a cópia no seu lugar.
 
-### Ou fazendo na mão
+<details>
+<summary><b>Ou fazendo na mão</b></summary>
 
 Use este jeito se você preferir não abrir outro app.
 
@@ -84,6 +85,8 @@ Use este jeito se você preferir não abrir outro app.
 
 6. Abra o Sky pela Steam, do jeito que você sempre faz.
 7. O Tibik aparece assim que você entra no jogo.
+
+</details>
 
 ### Como desligar de novo
 

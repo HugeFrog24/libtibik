@@ -8,7 +8,7 @@
 
 A quality-of-life mod for Sky: CotL on Android and Windows. It automates the repetitive parts. Candle farming, dye butterfly collection, world teleport, and adds in-game controls for position, energy, shouts, and chat encryption.
 
-## Quick start - Android
+## <img src="assets/android.svg" alt="" height="18"> Quick start - Android
 
 1. Install Canvas, the framework that loads Sky mods on Android:<br>
    https://github.com/skyprotocol/canvas-distribution/releases/latest
@@ -20,7 +20,7 @@ A quality-of-life mod for Sky: CotL on Android and Windows. It automates the rep
 5. Launch Sky from there.
 6. Tibik appears in Canvas's mod palette once Sky is running.
 
-## Quick start - Windows
+## <img src="assets/windows.svg" alt="" height="18"> Quick start - Windows
 
 You need Sky from Steam. Sky on PC is Windows only.
 
@@ -61,7 +61,8 @@ wrong. You can undo everything - see below.
 
 This is the same either way. The app just does the copying for you.
 
-### Doing it by hand instead
+<details>
+<summary><b>Or do it by hand</b></summary>
 
 Use this if you would rather not run another app.
 
@@ -84,6 +85,8 @@ Use this if you would rather not run another app.
 
 6. Start Sky from Steam, the way you always do.
 7. Tibik appears once you are in the game.
+
+</details>
 
 ### Turning it off again
 

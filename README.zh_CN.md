@@ -8,7 +8,7 @@
 
 Tibik（libtibik）是一款适用于 Android 版和 Windows 版《光·遇》（Sky: Children of the Light）的体验优化模组。它能自动完成重复性的操作：刷蜡烛、收集染料蝴蝶、地图传送，还提供位置、能量、呼喊和聊天加密等游戏内控制功能。
 
-## 快速开始 - Android
+## <img src="assets/android.svg" alt="" height="18"> 快速开始 - Android
 
 1. 安装 Canvas，这是在 Android 上加载《光·遇》模组的框架：<br>
    https://github.com/skyprotocol/canvas-distribution/releases/latest
@@ -20,7 +20,7 @@ Tibik（libtibik）是一款适用于 Android 版和 Windows 版《光·遇》�
 5. 从那里启动《光·遇》。
 6. 《光·遇》运行后，Tibik 会出现在 Canvas 的模组面板中。
 
-## 快速开始 - Windows
+## <img src="assets/windows.svg" alt="" height="18"> 快速开始 - Windows
 
 你需要 Steam 上的《光·遇》。电脑版《光·遇》只有 Windows 版。
 
@@ -57,7 +57,8 @@ Tibik Launcher 会帮你把模组放进去，以后也能帮你取出来。
 
 两种办法在这一点上是一样的。应用只是替你把文件复制过去。
 
-### 或者自己动手
+<details>
+<summary><b>或者自己动手</b></summary>
 
 如果你不想再开一个应用，就用这个办法。
 
@@ -80,6 +81,8 @@ Tibik Launcher 会帮你把模组放进去，以后也能帮你取出来。
 
 6. 像平常一样从 Steam 启动《光·遇》。
 7. 进入游戏后，Tibik 就会出现。
+
+</details>
 
 ### 想要关掉的时候
 

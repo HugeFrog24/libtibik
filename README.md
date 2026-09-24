@@ -92,18 +92,27 @@ Use this if you would rather not run another app.
 
 If you used the app, open it and click **Remove**. It does the rest.
 
-By hand, remove Tibik and nothing else by deleting this one folder:
+By hand, close Sky, then delete this one file:
 
 ```
-htmodloader\mods\tibik
+htmodloader\mods\tibik\tibik.dll
 ```
 
-Do not delete the whole `htmodloader` folder unless you mean to. Other mods live
-in there too. So do their saved settings.
+Sky then starts without Tibik.
 
-`winhttp.dll` and `html-config.json` are the part that lets any mod load. Your
-other mods share them. Deleting those two turns off every mod you have, not just
-this one. Only do that if you want no mods at all.
+Leave the rest of that folder where it is. It holds your settings, waypoints,
+heart targets and music sheets. It also holds `identity.json`, which is your Tibik
+sign-in on this PC. Delete that without a recovery phrase, and with no other
+device still signed in, and the account cannot be brought back. You make a
+recovery phrase in the mod, under "About" → "Account" → "Recovery phrase". To
+start over, use "Reset settings" in the mod's "About" tab instead of deleting
+files.
+
+Do not delete the `htmodloader` folder either. The folder above is inside it.
+
+`winhttp.dll` and `html-config.json` are the mod loader. It runs Tibik and
+nothing else, so you can delete those two as well if you want the loader gone
+too.
 
 ## Languages
 

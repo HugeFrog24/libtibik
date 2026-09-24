@@ -92,18 +92,27 @@ Pakai cara ini kalau kamu tidak mau menjalankan aplikasi lain.
 
 Kalau kamu pakai aplikasinya, buka lalu klik **Remove**. Sisanya diurus dia.
 
-Kalau sendiri, hapus Tibik saja dengan menghapus satu folder ini:
+Kalau sendiri, tutup Sky, lalu hapus satu file ini:
 
 ```
-htmodloader\mods\tibik
+htmodloader\mods\tibik\tibik.dll
 ```
 
-Jangan hapus seluruh folder `htmodloader`, kecuali kamu memang mau. Mod lain ada
-di sana juga. Begitu juga pengaturan mereka yang tersimpan.
+Setelah itu Sky jalan tanpa Tibik.
 
-`winhttp.dll` dan `html-config.json` adalah bagian yang membuat mod bisa dimuat.
-Mod kamu yang lain memakai keduanya. Menghapus dua file itu mematikan semua mod
-kamu, bukan cuma yang ini. Lakukan hanya kalau kamu tidak mau mod sama sekali.
+Biarkan sisa isi folder itu tetap di tempatnya. Di sana ada pengaturan, waypoint,
+daftar Heart targets, dan lembar musik kamu. Di sana juga ada `identity.json`,
+yaitu login Tibik kamu di PC ini. Kalau file itu terhapus, sementara kamu belum
+punya frasa pemulihan dan tidak ada perangkat lain yang masih login, akunnya
+tidak bisa dikembalikan. Frasa pemulihan dibuat di dalam mod, lewat "About" →
+"Account" → "Recovery phrase". Untuk mulai dari awal, pakai "Reset settings" di
+tab "About" mod, jangan menghapus file.
+
+Jangan hapus folder `htmodloader` juga. Folder di atas ada di dalamnya.
+
+`winhttp.dll` dan `html-config.json` adalah pemuat mod (mod loader). Ia hanya
+menjalankan Tibik, jadi dua file itu boleh ikut dihapus kalau kamu mau pemuatnya
+hilang juga.
 
 ## Bahasa
 

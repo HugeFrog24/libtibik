@@ -94,18 +94,28 @@ Nimm das, wenn du keine zweite App starten möchtest.
 
 Hast du die App benutzt, öffne sie und klicke auf **Remove**. Den Rest macht sie.
 
-Von Hand entfernst du nur Tibik, indem du genau diesen einen Ordner löschst:
+Von Hand schließt du Sky und löschst dann genau diese eine Datei:
 
 ```
-htmodloader\mods\tibik
+htmodloader\mods\tibik\tibik.dll
 ```
 
-Lösche nicht den ganzen Ordner `htmodloader`, außer du willst das wirklich. Dort
-liegen auch andere Mods. Und deren gespeicherte Einstellungen.
+Danach startet Sky ohne Tibik.
 
-`winhttp.dll` und `html-config.json` sind der Teil, der Mods überhaupt lädt.
-Deine anderen Mods teilen sich die beiden. Löschst du sie, gehen alle deine Mods
-aus, nicht nur diese. Mach das nur, wenn du gar keine Mods mehr willst.
+Lass den Rest dieses Ordners, wo er ist. Darin liegen deine Einstellungen,
+Wegpunkte, deine Herzziele und deine Noten. Außerdem liegt dort
+`identity.json`, deine Tibik-Anmeldung auf diesem PC. Löschst du sie ohne
+Wiederherstellungsphrase, und ist kein anderes Gerät mehr angemeldet, lässt sich
+das Konto nicht mehr zurückholen. Eine Wiederherstellungsphrase legst du in der
+Mod an, unter „Über" → „Konto" → „Wiederherstellungsphrase". Willst du neu
+anfangen, nimm „Einstellungen zurücksetzen" im Tab „Über" der Mod, statt Dateien
+zu löschen.
+
+Lösche auch den Ordner `htmodloader` nicht. Der Ordner oben liegt darin.
+
+`winhttp.dll` und `html-config.json` sind der Mod-Loader. Er startet Tibik und
+sonst nichts. Du kannst die beiden also auch löschen, wenn der Loader ebenfalls
+weg soll.
 
 ## Sprachen
 

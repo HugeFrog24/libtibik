@@ -92,18 +92,28 @@ Use este jeito se você preferir não abrir outro app.
 
 Se você usou o app, abra ele e clique em **Remove**. Ele faz o resto.
 
-Na mão, tire só o Tibik apagando esta única pasta:
+Na mão, feche o Sky e depois apague só este arquivo:
 
 ```
-htmodloader\mods\tibik
+htmodloader\mods\tibik\tibik.dll
 ```
 
-Não apague a pasta `htmodloader` inteira, a não ser que você queira mesmo. Tem
-outros mods lá dentro. E as configurações salvas deles também.
+Depois disso, o Sky abre sem o Tibik.
 
-O `winhttp.dll` e o `html-config.json` são a parte que faz qualquer mod
-carregar. Os seus outros mods usam os dois. Apagar esses dois desliga todos os
-seus mods, não só este. Só faça isso se você não quiser mais nenhum mod.
+Deixe o resto dessa pasta onde está. Nela ficam as suas configurações, os seus
+pontos de destino, os seus destinatários de corações e as suas partituras. Nela
+também fica o `identity.json`, que é o seu login do Tibik neste PC. Se você
+apagar esse arquivo sem ter uma frase de recuperação, e sem nenhum outro
+aparelho ainda conectado, a conta não tem mais volta. A frase de recuperação é
+criada dentro do mod, em "Sobre" → "Conta" → "Frase de recuperação". Para
+começar do zero, use "Redefinir configurações" na aba "Sobre" do mod, em vez de
+apagar arquivos.
+
+Também não apague a pasta `htmodloader`. A pasta acima fica dentro dela.
+
+O `winhttp.dll` e o `html-config.json` são o carregador de mods (mod loader). Ele
+só roda o Tibik, então você pode apagar esses dois também, se quiser tirar o
+carregador.
 
 ## Idiomas
 

@@ -1,0 +1,24 @@
+name: README safety
+
+on:
+  push:
+    paths: ["README*.md", "scripts/readme-safety.mjs", ".github/workflows/readme-safety.yml"]
+  pull_request:
+    paths: ["README*.md", "scripts/readme-safety.mjs", ".github/workflows/readme-safety.yml"]
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v6
+        with:
+          node-version: 24
+      - name: Watch the check reject first
+        run: node scripts/readme-safety.mjs --selftest
+      - name: No README tells a player to delete a folder
+        run: node scripts/readme-safety.mjs

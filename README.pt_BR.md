@@ -24,57 +24,57 @@ Tibik (libtibik) é um mod de qualidade de vida para o Sky: Children of the Ligh
 
 Você precisa do Sky pela Steam. No PC, o Sky só existe para Windows.
 
-Tem dois jeitos. Escolha o primeiro se estiver na dúvida.
+Há dois jeitos de instalar. Escolha o primeiro se estiver na dúvida.
 
 ### O jeito fácil: deixe o app fazer
 
-O Tibik Launcher coloca o mod para você, e tira depois também.
+O Tibik Launcher instala o mod para você e também permite removê-lo depois.
 
-1. Vá até a versão mais recente:<br>
+1. Acesse a versão mais recente:<br>
    https://github.com/HugeFrog24/libtibik/releases/latest
 2. Baixe o arquivo cujo nome começa com `Tibik-Launcher-Setup`.
 3. Abra o arquivo que você acabou de baixar.<br>
    O Windows pode mostrar uma janela azul dizendo **O Windows protegeu o seu
    computador**. Clique em **Mais informações**, depois em **Executar assim
-   mesmo**. O Windows diz isso porque o app é novo. Não é sinal de problema.
-4. Ele se instala sozinho e abre. O Windows não pede permissão para você.
-5. Ele procura a pasta do seu Sky sozinho. Se não achar, abra as
-   **Configurações** e escolha a pasta você mesmo.
+   mesmo**. O Windows diz isso porque o app é novo, não porque tem algo errado.
+4. Ele se instala sozinho e abre. O Windows não vai pedir permissão a você.
+5. Ele procura a pasta do Sky sozinho. Se não encontrar, abra as
+   **Configurações** e escolha a pasta manualmente.
 6. Se uma barra amarela disser *Sky can't use mods yet*, clique em **Set up**.
-   Leia o que aparecer, depois clique em **Set up** de novo.
-7. No cartão do Tibik, clique em **Install**. Leia o que aparecer, depois clique
+   Leia as orientações e clique em **Set up** de novo.
+7. No cartão do Tibik, clique em **Install**. Leia as orientações e clique
    em **Add**.
-8. Abra o Sky pela Steam, do jeito que você sempre faz.
+8. Abra o Sky pela Steam, como você sempre faz.
 9. O Tibik aparece assim que você entra no jogo.
 
-Para tirar depois, abra o app e clique em **Remove** no cartão do Tibik. Você
-não precisa destas instruções de novo.
+Para remover depois, abra o app e clique em **Remove** no cartão do Tibik. Você
+não precisará destas instruções de novo.
 
 ### O que isso muda no seu computador
 
-Isso coloca um arquivo chamado `winhttp.dll` ao lado do jogo. O Windows abre
-esse arquivo quando o Sky começa. É assim que o mod entra.
+Isso coloca um arquivo chamado `winhttp.dll` na pasta do jogo. O Windows abre
+esse arquivo quando o Sky inicia. É assim que o mod começa a rodar.
 
-Alguns antivírus não gostam disso. O seu pode apagar o arquivo, ou mostrar um
-aviso. É o antivírus fazendo o trabalho dele. Não quer dizer que deu algo
-errado. Você pode desfazer tudo - veja abaixo.
+Alguns antivírus não gostam disso. O seu pode apagar o arquivo ou mostrar um
+aviso. É só o antivírus fazendo o trabalho dele, não quer dizer que deu algo
+errado. Você pode desfazer tudo (veja abaixo).
 
-Isso é igual nos dois jeitos. O app só faz a cópia no seu lugar.
+Isso funciona da mesma forma nos dois métodos. O app só faz a cópia no seu lugar.
 
 <details>
-<summary><b>Ou fazendo na mão</b></summary>
+<summary><b>Ou faça manualmente</b></summary>
 
-Use este jeito se você preferir não abrir outro app.
+Use esta opção se você preferir não abrir outro aplicativo.
 
 1. Baixe o `Tibik-Windows.zip` na versão mais recente:<br>
    https://github.com/HugeFrog24/libtibik/releases/latest
-2. Feche o Sky, se ele estiver aberto.
-3. Ache a pasta do seu Sky. Na Steam, clique com o botão direito em
-   **Sky: Children of the Light**. Escolha **Gerenciar**, depois **Procurar
-   arquivos locais**. Uma pasta abre. O `Sky.exe` está dentro dela.
-4. Descompacte o arquivo que você baixou.
-5. Copie tudo de dentro do zip para essa pasta. Deixe as pastas menores como
-   elas estão. No fim, a sua pasta do Sky vai ter isto:
+2. Feche o Sky, caso ele esteja aberto.
+3. Encontre a pasta do seu Sky. Na Steam, clique com o botão direito em
+   **Sky: Children of the Light**. Escolha **Gerenciar**, depois **Explorar
+   arquivos locais**. Uma pasta vai se abrir. O `Sky.exe` está dentro dela.
+4. Extraia o arquivo que você baixou.
+5. Copie tudo o que estiver dentro do zip para essa pasta. Mantenha as subpastas
+   como estão. No fim, a pasta do Sky vai ter isto:
 
    ```
    Sky.exe
@@ -83,16 +83,16 @@ Use este jeito se você preferir não abrir outro app.
    htmodloader\mods\tibik\tibik.dll
    ```
 
-6. Abra o Sky pela Steam, do jeito que você sempre faz.
+6. Abra o Sky pela Steam, como você sempre faz.
 7. O Tibik aparece assim que você entra no jogo.
 
 </details>
 
-### Como desligar de novo
+### Como desativar o mod
 
-Se você usou o app, abra ele e clique em **Remove**. Ele faz o resto.
+Se você usou o app, abra-o e clique em **Remove**. Ele faz o resto.
 
-Na mão, feche o Sky e depois apague só este arquivo:
+Manualmente, feche o Sky e depois apague apenas este arquivo:
 
 ```
 htmodloader\mods\tibik\tibik.dll
@@ -100,20 +100,20 @@ htmodloader\mods\tibik\tibik.dll
 
 Depois disso, o Sky abre sem o Tibik.
 
-Deixe o resto dessa pasta onde está. Nela ficam as suas configurações, os seus
-pontos de destino, os seus destinatários de corações e as suas partituras. Nela
-também fica o `identity.json`, que é o seu login do Tibik neste PC. Se você
-apagar esse arquivo sem ter uma frase de recuperação, e sem nenhum outro
-aparelho ainda conectado, a conta não tem mais volta. A frase de recuperação é
-criada dentro do mod, em "Sobre" → "Conta" → "Frase de recuperação". Para
-começar do zero, use "Redefinir configurações" na aba "Sobre" do mod, em vez de
-apagar arquivos.
+Deixe o resto dessa pasta onde está. Nela ficam suas configurações, pontos de
+destino (*waypoints*), destinatários de corações e partituras. Nela também fica
+o `identity.json`, que é o seu login do Tibik neste PC. Se você apagar esse
+arquivo sem ter uma frase de recuperação e sem nenhum outro aparelho ainda
+conectado, não será possível recuperar a conta. A frase de recuperação é criada
+dentro do mod, em "Sobre" → "Conta" → "Frase de recuperação". Para começar do
+zero, use "Redefinir configurações" na aba "Sobre" do mod, em vez de apagar
+arquivos.
 
 Também não apague a pasta `htmodloader`. A pasta acima fica dentro dela.
 
-O `winhttp.dll` e o `html-config.json` são o carregador de mods (mod loader). Ele
-só roda o Tibik, então você pode apagar esses dois também, se quiser tirar o
-carregador.
+O `winhttp.dll` e o `html-config.json` formam o carregador de mods (*mod loader*).
+Ele só roda o Tibik, então você pode apagar esses dois também se quiser remover
+o carregador por completo.
 
 ## Idiomas
 
@@ -143,7 +143,7 @@ Nunca fez um pull request? Veja o [guia](https://docs.github.com/pt/pull-request
 
 | Status | Recurso | O que faz |
 | --- | --- | --- |
-| ⏳ | Ações de amizade com desconhecidos | Ofereça abraços, toca aqui e outras ações de amizade a jogadores que ainda não são seus amigos. Com amigos existentes, elas já funcionam |
+| ⏳ | Ações de amizade com desconhecidos | Ofereça abraços, toca aí e outras ações de amizade a jogadores que ainda não são seus amigos. Isso já funciona com quem já é seu amigo. |
 
 ## Problemas
 

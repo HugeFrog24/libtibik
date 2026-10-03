@@ -6,6 +6,10 @@
   <img src="icon.png" alt="Tibik icon" width="128">
 </p>
 
+<p align="center">
+  <img src="assets/powered-by-autism.zh-CN.svg" alt="由自闭症驱动" height="28">
+</p>
+
 Tibik（libtibik）是一款适用于 Android 版和 Windows 版《光·遇》（Sky: Children of the Light）的体验优化模组。它能自动完成重复性的操作：刷蜡烛、收集染料蝴蝶、地图传送，还提供位置、能量、呼喊和聊天加密等游戏内控制功能。
 
 ## <img src="assets/android.svg" alt="" height="18"> 快速开始 - Android

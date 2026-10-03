@@ -6,6 +6,10 @@
   <img src="icon.png" alt="Tibik icon" width="128">
 </p>
 
+<p align="center">
+  <img src="assets/powered-by-autism.ru.svg" alt="На энергии аутизма" height="28">
+</p>
+
 Тибик (libtibik, либтибик) - удобный мод для Sky: Children of the Light (Sky: Дети света) на Android и Windows. Он берёт на себя рутину: автофарм свечей, сбор бабочек-красителей и телепорт по мирам, а также добавляет внутриигровые элементы управления позицией, энергией, криками и шифрованием чата.
 
 ## <img src="assets/android.svg" alt="" height="18"> Быстрый старт - Android

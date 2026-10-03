@@ -6,6 +6,10 @@
   <img src="icon.png" alt="Tibik icon" width="128">
 </p>
 
+<p align="center">
+  <img src="assets/powered-by-autism.de.svg" alt="Angetrieben von Autismus" height="28">
+</p>
+
 Tibik (libtibik) ist eine Quality-of-Life-Mod für Sky: Children of the Light (Sky: Kinder des Lichts) auf Android und Windows. Sie automatisiert die sich wiederholenden Aufgaben: Kerzen farmen, Farbschmetterlinge sammeln und zwischen Welten teleportieren. Außerdem bietet sie In-Game-Steuerungen für Position, Energie, Rufe und Chat-Verschlüsselung.
 
 ## <img src="assets/android.svg" alt="" height="18"> Schnellstart - Android

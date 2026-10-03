@@ -6,6 +6,10 @@
   <img src="icon.png" alt="Tibik icon" width="128">
 </p>
 
+<p align="center">
+  <img src="assets/powered-by-autism.id.svg" alt="Digerakkan oleh autisme" height="28">
+</p>
+
 Tibik (libtibik) adalah mod quality-of-life untuk Sky: Children of the Light (Sky: Anak-Anak Cahaya) di Android dan Windows. Mod ini mengotomatiskan bagian-bagian yang berulang: farming lilin, mengumpulkan kupu-kupu pewarna, dan teleport antar dunia, serta menambahkan kontrol dalam game untuk posisi, energi, teriakan, dan enkripsi obrolan.
 
 ## <img src="assets/android.svg" alt="" height="18"> Mulai cepat - Android

@@ -6,6 +6,10 @@
   <img src="icon.png" alt="Tibik icon" width="128">
 </p>
 
+<p align="center">
+  <img src="assets/powered-by-autism.en.svg" alt="Powered by autism" height="28">
+</p>
+
 A quality-of-life mod for Sky: CotL on Android and Windows. It automates the repetitive parts. Candle farming, dye butterfly collection, world teleport, and adds in-game controls for position, energy, shouts, and chat encryption.
 
 ## <img src="assets/android.svg" alt="" height="18"> Quick start - Android

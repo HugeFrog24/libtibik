@@ -118,13 +118,13 @@ htmodloader\mods\tibik\tibik.dll
 <!-- coverage:start -->
 | 语言 | 完成度 | 译者 |
 | --- | --- | --- |
-| 🇺🇸 English | 100% (1496/1496) | [HugeFrog24](https://github.com/HugeFrog24) |
-| 🇧🇷 Português (Brasil) | 100% (1496/1496) | Zixzto |
-| 🇩🇪 Deutsch | 95% (1426/1496) | [HugeFrog24](https://github.com/HugeFrog24) |
-| 🇷🇺 Русский | 95% (1426/1496) | [HugeFrog24](https://github.com/HugeFrog24) |
-| 🇻🇳 Tieng Viet | 95% (1426/1496) | [HugeFrog24](https://github.com/HugeFrog24) |
-| 🇨🇳 简体中文 | 95% (1428/1496) | ciyun415, zzj123 |
-| 🇬🇪 ქართული | 93% (1385/1496) | [HugeFrog24](https://github.com/HugeFrog24) |
+| 🇺🇸 English | 100% (1592/1592) | [HugeFrog24](https://github.com/HugeFrog24) |
+| 🇧🇷 Português (Brasil) | 100% (1592/1592) | Zixzto |
+| 🇩🇪 Deutsch | 96% (1522/1592) | [HugeFrog24](https://github.com/HugeFrog24) |
+| 🇷🇺 Русский | 96% (1522/1592) | [HugeFrog24](https://github.com/HugeFrog24) |
+| 🇻🇳 Tieng Viet | 96% (1522/1592) | [HugeFrog24](https://github.com/HugeFrog24) |
+| 🇨🇳 简体中文 | 96% (1524/1592) | ciyun415, zzj123 |
+| 🇬🇪 ქართული | 93% (1481/1592) | [HugeFrog24](https://github.com/HugeFrog24) |
 <!-- coverage:end -->
 
 **如何切换语言：**<br>

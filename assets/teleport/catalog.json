@@ -2161,6 +2161,16 @@
     },
     {
       "realm": "Golden Wasteland",
+      "loc_key": "world.level.dusk_pearlisland",
+      "level": "Dusk_PearlIsland"
+    },
+    {
+      "realm": "Golden Wasteland",
+      "loc_key": "world.level.dusk_pearlsea",
+      "level": "Dusk_PearlSea"
+    },
+    {
+      "realm": "Golden Wasteland",
       "loc_key": "world.level.duskend",
       "level": "DuskEnd",
       "farm_tags": [
@@ -2288,6 +2298,11 @@
       "farm_tags": [
         "spoiler"
       ]
+    },
+    {
+      "realm": "Vault of Knowledge",
+      "loc_key": "world.level.undergroundoffice",
+      "level": "UndergroundOffice"
     },
     {
       "realm": "Vault of Knowledge",
@@ -2847,6 +2862,11 @@
       "farm_tags": [
         "empty"
       ]
+    },
+    {
+      "realm": "Vault of Knowledge",
+      "loc_key": "world.level.nest_night_go_town",
+      "level": "Nest_Night_GO_Town"
     },
     {
       "realm": "Eye of Eden",

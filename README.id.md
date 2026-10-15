@@ -125,13 +125,13 @@ hilang juga.
 <!-- coverage:start -->
 | Bahasa | Cakupan | Penerjemah |
 | --- | --- | --- |
-| 🇺🇸 English | 100% (1592/1592) | [HugeFrog24](https://github.com/HugeFrog24) |
-| 🇧🇷 Português (Brasil) | 100% (1592/1592) | Zixzto |
-| 🇩🇪 Deutsch | 96% (1522/1592) | [HugeFrog24](https://github.com/HugeFrog24) |
-| 🇷🇺 Русский | 96% (1522/1592) | [HugeFrog24](https://github.com/HugeFrog24) |
-| 🇻🇳 Tieng Viet | 96% (1522/1592) | [HugeFrog24](https://github.com/HugeFrog24) |
-| 🇨🇳 简体中文 | 96% (1524/1592) | ciyun415, zzj123 |
-| 🇬🇪 ქართული | 93% (1481/1592) | [HugeFrog24](https://github.com/HugeFrog24) |
+| 🇺🇸 English | 100% (1595/1595) | [HugeFrog24](https://github.com/HugeFrog24) |
+| 🇧🇷 Português (Brasil) | 100% (1595/1595) | Zixzto |
+| 🇩🇪 Deutsch | 96% (1525/1595) | [HugeFrog24](https://github.com/HugeFrog24) |
+| 🇷🇺 Русский | 96% (1525/1595) | [HugeFrog24](https://github.com/HugeFrog24) |
+| 🇻🇳 Tieng Viet | 96% (1525/1595) | [HugeFrog24](https://github.com/HugeFrog24) |
+| 🇨🇳 简体中文 | 96% (1527/1595) | ciyun415, zzj123 |
+| 🇬🇪 ქართული | 93% (1484/1595) | [HugeFrog24](https://github.com/HugeFrog24) |
 <!-- coverage:end -->
 
 **Cara mengganti bahasa:**<br>

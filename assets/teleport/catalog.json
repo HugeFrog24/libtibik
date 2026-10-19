@@ -1291,6 +1291,15 @@
             211,
             -284
           ]
+        },
+        {
+          "kind": "poi",
+          "loc_key": "world.poi.rain_cave.bigfish",
+          "pos": [
+            -42,
+            17,
+            -336
+          ]
         }
       ]
     },

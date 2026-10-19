@@ -127,10 +127,10 @@ too.
 | --- | --- | --- |
 | 🇺🇸 English | 100% (1596/1596) | [HugeFrog24](https://github.com/HugeFrog24) |
 | 🇧🇷 Português (Brasil) | 100% (1596/1596) | Zixzto |
+| 🇨🇳 简体中文 | 99% (1583/1596) | ciyun415, zzj123 |
 | 🇩🇪 Deutsch | 96% (1526/1596) | [HugeFrog24](https://github.com/HugeFrog24) |
 | 🇷🇺 Русский | 96% (1526/1596) | [HugeFrog24](https://github.com/HugeFrog24) |
 | 🇻🇳 Tieng Viet | 96% (1526/1596) | [HugeFrog24](https://github.com/HugeFrog24) |
-| 🇨🇳 简体中文 | 96% (1528/1596) | ciyun415, zzj123 |
 | 🇬🇪 ქართული | 93% (1485/1596) | [HugeFrog24](https://github.com/HugeFrog24) |
 <!-- coverage:end -->
 

@@ -125,13 +125,13 @@ too.
 <!-- coverage:start -->
 | Language | Coverage | Translator |
 | --- | --- | --- |
-| 🇺🇸 English | 100% (1596/1596) | [HugeFrog24](https://github.com/HugeFrog24) |
-| 🇧🇷 Português (Brasil) | 100% (1596/1596) | Zixzto |
-| 🇨🇳 简体中文 | 99% (1583/1596) | ciyun415, zzj123 |
-| 🇩🇪 Deutsch | 96% (1526/1596) | [HugeFrog24](https://github.com/HugeFrog24) |
-| 🇷🇺 Русский | 96% (1526/1596) | [HugeFrog24](https://github.com/HugeFrog24) |
-| 🇻🇳 Tieng Viet | 96% (1526/1596) | [HugeFrog24](https://github.com/HugeFrog24) |
-| 🇬🇪 ქართული | 93% (1485/1596) | [HugeFrog24](https://github.com/HugeFrog24) |
+| 🇺🇸 English | 100% (1597/1597) | [HugeFrog24](https://github.com/HugeFrog24) |
+| 🇧🇷 Português (Brasil) | 100% (1597/1597) | Zixzto |
+| 🇨🇳 简体中文 | 99% (1584/1597) | ciyun415, zzj123 |
+| 🇩🇪 Deutsch | 96% (1527/1597) | [HugeFrog24](https://github.com/HugeFrog24) |
+| 🇷🇺 Русский | 96% (1527/1597) | [HugeFrog24](https://github.com/HugeFrog24) |
+| 🇻🇳 Tieng Viet | 96% (1527/1597) | [HugeFrog24](https://github.com/HugeFrog24) |
+| 🇬🇪 ქართული | 93% (1486/1597) | [HugeFrog24](https://github.com/HugeFrog24) |
 <!-- coverage:end -->
 
 **To switch languages:**<br>

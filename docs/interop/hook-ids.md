@@ -7,7 +7,7 @@ addresses, installation order, or a promise that every target installs on every
 build.
 
 **Only IDs 1 and 2 are exposed, after verified MULTI installation. IDs 3 through
-33 currently return `0`.** An unexposed hook may still be installed internally.
+36 currently return `0`.** An unexposed hook may still be installed internally.
 
 | ID | Public constant | Logical target | Query support |
 | --- | --- | --- | --- |
@@ -44,11 +44,14 @@ build.
 | 31 | `TIBIK_HOOK_CAPE_PALETTE_REBUILD` | CapePalette::Rebuild | Reserved |
 | 32 | `TIBIK_HOOK_PORTABLE_CINEMA_UNLOAD` | PortableCinema.Unload | Reserved |
 | 33 | `TIBIK_HOOK_PORTABLE_CINEMA_UPDATE` | PortableCinema.Update | Reserved |
+| 34 | `TIBIK_HOOK_RESTRICTED_FRAME_WRAPPER` | Restricted frame fallback wrapper | Reserved |
+| 35 | `TIBIK_HOOK_SUBSYSTEM_DISPATCH` | Restricted frame fallback subsystem dispatcher | Reserved |
+| 36 | `TIBIK_HOOK_COLLECTIBLE_RECORD_GETTER` | Account collectible record getter | Reserved |
 
 ## Allocation rules
 
 - ID `0` is reserved and unavailable.
-- The next allocation is `34`. New assignments use explicit increasing values.
+- The next allocation is `37`. New assignments use explicit increasing values.
 - Published names and numbers stay assigned, including when a hook retires.
 - Retired IDs return `0`; they never acquire another meaning.
 - Names describe stable interface identities. Renaming an internal function does
@@ -57,5 +60,7 @@ build.
   contract, verified publication, and regression coverage.
 
 Tibik's regression tests pin the assignments and reject renumbering, reuse,
-deleted history, aliases, and implicit numbering. New allocations must extend
-that permanent snapshot as well as this table.
+deleted history, aliases, and implicit numbering. Every hook Tibik installs
+names its ID at the install call, and each ID names exactly one install site, so
+a new hook cannot ship without an allocation. New allocations must extend that
+permanent snapshot as well as this table.

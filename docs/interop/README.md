@@ -26,7 +26,7 @@ Tibik; another mod can assign the same numbers to different hooks.
 | --- | --- |
 | ID 1 or 2, with that hook successfully installed and verified in MULTI | `1`, with a descriptor |
 | ID 1 or 2 before verified installation, or after an installation failure | `0` |
-| IDs 3 through 33 | `0`, reserved but not exposed |
+| IDs 3 through 36 | `0`, reserved but not exposed |
 | Unknown or retired IDs | `0` |
 | Legacy Canvas UNIQUE or Relive's clean-target-only adapter | `0`, even if the hook works locally |
 

@@ -149,11 +149,20 @@ Nunca fez um pull request? Veja o [guia](https://docs.github.com/pt/pull-request
 | --- | --- | --- |
 | ⏳ | Ações de amizade com desconhecidos | Ofereça abraços, toca aí e outras ações de amizade a jogadores que ainda não são seus amigos. Isso já funciona com quem já é seu amigo. |
 
-## Problemas
+## Bugs e sugestões
 
-Encontrou um bug? Abra uma issue e informe:
+Encontrou um bug ou tem uma sugestão? [Abra uma issue](https://github.com/HugeFrog24/libtibik/issues). Para um bug, descreva o que aconteceu e o que você esperava, e informe:
 
 - Modelo do dispositivo
 - Versão do Sky
 - Capturas de tela (se aplicável)
-- Logs ("Log" → "Copiar log")
+
+**Uma captura de tela pode ajudar a encontrar seu log.** Abra **Log → Compartilhar** no Tibik e envie uma captura mostrando o **halo de diagnóstico** inteiro, o anel quadrado de pontos coloridos. Se ele já estiver visível ao redor do ícone do menu, você pode incluí-lo na captura do problema.
+
+<p align="center">
+  <img src="assets/diagnostics/halo-example.png" alt="Exemplo de halo de diagnóstico: quatro anéis quadrados de pontos coloridos ao redor do ícone do Tibik" width="240">
+</p>
+
+*Apenas uma ilustração, com IDs de dispositivo e sessão inventados. Envie uma captura do seu próprio Tibik.*
+
+O halo identifica sua instalação do Tibik e a sessão atual para que o desenvolvedor possa procurar o log enviado. Ele não contém senha. Se o halo estiver indisponível ou for solicitado um arquivo de log, use **Log → Compartilhar → Salvar no dispositivo / Enviar arquivo** ou **Log → Copiar log**.

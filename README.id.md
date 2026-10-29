@@ -148,11 +148,20 @@ Baru pertama kali membuat pull request? Lihat [panduan](https://docs.github.com/
 | --- | --- | --- |
 | ⏳ | Aksi pertemanan dengan orang asing | Tawarkan pelukan, tos, dan aksi pertemanan lainnya kepada pemain yang belum menjadi teman Anda. Dengan teman yang sudah ada, semua ini sudah berfungsi |
 
-## Masalah
+## Bug dan saran
 
-Menemukan bug? Buka issue dan sertakan:
+Menemukan bug atau punya saran? [Buka issue](https://github.com/HugeFrog24/libtibik/issues). Untuk bug, jelaskan apa yang terjadi dan apa yang Anda harapkan, lalu sertakan:
 
 - Model perangkat
 - Versi Sky
 - Tangkapan layar (jika ada)
-- Log ("Log" → "Copy log")
+
+**Tangkapan layar dapat membantu menemukan log Anda.** Buka **Log → Share** di Tibik dan kirim tangkapan layar yang menampilkan seluruh **halo diagnostik**, yaitu bingkai persegi dari titik-titik berwarna. Jika halo sudah terlihat di sekitar ikon menu, Anda dapat menyertakannya dalam tangkapan layar masalah tersebut.
+
+<p align="center">
+  <img src="assets/diagnostics/halo-example.png" alt="Contoh halo diagnostik: empat cincin persegi dari titik-titik berwarna di sekitar ikon Tibik" width="240">
+</p>
+
+*Hanya ilustrasi dengan ID perangkat dan sesi buatan. Kirim tangkapan layar dari Tibik Anda sendiri.*
+
+Halo mengidentifikasi instalasi Tibik dan sesi saat ini agar pengembang dapat mencari log yang sudah diunggah. Halo tidak berisi kata sandi. Jika halo tidak tersedia atau Anda diminta mengirim berkas log, gunakan **Log → Share → Save to device / Send file**, atau **Log → Copy log**.

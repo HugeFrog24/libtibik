@@ -151,11 +151,20 @@ Neu bei Pull Requests? Sieh dir GitHubs [Anleitung](https://docs.github.com/de/p
 | --- | --- | --- |
 | ⏳ | Freundschaftsaktionen mit Fremden | Biete Umarmungen, High Fives und andere Freundschaftsaktionen auch Spielern an, mit denen du nicht befreundet bist. Mit bestehenden Freunden funktionieren sie bereits |
 
-## Fehler melden
+## Fehler und Vorschläge
 
-Einen Fehler gefunden? Öffne ein Issue und gib an:
+Einen Fehler gefunden oder eine Idee? [Öffne ein Issue](https://github.com/HugeFrog24/libtibik/issues). Beschreibe bei einem Fehler, was passiert ist und was du erwartet hast, und gib an:
 
 - Gerätemodell
 - Sky-Version
 - Screenshots (falls vorhanden)
-- Logs („Protokoll" → „Log kopieren")
+
+**Ein Screenshot kann helfen, dein Protokoll zu finden.** Öffne in Tibik **Protokoll → Teilen** und schicke einen Screenshot des ganzen **Diagnose-Halos**, des quadratischen Rings aus farbigen Punkten. Ist er schon um dein Menüsymbol sichtbar, kannst du ihn stattdessen im Screenshot des Problems mit aufnehmen.
+
+<p align="center">
+  <img src="assets/diagnostics/halo-example.png" alt="Beispiel eines Diagnose-Halos: vier quadratische Ringe aus farbigen Punkten um das Tibik-Symbol" width="240">
+</p>
+
+*Nur ein Beispiel - erfundene Geräte- und Sitzungs-IDs. Schicke einen Screenshot aus deinem eigenen Tibik.*
+
+Der Halo identifiziert deine Tibik-Installation und die aktuelle Sitzung, damit der Entwickler nach dem hochgeladenen Protokoll suchen kann. Er enthält kein Passwort. Ist der Halo nicht verfügbar oder wird eine Protokolldatei benötigt, nutze **Protokoll → Teilen → Auf Gerat speichern / Datei senden** oder **Protokoll → Log kopieren**.

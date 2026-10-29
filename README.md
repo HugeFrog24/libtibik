@@ -148,11 +148,20 @@ New to pull requests? See GitHub's [guide](https://docs.github.com/en/pull-reque
 | ------ | ----------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
 | ⏳     | Friend actions with strangers | Offer hugs, high fives and other friendship actions to players you are not friends with. These already work with existing friends |
 
-## Issues
+## Bugs and suggestions
 
-Found a bug? Open an issue and provide:
+Found a bug or have a suggestion? [Open an issue](https://github.com/HugeFrog24/libtibik/issues). For a bug, describe what happened and what you expected, and include:
 
 - Device model
 - Sky version
 - Screenshots (if applicable)
-- Logs (Log → Copy)
+
+**A screenshot can help find your log.** Open Tibik's **Log → Share** and send a screenshot showing the whole **diagnostic halo**, the square ring of coloured dots. If it is already visible around your menu icon, you can include it in a screenshot of the problem instead.
+
+<p align="center">
+  <img src="assets/diagnostics/halo-example.png" alt="Example diagnostic halo: four square rings of coloured dots around the Tibik icon" width="240">
+</p>
+
+*Illustration only - invented device and run IDs. Send a screenshot from your own Tibik.*
+
+The halo identifies your Tibik installation and current run, so the developer can look for its uploaded log. It contains no password. If the halo is unavailable or a log file is requested, use **Log → Share → Save to device / Send file**, or **Log → Copy log**.

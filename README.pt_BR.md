@@ -127,11 +127,11 @@ o carregador por completo.
 | Idioma | Cobertura | Tradutor |
 | --- | --- | --- |
 | 🇺🇸 English | 100% (1719/1719) | [HugeFrog24](https://github.com/HugeFrog24) |
+| 🇻🇳 Tieng Viet | 100% (1719/1719) | [HugeFrog24](https://github.com/HugeFrog24) |
 | 🇧🇷 Português (Brasil) | 99% (1706/1719) | Zixzto |
 | 🇨🇳 简体中文 | 98% (1693/1719) | ciyun415, zzj123 |
 | 🇩🇪 Deutsch | 95% (1636/1719) | [HugeFrog24](https://github.com/HugeFrog24) |
 | 🇷🇺 Русский | 95% (1636/1719) | [HugeFrog24](https://github.com/HugeFrog24) |
-| 🇻🇳 Tieng Viet | 95% (1636/1719) | [HugeFrog24](https://github.com/HugeFrog24) |
 | 🇬🇪 ქართული | 93% (1595/1719) | [HugeFrog24](https://github.com/HugeFrog24) |
 <!-- coverage:end -->
 
